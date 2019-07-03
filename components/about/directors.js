@@ -14,14 +14,14 @@ export default ({ directors }) => (
       <div className="mb-3 text-center">
         <Col md="12">
           <h4 className="text-title">
-            <em> Message from our Co-Directors </em>
+            <em> Message from our President </em>
           </h4>
         </Col>
       </div>
     </Row>
     <Row>
       {directors.map(director => (
-        <Col md="6">
+        <Col md="12">
           <Card className="card border-0">
             <div className="text-center mb-2">
               <img

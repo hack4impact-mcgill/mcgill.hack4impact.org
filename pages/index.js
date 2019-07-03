@@ -2,7 +2,6 @@ import React from "react";
 import Banner from "../components/homepage/banner";
 import OurWorkSection from "../components/homepage/ourWork";
 import InvolveSection from "../components/homepage/involveSection";
-import ClientSlider from "../components/homepage/clientSlider";
 import PartnerSection from "../components/homepage/partnerSection";
 import OtherChapters from "../components/homepage/otherChapters";
 import { ToastContainer, toast } from "react-toastify";
@@ -13,7 +12,7 @@ import Footer from "../components/footer";
 
 class Home extends React.Component {
   componentDidMount() {
-    // need to open it once component is mounted bc of "document not found errors"
+    // uncomment this when student applications are open to get a nice popup
     // toast(<ToastText text="Student Applications are Open!" />, {
     //   className: "announcement",
     //   bodyClassName: "announcement-body"
@@ -28,9 +27,7 @@ class Home extends React.Component {
         <ToastContainer />
         <Banner />
         <OurWorkSection />
-        <ClientSlider />
         <InvolveSection />
-        <PartnerSection />
         <OtherChapters />
         <Footer />
       </div>

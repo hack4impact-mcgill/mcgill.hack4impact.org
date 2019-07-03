@@ -41,7 +41,7 @@ const Banner = () => (
           {props => (
             <div style={props} id="homepage-sub-headline">
               <p>
-                We are a team of UIUC students who create robust software for
+                We are a team of McGill students who create robust software for
                 social good. We believe that our engineering skill sets do not
                 render us useless in addressing social injustices. Instead, they
                 empower us to build a better society together.

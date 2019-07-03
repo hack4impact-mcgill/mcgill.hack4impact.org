@@ -25,24 +25,6 @@ const MissionSection = () => (
           </p>
         </Col>
       </Row>
-      <Row>
-        <Spring
-          from={{ transform: "translate3d(0,300px,0)" }}
-          to={{ transform: "translate3d(0,0,0)" }}
-        >
-          {props => (
-            <div className="text-center img-holder">
-              <img
-                alttext="Fall 2018 team photo"
-                style={props}
-                src="/static/images/sp19-team.jpg"
-                className="shadow"
-                id="mission-team"
-              />
-            </div>
-          )}
-        </Spring>
-      </Row>
     </Container>
     <style jsx>{`
       @media (max-width: 768px) {

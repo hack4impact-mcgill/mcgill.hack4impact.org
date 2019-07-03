@@ -45,6 +45,13 @@ const clients = [
     height: 75,
     logoPath: "/static/images/chapters/cornell/cornell-logo.png",
     link: "https://www.facebook.com/h4icornell/"
+  },
+  {
+    name: "uiuc",
+    width: 50,
+    height: 75,
+    logoPath: "/static/images/chapters/uiuc/uiuc-logo.png",
+    link: "https://uiuc.hack4impact.org/"
   }
 ];
 export default () => (

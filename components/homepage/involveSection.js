@@ -16,9 +16,6 @@ const InvolveSection = () => (
           <Col md="5">
             <div className="involved-container">
               <h3 className="text-title text-center">Students</h3>
-              <Link href="/apply/students">
-                <img src="/static/images/h4i-funny.jpg" className="img-fluid" />
-              </Link>
             </div>
             <Row>
               <p
@@ -41,21 +38,18 @@ const InvolveSection = () => (
           <Col md="5" className="offset-md-2">
             <div className="involved-container">
               <h3 className="text-title text-center">Nonprofits</h3>
-              <Link href="/apply/students">
-                <img
-                  src="/static/images/team-cheer.jpg"
-                  className="img-fluid"
-                />
-              </Link>
               <Row>
-                <BlockQuote
-                  text="Working with Hack4Impact was easy, efficient and incredibly
-              productive. They were quick to understand what we were looking to
-              achieve and made the app even better and simpler to use than what
-              I had imagined."
-                  author="- Bernardo H. Motta, Ph.D."
-                  position="Faculty Coordinator of the USFSP Neighborhood News Bureau"
-                />
+                <p
+                  style={{
+                    padding: "38px 0 35px 0"
+                  }}
+                >
+                  Are you looking to leverage technology to further the impact
+                  of your organization? Do you have an idea that could improve
+                  either your or your clients' workflow? Let's work together to
+                  make it happen! We focus on maximizing impact and creating
+                  quality products with real value.
+                </p>
                 <div className="text-center">
                   <ActionButton
                     white
