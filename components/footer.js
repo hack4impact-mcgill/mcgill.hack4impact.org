@@ -12,7 +12,11 @@ const Footer = () => (
           </div>
           <p>
             For all inquiries of partnership or sponsorship, please contact us
-            at <a href="mailto:uiuc@hack4impact.org">uiuc@hack4impact.org</a>.
+            at{" "}
+            <a href="mailto:hack4impact@mcgilleus.ca">
+              hack4impact@mcgilleus.ca
+            </a>
+            .
           </p>
         </Col>
         <div className="col-md-1" />
@@ -40,27 +44,17 @@ const Footer = () => (
           <h4>EXTRAS</h4>
           <ul>
             <li>
-              <Link href="https://www.facebook.com/h4iuiuc/">
+              <Link href="https://www.facebook.com/hack4impactmcgill/">
                 <a>Facebook</a>
               </Link>
             </li>
             <li>
-              <Link href="https://github.com/hack4impact-uiuc">
+              <Link href="https://github.com/hack4impact-mcgill">
                 <a>Github</a>
               </Link>
             </li>
             <li>
-              <Link href="https://medium.com/hack4impact-uiuc">
-                <a>Blog</a>
-              </Link>
-            </li>
-            <li>
-              <a href="mailto:uiuc@hack4impact.org">Email</a>
-            </li>
-            <li>
-              <Link href="https://www.notion.so/h4iuiuc/Hack4Impact-UIUC-Official-628a998ceff4491a8267187f364947af">
-                <a>Notion & Wiki</a>
-              </Link>
+              <a href="mailto:hack4impact@mcgilleus.ca">Email</a>
             </li>
           </ul>
         </div>
