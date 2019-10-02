@@ -1,7 +1,9 @@
 {
-  "name": "uiuc.hack4impact.org",
-  "author": "Hack4Impact UIUC",
+  "name": "mcgill.hack4impact.org",
+  "author": "Hack4Impact McGill",
   "scripts": {
+    "predeploy": "next build",
+    "deploy": "gh-pages -d temp",
     "dev": "next",
     "build": "next build",
     "start": "next start",
@@ -26,6 +28,7 @@
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
+    "gh-pages": "^1.2.0",
     "prettier": "^1.15.3"
   }
 }
