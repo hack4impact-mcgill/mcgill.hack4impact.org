@@ -7,7 +7,12 @@ module.exports = {
 
     return config;
   },
-  assetPrefix: !debug
-    ? "https://hack4impact-mcgill.github.io/mcgill.hack4impact.org/"
-    : ""
+  assetPrefix:
+    process.env.NODE_ENV === "production" ? "/mcgill.hack4impact.org" : "",
+  exportPathMap: function() {
+    return {
+      "/": { page: "/" },
+      "/about": { page: "/about" }
+    };
+  }
 };

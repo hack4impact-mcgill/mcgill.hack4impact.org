@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "next.config.js",
-      "use": "@now/docs"
+      "use": "@now/next"
     }
   ]
 }
