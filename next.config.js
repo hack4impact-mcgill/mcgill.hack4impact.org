@@ -6,5 +6,8 @@ module.exports = {
     };
 
     return config;
-  }
+  },
+  assetPrefix: !debug
+    ? "https://hack4impact-mcgill.github.io/mcgill.hack4impact.org/"
+    : ""
 };
