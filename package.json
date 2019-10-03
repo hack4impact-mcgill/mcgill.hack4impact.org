@@ -10,8 +10,14 @@
     "export": "next export"
   },
   "dependencies": {
-    "next": "^8.0",
+    "acorn": "^7.1.0",
+    "detect-libc": "^1.0.3",
+    "needle": "^2.4.0",
+    "next": "^8.1.0",
     "next-page-transitions": "^1.0.0-alpha.4",
+    "nopt": "^4.0.1",
+    "parser": "^0.1.4",
+    "rc": "^1.2.8",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-spring": "^7.2.1",

@@ -10,9 +10,6 @@ import {
   Nav
 } from "reactstrap";
 
-const { publicRuntimeConfig } = getConfig();
-const linkPrefix = publicRuntimeConfig.linkPrefix;
-
 class NavigationBar extends React.Component {
   state = {
     isTop: true,
@@ -45,7 +42,7 @@ class NavigationBar extends React.Component {
               id="logo-img"
               height="35"
               width="200"
-              src={linkPrefix + "/static/images/colored-logo.png"}
+              src="/static/images/colored-logo.png"
               alttext="Hack4Impact McGill logo"
             />
           </NavbarBrand>
@@ -53,17 +50,17 @@ class NavigationBar extends React.Component {
           <Collapse navbar isOpen={!this.state.collapsed}>
             <Nav navbar className="text-uppercase ml-auto">
               <NavItem>
-                <Link prefetch href="/about" as={linkPrefix + "/about"}>
+                <Link prefetch href="/about">
                   <a className="nav-link pl-3">About</a>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link prefetch href="/projects" as={linkPrefix + "/projects"}>
+                <Link prefetch href="/projects">
                   <a className="nav-link pl-3">Projects</a>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link prefetch href="/apply" as={linkPrefix + "/apply"}>
+                <Link prefetch href="/apply">
                   <a className="nav-link pl-3">Apply</a>
                 </Link>
               </NavItem>

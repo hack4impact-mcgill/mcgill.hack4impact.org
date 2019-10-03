@@ -1,2 +1,2 @@
 now
-now alias
+now --prod
