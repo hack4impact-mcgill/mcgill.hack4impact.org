@@ -3,14 +3,14 @@ import NextHead from "next/head";
 import { string } from "prop-types";
 
 const defaultDescription =
-  "We are a team of UIUC students who create robust software for social good. We believe that our engineering skill sets do not render us useless in addressing social injustices. Instead, they empower us to build a better society together.";
-const defaultOGURL = "uiuc.hack4impact.org";
+  "We are a team of McGill students who create robust software for social good. We believe that our engineering skill sets do not render us useless in addressing social injustices. Instead, they empower us to build a better society together.";
+const defaultOGURL = "mcgill.hack4impact.org";
 const defaultOGImage = "/static/icons/favicon-32x32.png";
 
 const Head = props => (
   <NextHead>
     <meta charSet="UTF-8" />
-    <title>{props.title || "Hack4Impact UIUC"}</title>
+    <title>{props.title || "Hack4Impact McGill"}</title>
     <meta
       name="description"
       content={props.description || defaultDescription}

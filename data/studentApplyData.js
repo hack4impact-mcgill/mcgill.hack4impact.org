@@ -10,8 +10,8 @@ const applicationLink =
   "https://docs.google.com/forms/u/1/d/e/1FAIpQLSegwjt2Dx_83l-xKeopq27_mmoI79sOVCo3OesI7WmntmPLBg/viewform";
 
 // current stuff
-const currentSemester = "Spring 2019";
-const nextSemester = "Fall 2019";
+const currentSemester = "Fall 2019";
+const nextSemester = "Winter 2020";
 
 // dates
 const infoSessionDate = "Wed Jan 16, 2019 7-8PM";

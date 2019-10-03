@@ -22,7 +22,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <Head title="Hack4Impact UIUC" />
+        <Head title="Hack4Impact McGill" />
         <Nav navType="mainNav" />
         <ToastContainer />
         <Banner />

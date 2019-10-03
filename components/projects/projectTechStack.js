@@ -113,6 +113,11 @@ const techStackMasterList = {
     link: "https://expressjs.com",
     title: "ExpressJS",
     imgPath: "/static/images/techStack/express.png"
+  },
+  vue: {
+    link: "https://vuejs.org/",
+    title: "Vue.js",
+    imgPath: "/static/images/techStack/vue.png"
   }
 };
 

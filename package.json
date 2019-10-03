@@ -2,8 +2,6 @@
   "name": "mcgill.hack4impact.org",
   "author": "Hack4Impact McGill",
   "scripts": {
-    "predeploy": "next build",
-    "deploy": "gh-pages -t -d docs",
     "dev": "next",
     "build": "next build",
     "start": "next start",

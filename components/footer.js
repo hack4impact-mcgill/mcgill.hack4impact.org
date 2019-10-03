@@ -34,7 +34,7 @@ const Footer = () => (
               </Link>
             </li>
             <li>
-              <Link href="https://h4i-sponsor.now.sh">
+              <Link href="../static/sponsorship.pdf">
                 <a>Sponsorship</a>
               </Link>
             </li>
