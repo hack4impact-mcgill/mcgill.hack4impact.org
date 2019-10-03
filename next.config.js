@@ -1,4 +1,4 @@
-const isProduction = process.env.NODE_ENV === "production";
+const isProduction = (process.env.NODE_ENV || "").trim() === "production";
 
 module.exports = {
   webpack: config => {
@@ -11,6 +11,6 @@ module.exports = {
   },
   assetPrefix: isProduction ? "/mcgill.hack4impact.org" : "",
   publicRuntimeConfig: {
-    linkPrefix: isProduction ? "/hack4impact.mcgill.org" : ""
+    linkPrefix: isProduction ? "/mcgill.hack4impact.org" : ""
   }
 };
