@@ -9,8 +9,8 @@ module.exports = {
 
     return config;
   },
-  assetPrefix: isProduction ? "/mcgill.hack4impact.org" : "",
+  assetPrefix: "/mcgill.hack4impact.org",
   publicRuntimeConfig: {
-    linkPrefix: isProduction ? "/mcgill.hack4impact.org" : ""
+    linkPrefix: "/mcgill.hack4impact.org"
   }
 };
