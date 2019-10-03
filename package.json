@@ -3,7 +3,7 @@
   "author": "Hack4Impact McGill",
   "scripts": {
     "predeploy": "next build",
-    "deploy": "gh-pages -d temp",
+    "deploy": "gh-pages -t -d docs",
     "dev": "next",
     "build": "next build",
     "start": "next start",

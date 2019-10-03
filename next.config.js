@@ -1,3 +1,5 @@
+const isProduction = process.env.NODE_ENV === "production";
+
 module.exports = {
   webpack: config => {
     // Fixes npm packages that depend on `fs` module
@@ -7,12 +9,8 @@ module.exports = {
 
     return config;
   },
-  assetPrefix:
-    process.env.NODE_ENV === "production" ? "/mcgill.hack4impact.org" : "",
-  exportPathMap: function() {
-    return {
-      "/": { page: "/" },
-      "/about": { page: "/about" }
-    };
+  assetPrefix: isProduction ? "/mcgill.hack4impact.org" : "",
+  publicRuntimeConfig: {
+    linkPrefix: isProduction ? "/hack4impact.mcgill.org" : ""
   }
 };
