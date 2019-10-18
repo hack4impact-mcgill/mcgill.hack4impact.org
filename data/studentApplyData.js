@@ -6,8 +6,7 @@ import Contract from "../static/icons/contract.svg";
 import Education from "../static/icons/education.svg";
 
 // constants that will affect links in the student application page
-const applicationLink =
-  "https://docs.google.com/forms/u/1/d/e/1FAIpQLSegwjt2Dx_83l-xKeopq27_mmoI79sOVCo3OesI7WmntmPLBg/viewform";
+const applicationLink = "https://forms.gle/twj9AAjue4Y1pYSY9";
 
 // current stuff
 const currentSemester = "Fall 2019";
@@ -16,8 +15,8 @@ const nextSemester = "Winter 2020";
 // dates
 const infoSessionDate = "Wed Jan 16, 2019 7-8PM";
 const technicalWorkshopDate = "Thurs Jan 17, 2019 7-8PM";
-const applicationDueDate = "Saturday Jan 19, 2019";
-const applicationDueTime = "11:59 p.m.";
+const applicationDueDate = "Friday September 20, 2019";
+const applicationDueTime = "11:59 PM";
 const firstRoundInterviewDate = "Monday Jan 21, 2019";
 const secondRoundInterviewDate = "";
 const socialRoundDate = "";
@@ -100,22 +99,13 @@ const faq = [
   },
   {
     question:
-      "What are you looking for in Software Developers and/or Product Designers?",
+      "What are you looking for in Software Developers and/or Project Managers?",
     answer: (
       <>
-        We go a lot more in-depth in our role descriptions in our{" "}
-        <a href="https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa">
-          Official Notion page
-        </a>
-        . View{" "}
-        <a href="https://www.notion.so/h4iuiuc/Software-Developer-H4I-11df54d29aba4399a940339e88b0e540">
-          Software Developer Role
-        </a>
-        . View{" "}
-        <a href="https://www.notion.so/h4iuiuc/Product-Designer-H4I-137480f11c884844878232c62d12db25">
-          Product Designer Role
-        </a>
-        .
+        The one thing that we value most over everything else is your
+        willingness to learn. Having previous experience is great, but we make
+        sure to take a wide variety of skill sets every semester. If you want to
+        improve your development skills, we strongly encourage you to apply!
       </>
     )
   }

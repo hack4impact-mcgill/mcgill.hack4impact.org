@@ -18,8 +18,6 @@ const Students = () => (
       subHeadline={data.subHeadline}
       buttonText="Apply Now"
       buttonLink={data.applicationLink}
-      minorButtonLink="https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa"
-      minorButtonText="View Positions"
     />
     <ApplicationProcess
       closedText={data.closedText}
