@@ -5,8 +5,10 @@ import ActionButton from "../components/actionButton";
 import Link from "next/link";
 
 // constants that will affect links in the nonprofit application page
-const applicationLink = "https://forms.gle/KTrdEyyet2vb15VPA";
-const interestFormLink = "https://forms.gle/KTrdEyyet2vb15VPA";
+const applicationLink =
+  "https://docs.google.com/forms/d/e/1FAIpQLSfHFq89YFYs98g8dxrHYqirp57ZhVX59GHmwshZI2RtoMKjZQ/viewform";
+const interestFormLink =
+  "https://docs.google.com/forms/u/1/d/e/1FAIpQLSeart7T-6sR61MXhdOfsN0n7oJ8ZThYeNjdqPnsLQLzLNKL2A/viewform";
 const projectAppExample =
   "https://docs.google.com/document/d/1SGG7gxu8lgWMOhxIULMSUZQa-4p0bLwrwDl4SAZW2lE/edit";
 
@@ -36,7 +38,7 @@ export default {
           <br />
           This <a href={interestFormLink}> form </a>
           is open throughout the year and shoot us an
-          <a href="mailto:hack4impact@mcgilleus.ca"> email</a> after you've
+          <a href="mailto:uiuc@hack4impact.org"> email</a> after you've
           submitted it!
           <ActionButton
             style={{ display: "block", marginTop: "10px" }}
@@ -113,7 +115,7 @@ export default {
     {
       question: "Is there a development fee?",
       answer:
-        "Since we are currently a new chapter and we're are still growing, we do not currently charge a development fee. However, this may change in the future to align with how other Hack4Impact chapters operate."
+        "We typically charge a fee of $2,000 to our clients for any work that we do. However, this fee can be reduced on a need basis."
     },
     {
       question: "How can I maximize my chances of working with Hack4Impact?",
