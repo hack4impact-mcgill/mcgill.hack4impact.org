@@ -14,24 +14,28 @@ const ProjectTeam = ({ team }) => (
 
       <Row>
         {team.type === "no-pic" ? (
-          <div>
+          <div className="text-center">
             <Row>
-              <Col md="3" />
+              <Col />
               <TeamMemberIcon
                 nopic
                 name={team.detail.pm}
                 role="Product Manager"
               />
-              <TeamMemberIcon nopic name={team.detail.tl} role="Tech Lead" />
+              <Col />
             </Row>
             <Row>
               <Col md="12">
                 <div className="text-center">
                   <p className="text-center">
                     <b> Developers: </b>{" "}
-                    {team.detail.swe.map(swe => (
-                      <>{swe}, </>
-                    ))}
+                    {team.detail.swe.map(function(swe, index) {
+                      if (index === team.detail.swe.length - 1) {
+                        return <>{swe} </>;
+                      } else {
+                        return <>{swe}, </>;
+                      }
+                    })}
                   </p>
                 </div>
               </Col>

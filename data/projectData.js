@@ -1,3 +1,3 @@
-import Fa19Data from "./projects/semesters/fa19";
+import F19W20Data from "./projects/semesters/f19-w20";
 
-export default [Fa19Data]; //Look at README for format
+export default [F19W20Data]; //Look at README for format

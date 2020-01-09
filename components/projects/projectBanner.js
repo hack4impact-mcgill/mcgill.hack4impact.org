@@ -44,9 +44,13 @@ export default ({
             ) : null}
             {previousLink !== undefined && previousLink !== null ? (
               <div className="previous-button">
-                <ActionButton text="View Previous Project" link={previousLink} white />
+                <ActionButton
+                  text="View Previous Project"
+                  link={previousLink}
+                  white
+                />
               </div>
-            ) : null }
+            ) : null}
           </Col>
         </Row>
       </Container>

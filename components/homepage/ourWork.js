@@ -9,9 +9,21 @@ import ActionLink from "../actionLink";
 const items = [
   <ProjectContainer
     title="Move Up"
-    subtitle="CRM Tool and SMS Signup"
-    image="url('/static/images/projects/kiva-2/kiva2-thumbnail copy.png')"
-    link="/projects?name=kiva-2"
+    subtitle="CRM Tool for effective client data management"
+    image="url('/static/images/projects/cp/cp-cover.jpg')"
+    link="/projects?name=moveup-crm"
+  />,
+  <ProjectContainer
+    title="Move Up"
+    subtitle="SMS Tool for easy client signup"
+    image="url('/static/images/projects/moveup-sms/moveup-sms-cover.jpg')"
+    link="/projects?name=moveup-sms"
+  />,
+  <ProjectContainer
+    title="MealCare"
+    subtitle="Mobile App and Data Visualization to help reduce food waste"
+    image="url('/static/images/projects/mealcare/mealcare-cover.jpg')"
+    link="/projects?name=mealcare"
   />
 ];
 
@@ -31,9 +43,9 @@ const OurWorkSection = () => (
             <p className="subtitle text-center">
               Each semester, we work with one or more non-profits with the
               opportunity to build a great product that solves a core need. We
-              work in small groups led by a product manager and technical lead
-              to scope and develop the application, taking into account our
-              clients’ requirements and suggestions.
+              work in small groups led by a product manager to scope and develop
+              the application, taking into account our clients’ requirements and
+              suggestions.
             </p>
           </div>
         )}

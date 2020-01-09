@@ -36,7 +36,7 @@ class Projects extends Component {
                 enough to work with and look forward to seeing our products
                 continue to be used for years to come."
             buttonText="Our Github"
-            buttonLink="https://github.com/hack4impact-uiuc"
+            buttonLink="https://github.com/hack4impact-mcgill"
           />
           <ProjectList />
           <ProjectExplore />

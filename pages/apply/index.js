@@ -14,29 +14,21 @@ const ApplyPage = () => (
     <section className="timeline-split-apply">
       <Container>
         <Row>
-          <Col md="6" className="text-center">
-            <Link href="https://h4i-project-timeline.now.sh/">
-              <a>
-                <img src="/static/images/timeline.jpg" className="img-fluid" />
-              </a>
-            </Link>
-          </Col>
-
-          <Col md="6">
-            <Row className="margin-lg-top">
-              <div className="col-md-8 offset-md-3">
+          <Col>
+            <Row>
+              <div className="col-md-9 offset-md-2">
                 <h4 className="text-title">Students</h4>
                 <p>
                   Want to apply your skills to benefit the community? Learn how
-                  you can build software products that has potential to impact
-                  lives alongside a team of motivated and talented peers.
+                  you can build software products that has the potential to make
+                  an impact alongside a team of motivated and talented peers.
                 </p>
                 <ActionButton text="Apply" link="/apply/students" />
               </div>
             </Row>
 
             <Row className="margin-lg-top">
-              <div className="col-md-8 offset-md-3">
+              <div className="col-md-9 offset-md-2">
                 <h4 clas="text-title">Nonprofits</h4>
                 <p>
                   Have a core need that your nonprofit wants solved? Learn more

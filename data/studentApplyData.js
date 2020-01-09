@@ -9,8 +9,8 @@ import Education from "../static/icons/education.svg";
 const applicationLink = "https://forms.gle/twj9AAjue4Y1pYSY9";
 
 // current stuff
-const currentSemester = "Fall 2019";
-const nextSemester = "Winter 2020";
+const currentSemester = "Winter 2020";
+const nextSemester = "Fall 2020";
 
 // dates
 const infoSessionDate = "Wed Jan 16, 2019 7-8PM";

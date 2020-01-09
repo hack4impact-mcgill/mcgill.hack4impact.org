@@ -118,6 +118,16 @@ const techStackMasterList = {
     link: "https://vuejs.org/",
     title: "Vue.js",
     imgPath: "/static/images/techStack/vue.png"
+  },
+  airtable: {
+    link: "https://airtable.com",
+    title: "Airtable",
+    imgPath: "/static/images/techStack/airtable.png"
+  },
+  twilio: {
+    link: "https://twilio.com",
+    title: "Twilio",
+    imgPath: "/static/images/techStack/twilio.png"
   }
 };
 
