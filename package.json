@@ -7,6 +7,9 @@
     "start": "next start",
     "export": "next export"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "acorn": "^7.1.0",
     "detect-libc": "^1.0.3",
