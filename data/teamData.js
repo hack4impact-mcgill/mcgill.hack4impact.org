@@ -4,7 +4,7 @@ export default {
       name: "Albert Kragl",
       year: "'21",
       quote:
-        "I joined Hack4Impact looking to work with incredible and hard-working students while using my skills to do something more meaningful. With Hack4Impact, I’d like to give this same opportunity to our members while pushing them to learn and grow tremendously both personally and professionally.",
+        "I co-founded Hack4Impact looking to work with incredible and hard-working students while using my skills to do something more meaningful. With Hack4Impact, I’d like to give this same opportunity to our members while pushing them to learn and grow tremendously both personally and professionally.",
       linkedin: "https://linkedin.com/in/albertkragl"
     }
   ],
@@ -27,7 +27,7 @@ export default {
     {
       name: "Emma Eagles",
       role: "VP Internal",
-      linkedin: "https://www.linkedin.com/in/ali-shobeiri/"
+      linkedin: "https://www.linkedin.com/in/emma-eagles-69b9a4136/"
     },
     {
       name: "Jad Hamdan",
@@ -36,13 +36,12 @@ export default {
     },
     {
       name: "Nishat Prova",
-      role: "VP Communications",
-      linkedin: "https://www.linkedin.com/in/ali-shobeiri/"
+      role: "VP Communications"
     },
     {
       name: "Aidan Sullivan",
       role: "Developer",
-      linkedin: ""
+      linkedin: "https://www.linkedin.com/in/aidan-sullivan-1b282a126/"
     },
     {
       name: "Alana Ceci",
@@ -62,7 +61,7 @@ export default {
     {
       name: "Celine Huang",
       role: "Developer",
-      linkedin: ""
+      linkedin: "https://www.linkedin.com/in/celinexhuang/"
     },
     {
       name: "Curtis Lin",
@@ -75,9 +74,13 @@ export default {
       linkedin: ""
     },
     {
-      name: "Jonathan Colaco Carr",
+      name: "Hope Kelly",
       role: "Developer",
-      linkedin: ""
+      linkedin: "http://linkedin.com/in/hope-kelly-449912140"
+    },
+    {
+      name: "Jonathan Colaco Carr",
+      role: "Developer"
     },
     {
       name: "Kira Noël",
@@ -92,7 +95,7 @@ export default {
     {
       name: "Michael Buchar",
       role: "Developer",
-      linkedin: ""
+      linkedin: "https://www.linkedin.com/in/michael-buchar/"
     },
     {
       name: "Michel Majdalani",
@@ -101,13 +104,17 @@ export default {
     },
     {
       name: "Nafiz Islam",
-      role: "Developer",
-      linkedin: ""
+      role: "Developer"
     },
     {
       name: "Ted Spare",
       role: "Developer",
-      linkedin: ""
+      linkedin: "https://www.linkedin.com/in/ted-spare-4aa508134"
+    },
+    {
+      name: "Thomas Wright",
+      role: "Developer",
+      linkedin: "https://www.linkedin.com/in/thomas-wright-b29227141/"
     },
     {
       name: "Xin Rui Li",

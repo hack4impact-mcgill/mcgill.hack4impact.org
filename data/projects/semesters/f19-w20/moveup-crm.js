@@ -15,7 +15,8 @@ const problem =
 const problemImagePath = "/static/images/projects/cp/cp-cover.jpg";
 const solution =
   "We're working with Move Up to create a web application that uses Airtable as a data store. This allows Move Up to use Airtable in a standalone way, while still being able to use the extended features of the web application. The two combined will allow Move Up to easily view client information, send emails, view form responses, and more.";
-const solutionImagePath = "/static/images/projects/c2tc-1/c2tc-1-sol.jpg";
+const solutionImagePath =
+  "/static/images/projects/moveup-crm/moveup-crm-solution.jpg";
 const features = null;
 const techStack = ["flask", "airtable", "vue"];
 const quote = null;
