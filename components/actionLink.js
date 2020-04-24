@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const ActionLink = ({ link, text, style }) => (
   <Link href={link}>
-    <a className={"link"} style={{ color: "#155da1", ...style }}>
+    <a className={"link"} style={{ color: "#1f285f", ...style }}>
       {text}
       <style jsx>{`
         .link {

@@ -9,20 +9,20 @@ import ActionLink from "../actionLink";
 const items = [
   <ProjectContainer
     title="Move Up"
-    subtitle="CRM Tool for effective client data management"
-    image="url('/static/images/projects/cp/cp-cover.jpg')"
+    subtitle="CRM tool for effective client data management"
+    image="url('/static/images/projects/moveup-crm/moveup_crm_problem.svg')"
     link="/projects?name=moveup-crm"
   />,
   <ProjectContainer
     title="Move Up"
-    subtitle="SMS Tool for easy client signup"
-    image="url('/static/images/projects/moveup-sms/moveup-sms-cover.jpg')"
+    subtitle="SMS tool for easy client signup"
+    image="url('/static/images/projects/moveup-sms/moveup_sms_problem.svg')"
     link="/projects?name=moveup-sms"
   />,
   <ProjectContainer
     title="MealCare"
-    subtitle="Mobile App and Data Visualization to help reduce food waste"
-    image="url('/static/images/projects/mealcare/mealcare-cover.jpg')"
+    subtitle="Mobile app and data visualization to help reduce food waste"
+    image="url('/static/images/projects/mealcare/mealcare_problem_blue.svg')"
     link="/projects?name=mealcare"
   />
 ];

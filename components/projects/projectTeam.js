@@ -17,11 +17,15 @@ const ProjectTeam = ({ team }) => (
           <div className="text-center">
             <Row>
               <Col />
-              <TeamMemberIcon
-                nopic
-                name={team.detail.pm}
-                role="Product Manager"
-              />
+              {team.detail.pm.map(productManager => {
+                return (
+                  <TeamMemberIcon
+                    nopic
+                    name={productManager}
+                    role="Product Manager"
+                  />
+                );
+              })}
               <Col />
             </Row>
             <Row>

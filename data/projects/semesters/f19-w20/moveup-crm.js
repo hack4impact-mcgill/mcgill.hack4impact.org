@@ -4,7 +4,8 @@ const name = "Move Up - CRM Tool";
 const id = "moveup-crm";
 const detail =
   "A project to help Move Up manage their client information with one unified system.";
-const coverImagePath = "/static/images/projects/cp/cp-cover.jpg";
+const coverImagePath =
+  "/static/images/projects/moveup-crm/moveup_crm_problem.svg";
 const clientDetail =
   "Move Up is a Bay Area-based non-profit organization that empowers under-served women by helping them find jobs, succeed in careers, and start small businesses.";
 const clientLink = "http://www.moveuptoday.org/";
@@ -12,7 +13,8 @@ const previousLink = null;
 const clientFeatures = null;
 const problem =
   "As Move Up scales up to more clients in the Bay Area and beyond, they needed a system that could keep track of all their client information in one place. Previously they kept track of information by using various spreadsheets, which made it difficult to access data efficiently.";
-const problemImagePath = "/static/images/projects/cp/cp-cover.jpg";
+const problemImagePath =
+  "/static/images/projects/moveup-crm/moveup_crm_problem.svg";
 const solution =
   "We're working with Move Up to create a web application that uses Airtable as a data store. This allows Move Up to use Airtable in a standalone way, while still being able to use the extended features of the web application. The two combined will allow Move Up to easily view client information, send emails, view form responses, and more.";
 const solutionImagePath =
@@ -29,16 +31,14 @@ const projectLink = null;
 const team = {
   type: "no-pic",
   detail: {
-    pm: "Idil Ates",
+    pm: ["Idil Ates"],
     swe: [
       "Aidan Sullivan",
       "Alex Asfar",
-      "Antonia Nistor",
       "Celine Huang",
       "Curtis Lin",
       "Gwynette Labitoria",
       "Hope Kelly",
-      "Michael Buchar",
       "Michel Majdalani",
       "Ted Spare"
     ]

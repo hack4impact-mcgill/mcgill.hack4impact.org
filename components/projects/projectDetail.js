@@ -69,6 +69,7 @@ const ProjectDetail = ({ project }) => (
         display: flex;
         justify-content: center;
       }
+
       .img-holder {
         min-height: 250px;
       }

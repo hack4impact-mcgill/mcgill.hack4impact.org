@@ -9,7 +9,12 @@ export default ({ title, imgPath, link, subTitle }) => (
         className="bg-light mb-3 project-card h-100"
         style={{ height: "100%" }}
       >
-        <img className="card-img-top" src={imgPath} alt={title} />
+        <img
+          className="card-img-top"
+          style={{ maxHeight: "180px" }}
+          src={imgPath}
+          alt={title}
+        />
         <CardBody>
           <h5 className="text-title card-title text-center">{title}</h5>
           <p className="text-center" id="card-text">

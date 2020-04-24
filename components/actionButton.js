@@ -54,7 +54,7 @@ const ActionButton = ({ link, text, style, white, onClick }) => (
         color: black !important;
       }
       .action-button {
-        background: #155da1;
+        background: #1f285f;
       }
 
       .action-button {

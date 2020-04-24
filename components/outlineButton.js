@@ -16,7 +16,7 @@ const OutlineButton = ({ text, link, style }) => (
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
         height: 2.5rem;
         color: white;
-        border-color: #155da1;
+        border-color: #1f285f;
       }
 
       button a {

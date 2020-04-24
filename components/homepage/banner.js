@@ -16,8 +16,16 @@ const Banner = () => (
         to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
       >
         {props => (
-          <Col md="7" style={{ ...props, paddingTop: 5 }}>
-            <img src="/static/images/banner_sample.svg" />
+          <Col
+            md="7"
+            style={{
+              ...props,
+              paddingLeft: 100,
+              paddingRight: 100,
+              paddingTop: 50
+            }}
+          >
+            <img src="/static/images/work_together_dark_green.svg" />
           </Col>
         )}
       </Spring>
