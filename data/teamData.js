@@ -44,17 +44,12 @@ export default {
       linkedin: "https://www.linkedin.com/in/aidan-sullivan-1b282a126/"
     },
     {
-      name: "Alana Ceci",
-      role: "Developer",
-      linkedin: ""
-    },
-    {
       name: "Alexander Asfar",
       role: "Developer",
       linkedin: ""
     },
     {
-      name: "Alexander Lam",
+      name: "Alice Kang",
       role: "Developer",
       linkedin: ""
     },
@@ -69,6 +64,16 @@ export default {
       linkedin: ""
     },
     {
+      name: "Geoffrey Kim",
+      role: "Developer",
+      linkedin: ""
+    },
+    {
+      name: "George Kandalaft",
+      role: "Developer",
+      linkedin: ""
+    },
+    {
       name: "Gwynette Labitoria",
       role: "Developer",
       linkedin: ""
@@ -79,11 +84,7 @@ export default {
       linkedin: "http://linkedin.com/in/hope-kelly-449912140"
     },
     {
-      name: "Jonathan Colaco Carr",
-      role: "Developer"
-    },
-    {
-      name: "Kira Noël",
+      name: "Kira Noel",
       role: "Developer",
       linkedin: ""
     },
@@ -93,18 +94,19 @@ export default {
       linkedin: ""
     },
     {
-      name: "Michael Buchar",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/michael-buchar/"
-    },
-    {
       name: "Michel Majdalani",
       role: "Developer",
       linkedin: ""
     },
     {
-      name: "Nafiz Islam",
-      role: "Developer"
+      name: "Philip Tam",
+      role: "Developer",
+      linkedin: ""
+    },
+    {
+      name: "Robin Leman",
+      role: "Developer",
+      linkedin: ""
     },
     {
       name: "Ted Spare",
@@ -122,7 +124,12 @@ export default {
       linkedin: ""
     },
     {
-      name: "Yasasa Abey",
+      name: "Zhi Rui Guo",
+      role: "Developer",
+      linkedin: ""
+    },
+    {
+      name: "ZhaoDong Wang",
       role: "Developer",
       linkedin: ""
     }

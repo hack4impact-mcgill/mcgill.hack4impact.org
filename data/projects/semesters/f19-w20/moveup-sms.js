@@ -30,7 +30,7 @@ const team = {
   type: "no-pic",
   detail: {
     pm: ["Albert Kragl"],
-    swe: ["Kira Noël", "Madonna Huang", "Tom Wright", "Xin Rui Li"]
+    swe: ["Kira Noel", "Madonna Huang", "Tom Wright", "Xin Rui Li"]
   }
 };
 
