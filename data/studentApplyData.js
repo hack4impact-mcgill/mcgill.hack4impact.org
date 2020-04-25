@@ -13,22 +13,18 @@ const currentSemester = "Winter 2020";
 const nextSemester = "Fall 2020";
 
 // dates
-const infoSessionDate = "Wed Jan 16, 2019 7-8PM";
-const technicalWorkshopDate = "Thurs Jan 17, 2019 7-8PM";
+const onlineApplicationDate = "First 2-3 weeks of each semester";
+const takeHomeExerciseDate = "";
 const applicationDueDate = "Friday September 20, 2019";
 const applicationDueTime = "11:59 PM";
-const firstRoundInterviewDate = "Monday Jan 21, 2019";
-const secondRoundInterviewDate = "";
-const socialRoundDate = "";
-const takeHomeExerciseDate = "";
 
 const subHeadline =
   "Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.";
 const quote = {
   text:
-    "A lot of classwork is theoretical. You’re given a contrived problem, and then you solve it. At Hack4Impact, you get to build a product from the ground up. Being exposed to building something from scratch is a great experience as a student.",
-  source: "Alex Wu",
-  sourceTitle: "'16"
+    "A lot of classwork at McGill is super theoretical. The difference between industry and schoolwork is massive, and we want to help students bridge that gap. At Hack4Impact, you get to build a project from the ground up. Being exposed to building something from scratch is a great experience as a student.",
+  source: "Albert Kragl",
+  sourceTitle: "'21"
 };
 
 const faq = [
@@ -37,10 +33,10 @@ const faq = [
     answer: (
       <>
         <p>
-          <i>Team:</i> Work on a team of 4-7 students led by a PM and tech lead{" "}
+          <i>Team:</i> Work on a team of 4-7 students led by a Product Manager{" "}
         </p>
         <p>
-          <i>Build: </i> Develop the product throughout the semester (~12 weeks){" "}
+          <i>Build: </i> Develop the product throughout 1-2 semesters{" "}
         </p>
         <p>
           <i>Ship: </i> Deliver the final product to the nonprofit client!{" "}
@@ -118,46 +114,17 @@ const studentProcess = [
     title: (
       <>
         <a href="https://www.facebook.com/events/783414215343789">
-          Info Session
+          Online Application
         </a>
       </>
     ),
     detail: (
       <>
         <p>
-          Be sure to come out to our Info Session to get an idea of who we are,
-          what we do, and the impact Hack4Impact has. We hope to see you there
-          and get to know each other!
-        </p>
-        <p>
-          <b className="pt-2"> 7PM - 8PM @ ECEB 2017</b>
-        </p>
-        <p>
-          More details at our{" "}
-          <a href="https://www.facebook.com/events/783414215343789">
-            Facebook Event!
-          </a>{" "}
-        </p>
-      </>
-    ),
-    icon: <Calendar />,
-    date: infoSessionDate
-  },
-  {
-    title: "Technical Workshop",
-    detail:
-      "Come by to learn more about the technologies we use at Hack4Impact including React, Redux, and Flask. We'll be going through why we use these libraries and then diving into code.",
-    icon: <Education />,
-    date: technicalWorkshopDate
-  },
-  {
-    title: "Applications",
-    detail: (
-      <>
-        <p>
           Fill out our online application before {applicationDueTime} on{" "}
-          <b>{applicationDueDate}</b>! To give yourself the best shot, be sure
-          to start early and fill this out as soon as possible.
+          <b>{applicationDueDate}</b>! You can either apply online or at one of
+          the in-person involvement events that happen at the start of each
+          semester (e.g. EUS Involvement Day).
         </p>
         <ActionButton
           style={{ display: "block", marginTop: "10px" }}
@@ -166,36 +133,38 @@ const studentProcess = [
         />
       </>
     ),
-    icon: <Contract />,
-    date: `${applicationDueDate} ${applicationDueTime}`
+    icon: <Calendar />,
+    date: applicationDueDate
   },
   {
-    title: "First Round Interviews",
-    detail:
-      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round behavioral interviews will be 20 minutes long and you will get meet a couple of our members.",
-    icon: <Interview />,
-    date: firstRoundInterviewDate
-  },
-  {
-    title: "Second Round Interviews",
-    detail:
-      "This will be a 30 minute interview with two of our members and answer technical questions. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
-    icon: <Interview />,
-    date: secondRoundInterviewDate
-  },
-  {
-    title: "Social Round",
-    detail:
-      "Our Social Night will be a fun opportunity for us to get to know each other in a more casual setting. Be your authentic self!",
-    icon: <Interview />,
-    date: socialRoundDate
-  },
-  {
-    title: "Take Home Exercise",
-    detail:
-      "A small, take home project that requires no prior experience to complete, and is designed to expose you to the technologies that we use. More instructions will be provided then.",
+    title: "Takehome Challenge",
+    detail: (
+      <>
+        <p>
+          After you apply, we'll ask that you send us your resume and try your
+          best to complete a technical challenge where you'll get to familiarize
+          yourself with different elements of our tech stack. We do this so we
+          can get a sense of your experience level and how committed you are to
+          learning new things.
+        </p>
+      </>
+    ),
     icon: <Contract />,
     date: takeHomeExerciseDate
+  },
+  {
+    title: "Interview",
+    detail: (
+      <>
+        <p>
+          If your takehome challenge and resume look good, we'll invite you to
+          an informal final interview. We want to get to know you during this
+          interview, and it'll be pretty laid back. After this we'll send out
+          our final acceptances for the semester!
+        </p>
+      </>
+    ),
+    icon: <Interview />
   }
 ];
 

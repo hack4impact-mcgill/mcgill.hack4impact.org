@@ -16,7 +16,7 @@ export default {
     },
     {
       name: "Tyrone Wong",
-      role: "Co-Founder, Team Mentor",
+      role: "Co-Founder, Project Manager",
       linkedin: "https://www.linkedin.com/in/tyrone-wong/"
     },
     {
@@ -82,6 +82,11 @@ export default {
       name: "Hope Kelly",
       role: "Developer",
       linkedin: "http://linkedin.com/in/hope-kelly-449912140"
+    },
+    {
+      name: "Idil Ates",
+      role: "Project Manager",
+      linkedin: ""
     },
     {
       name: "Kira Noel",
