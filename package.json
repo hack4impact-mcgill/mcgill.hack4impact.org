@@ -11,7 +11,7 @@
     "node": "12.x"
   },
   "dependencies": {
-    "acorn": "^7.1.0",
+    "acorn": "^7.1.1",
     "detect-libc": "^1.0.3",
     "needle": "^2.4.0",
     "next": "^9.3.2",
