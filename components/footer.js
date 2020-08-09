@@ -44,14 +44,10 @@ const Footer = () => (
           <h4>EXTRAS</h4>
           <ul>
             <li>
-              <Link href="https://www.facebook.com/hack4impactmcgill/">
-                <a>Facebook</a>
-              </Link>
+              <a href="https://www.facebook.com/hack4impactmcgill/">Facebook</a>
             </li>
             <li>
-              <Link href="https://github.com/hack4impact-mcgill">
-                <a>Github</a>
-              </Link>
+              <a href="https://github.com/hack4impact-mcgill">Github</a>
             </li>
             <li>
               <a href="mailto:hack4impact@mcgilleus.ca">Email</a>

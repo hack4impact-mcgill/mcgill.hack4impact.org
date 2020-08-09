@@ -7,9 +7,6 @@
     "start": "next start",
     "export": "next export"
   },
-  "engines": {
-    "node": "12.x"
-  },
   "dependencies": {
     "acorn": "^7.1.1",
     "detect-libc": "^1.0.3",
@@ -17,7 +14,6 @@
     "next": "^9.3.2",
     "next-page-transitions": "^1.0.0-alpha.4",
     "nopt": "^4.0.1",
-    "parser": "^0.1.4",
     "rc": "^1.2.8",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
