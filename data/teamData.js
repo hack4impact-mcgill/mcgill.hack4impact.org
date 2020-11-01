@@ -10,11 +10,6 @@ export default {
   ],
   team: [
     {
-      name: "Ali Shobeiri",
-      role: "Co-Founder, VP External",
-      linkedin: "https://www.linkedin.com/in/ali-shobeiri/"
-    },
-    {
       name: "Tyrone Wong",
       role: "Co-Founder, Project Manager",
       linkedin: "https://www.linkedin.com/in/tyrone-wong/"
@@ -25,19 +20,90 @@ export default {
       linkedin: "https://www.linkedin.com/in/yue-dai-0531/"
     },
     {
-      name: "Emma Eagles",
-      role: "VP Internal",
-      linkedin: "https://www.linkedin.com/in/emma-eagles-69b9a4136/"
-    },
-    {
       name: "Jad Hamdan",
       role: "VP Events",
       linkedin: "https://www.linkedin.com/in/ali-shobeiri/"
     },
     {
+      name: "Madonna Huang",
+      role: "VP Sponsorship, Developer"
+    },
+    {
+      name: "Philip Tam",
+      role: "VP External"
+    },
+    {
       name: "Nishat Prova",
       role: "VP Communications"
     },
+    {
+      name: "Zhi Rui Guo",
+      role: "VP Internal"
+    },
+    {
+      name: "Alice Kang",
+      role: "Developer"
+    },
+    {
+      name: "Celine Huang",
+      role: "Project Manager",
+      linkedin: "https://www.linkedin.com/in/celinexhuang/"
+    },
+    {
+      name: "Curtis Lin",
+      role: "Developer"
+    },
+    {
+      name: "Declan Giltz",
+      role: "Developer"
+    },
+    {
+      name: "Geoffrey Kim",
+      role: "Developer"
+    },
+    {
+      name: "George Kandalaft",
+      role: "Developer"
+    },
+    {
+      name: "Jerry Xia",
+      role: "Developer"
+    },
+    {
+      name: "Lin Xiao Zheng",
+      role: "Developer"
+    },
+    {
+      name: "Pauline Swen",
+      role: "Developer"
+    },
+    {
+      name: "Sophearah Suy-Puth",
+      role: "Developer"
+    },
+    {
+      name: "Sym Piracha",
+      role: "Developer"
+    },
+    {
+      name: "Ted Spare",
+      role: "Project Manager",
+      linkedin: "https://www.linkedin.com/in/ted-spare-4aa508134"
+    },
+    {
+      name: "Xin Rui Li",
+      role: "Developer"
+    },
+    {
+      name: "Yi Fang",
+      role: "Developer"
+    },
+    {
+      name: "ZhaoDong Wang",
+      role: "Developer"
+    }
+  ],
+  alumni: [
     {
       name: "Aidan Sullivan",
       role: "Developer",
@@ -45,38 +111,21 @@ export default {
     },
     {
       name: "Alexander Asfar",
-      role: "Developer",
-      linkedin: ""
+      role: "Developer"
     },
     {
-      name: "Alice Kang",
-      role: "Developer",
-      linkedin: ""
+      name: "Ali Shobeiri",
+      role: "Co-Founder, VP External",
+      linkedin: "https://www.linkedin.com/in/ali-shobeiri/"
     },
     {
-      name: "Celine Huang",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/celinexhuang/"
-    },
-    {
-      name: "Curtis Lin",
-      role: "Developer",
-      linkedin: ""
-    },
-    {
-      name: "Geoffrey Kim",
-      role: "Developer",
-      linkedin: ""
-    },
-    {
-      name: "George Kandalaft",
-      role: "Developer",
-      linkedin: ""
+      name: "Emma Eagles",
+      role: "VP Internal",
+      linkedin: "https://www.linkedin.com/in/emma-eagles-69b9a4136/"
     },
     {
       name: "Gwynette Labitoria",
-      role: "Developer",
-      linkedin: ""
+      role: "Developer"
     },
     {
       name: "Hope Kelly",
@@ -85,59 +134,20 @@ export default {
     },
     {
       name: "Idil Ates",
-      role: "Project Manager",
-      linkedin: ""
+      role: "Project Manager"
     },
     {
       name: "Kira Noel",
-      role: "Developer",
-      linkedin: ""
-    },
-    {
-      name: "Madonna Huang",
-      role: "Developer",
-      linkedin: ""
+      role: "Developer"
     },
     {
       name: "Michel Majdalani",
-      role: "Developer",
-      linkedin: ""
-    },
-    {
-      name: "Philip Tam",
-      role: "Developer",
-      linkedin: ""
-    },
-    {
-      name: "Robin Leman",
-      role: "Developer",
-      linkedin: ""
-    },
-    {
-      name: "Ted Spare",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/ted-spare-4aa508134"
+      role: "Developer"
     },
     {
       name: "Thomas Wright",
       role: "Developer",
       linkedin: "https://www.linkedin.com/in/thomas-wright-b29227141/"
     },
-    {
-      name: "Xin Rui Li",
-      role: "Developer",
-      linkedin: ""
-    },
-    {
-      name: "Zhi Rui Guo",
-      role: "Developer",
-      linkedin: ""
-    },
-    {
-      name: "ZhaoDong Wang",
-      role: "Developer",
-      linkedin: ""
-    }
-  ],
-  alumni: []
+  ]
 };
