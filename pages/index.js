@@ -28,6 +28,7 @@ class Home extends React.Component {
         <Banner />
         <OurWorkSection />
         <InvolveSection />
+        <PartnerSection />
         <OtherChapters />
         <Footer />
       </div>

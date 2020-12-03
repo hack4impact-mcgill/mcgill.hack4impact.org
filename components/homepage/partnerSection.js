@@ -10,21 +10,31 @@ export default () => (
           Our Sponsors
         </h1>
       </Row>
-      <Row>
-        <img
-          width="150"
-          height="150"
-          src="/static/images/fb-logo.svg"
-          className="center"
-        />
-      </Row>
-
+      <div className="sponsor-row">
+        <a href="https://deloitte.com/" alt="Deloitte">
+          <img
+            height="75"
+            src="/static/images/sponsors/deloitte.svg"
+            className="center"
+          />
+        </a>
+        <a href="https://www.morganstanley.com/" alt="Morgan Stanley">
+          <img
+            height="95"
+            src="/static/images/sponsors/morgan_stanley.svg"
+            className="center"
+          />
+        </a>
+      </div>
       <Row>
         <div className="center partner-button">
-          <ActionLink
-            text="Partner With Us"
-            link="https://h4i-sponsor.now.sh"
-          />
+          <a
+            className={"link"}
+            style={{ color: "#1f285f" }}
+            href="mailto:vpsponsorship.hack4impact@mcgilleus.ca"
+          >
+            Partner With Us
+          </a>
         </div>
       </Row>
     </Container>
@@ -39,6 +49,22 @@ export default () => (
       }
       .partner-button {
         margin-top: 30px !important;
+      }
+      .sponsor-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 65px;
+      }
+      .link {
+        font-weight: 400;
+        line-height: 1.2;
+        letter-spacing: normal;
+        font-size: 15px;
+        margin: auto;
+        margin-top: 40px;
+        border-bottom: 1px solid #3f46ad;
       }
     `}</style>
   </Section>
