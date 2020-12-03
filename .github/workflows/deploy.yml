@@ -48,4 +48,4 @@ jobs:
         run: yarn export
 
       - name: Deploy application
-        run: surge out mcgill.hack4impact.org --token ${{secrets.TOKEN}}
+        run: surge out mcgill.hack4impact.org --token ${{secrets.SURGE_TOKEN}}
