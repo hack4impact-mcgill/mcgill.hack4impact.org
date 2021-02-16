@@ -1,7 +1,7 @@
 const ActionButton = ({ link, text, style, white, onClick }) => (
   <>
     {link !== undefined ? (
-      <a href={link}>
+      <a href={link} target="_blank">
         <button
           style={style}
           className={

@@ -1,23 +1,30 @@
 const name = 'Mu - Open-Air Museum Map';
 const id = 'mu-map';
 const detail =
-  'A project to help Move Up manage their client information with one unified system.';
-const coverImagePath =
-  '/static/images/projects/moveup-crm/moveup_crm_problem.svg';
+  'A project to help Montreal residents find local murals with an interactive online map.';
+const coverImagePath = '/static/images/projects/mu-map/mu_map_solution.png';
 const clientDetail =
   'Mu is a Montreal-based organization which aims to beautify the city by creating murals that are anchored in local communities.';
 const clientLink = 'https://mumtl.org/';
 const previousLink = null;
 const clientFeatures = null;
-const problem = '.';
-const problemImagePath =
-  '/static/images/projects/moveup-crm/moveup_crm_problem.svg';
+const problem =
+  "Montreal contains many beautiful murals all around the city, but there currently isn't a convenient way for Montreal residents to explore all of the art that the city has to offer.";
+const problemImagePath = '/static/images/projects/mu-map/mu_map_problem.jpg';
 const solution =
-  "We're working with Move Up to create a web application that uses Airtable as a data store. This allows Move Up to use Airtable in a standalone way, while still being able to use the extended features of the web application. The two combined will allow Move Up to easily view client information, send emails, view form responses, and more.";
-const solutionImagePath =
-  '/static/images/projects/moveup-crm/moveup-crm-solution.jpg';
+  "We're working with Mu to create an online map that anyone can use to easily find murals and other art in the city of Montreal. The tool will be released for Mu's 15th anniversary.";
+const solutionImagePath = '/static/images/projects/mu-map/mu_map_solution.png';
 const features = null;
-const techStack = ['flask', 'airtable', 'vue'];
+const techStack = [
+  'nodejs',
+  'docker',
+  'postgres',
+  'react',
+  'materialui',
+  'mapbox',
+  'firebase',
+  'aws',
+];
 const quote = null;
 const quoteSource = null;
 const quoteSourceTitle = null;

@@ -15,7 +15,11 @@ const ProjectBanner = ({
         <Row>
           <Col md="12">
             <h1 className="project-title mb-4">
-              <a className="section-title-link" href={clientLink}>
+              <a
+                className="section-title-link"
+                href={clientLink}
+                target="_blank"
+              >
                 {title}
               </a>
             </h1>

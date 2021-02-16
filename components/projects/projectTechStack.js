@@ -93,6 +93,31 @@ const techStackMasterList = {
     title: 'Twilio',
     imgPath: '/static/images/techStack/twilio.png',
   },
+  docker: {
+    link: 'https://www.docker.com/',
+    title: 'Docker',
+    imgPath: '/static/images/techStack/docker.jpg',
+  },
+  firebase: {
+    link: 'https://firebase.google.com/',
+    title: 'Firebase',
+    imgPath: '/static/images/techStack/firebase.png',
+  },
+  vercel: {
+    link: 'https://vercel.com/',
+    title: 'Vercel',
+    imgPath: '/static/images/techStack/vercel.jpg',
+  },
+  materialui: {
+    link: 'https://material-ui.com/',
+    title: 'Material UI',
+    imgPath: '/static/images/techStack/materialui.png',
+  },
+  mapbox: {
+    link: 'https://www.mapbox.com/',
+    title: 'Mapbox',
+    imgPath: '/static/images/techStack/mapbox.png',
+  },
 };
 
 const ProjectTechStack = ({ techStack }) =>
