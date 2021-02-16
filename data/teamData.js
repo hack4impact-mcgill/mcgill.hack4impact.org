@@ -1,153 +1,184 @@
 export default {
   directors: [
     {
-      name: "Albert Kragl",
+      name: 'Albert Kragl',
       year: "'21",
       quote:
-        "I co-founded Hack4Impact looking to work with incredible and hard-working students while using my skills to do something more meaningful. With Hack4Impact, I’d like to give this same opportunity to our members while pushing them to learn and grow tremendously both personally and professionally.",
-      linkedin: "https://linkedin.com/in/albertkragl"
-    }
+        'I co-founded Hack4Impact looking to work with incredible and hard-working students while using my skills to do something more meaningful. With Hack4Impact, I’d like to give this same opportunity to our members while pushing them to learn and grow tremendously both personally and professionally.',
+      linkedin: 'https://linkedin.com/in/albertkragl',
+    },
   ],
   team: [
     {
-      name: "Tyrone Wong",
-      role: "Co-Founder, Project Manager",
-      linkedin: "https://www.linkedin.com/in/tyrone-wong/"
+      name: 'Yue Dai',
+      role: 'Co-Founder, VP Technology',
+      linkedin: 'https://www.linkedin.com/in/yue-dai-0531/',
     },
     {
-      name: "Yue Dai",
-      role: "Co-Founder, VP Technology",
-      linkedin: "https://www.linkedin.com/in/yue-dai-0531/"
+      name: 'Jad Hamdan',
+      role: 'VP Events',
     },
     {
-      name: "Jad Hamdan",
-      role: "VP Events",
-      linkedin: "https://www.linkedin.com/in/ali-shobeiri/"
+      name: 'Melissa Li',
+      role: 'VP Finance, Design Lead',
     },
     {
-      name: "Madonna Huang",
-      role: "VP Sponsorship, Developer"
+      name: 'Madonna Huang',
+      role: 'VP Sponsorship',
     },
     {
-      name: "Philip Tam",
-      role: "VP External"
+      name: 'Philip Tam',
+      role: 'VP External',
     },
     {
-      name: "Nishat Prova",
-      role: "VP Communications"
+      name: 'Nishat Prova',
+      role: 'VP Communications',
     },
     {
-      name: "Zhi Rui Guo",
-      role: "VP Internal"
+      name: 'Zhi Rui Guo',
+      role: 'VP Internal',
     },
     {
-      name: "Alice Kang",
-      role: "Developer"
+      name: 'Celine Huang',
+      role: 'Project Manager',
+      linkedin: 'https://www.linkedin.com/in/celinexhuang/',
     },
     {
-      name: "Celine Huang",
-      role: "Project Manager",
-      linkedin: "https://www.linkedin.com/in/celinexhuang/"
+      name: 'Ted Spare',
+      role: 'Project Manager',
+      linkedin: 'https://www.linkedin.com/in/ted-spare-4aa508134',
     },
     {
-      name: "Curtis Lin",
-      role: "Developer"
+      name: 'Jerry Xia',
+      role: 'UI/UX Designer',
     },
     {
-      name: "Declan Giltz",
-      role: "Developer"
+      name: 'Pauline Swen',
+      role: 'UI/UX Designer',
     },
     {
-      name: "Geoffrey Kim",
-      role: "Developer"
+      name: 'Sophearah Suy-Puth',
+      role: 'UI/UX Designer',
     },
     {
-      name: "George Kandalaft",
-      role: "Developer"
+      name: 'Ahmad Ghawanmeh',
+      role: 'Developer',
     },
     {
-      name: "Jerry Xia",
-      role: "Developer"
+      name: 'Alice Kang',
+      role: 'Developer',
     },
     {
-      name: "Lin Xiao Zheng",
-      role: "Developer"
+      name: 'Carol Altimas',
+      role: 'Developer',
     },
     {
-      name: "Pauline Swen",
-      role: "Developer"
+      name: 'Curtis Lin',
+      role: 'Developer',
     },
     {
-      name: "Sophearah Suy-Puth",
-      role: "Developer"
+      name: 'Declan Giltz',
+      role: 'Developer',
     },
     {
-      name: "Sym Piracha",
-      role: "Developer"
+      name: 'Gabriel Paquette',
+      role: 'Developer',
     },
     {
-      name: "Ted Spare",
-      role: "Project Manager",
-      linkedin: "https://www.linkedin.com/in/ted-spare-4aa508134"
+      name: 'Geoffrey Kim',
+      role: 'Developer',
     },
     {
-      name: "Xin Rui Li",
-      role: "Developer"
+      name: 'George Kandalaft',
+      role: 'Developer',
     },
     {
-      name: "Yi Fang",
-      role: "Developer"
+      name: 'Jacek Dziewonski',
+      role: 'Developer',
     },
     {
-      name: "ZhaoDong Wang",
-      role: "Developer"
-    }
+      name: 'Lin Xiao Zheng',
+      role: 'Developer',
+    },
+    {
+      name: 'Peter Guanhua Rong',
+      role: 'Developer',
+    },
+    {
+      name: 'Sibo Yang',
+      role: 'Developer',
+    },
+    {
+      name: 'Sym Piracha',
+      role: 'Developer',
+    },
+    {
+      name: 'Tony Ou',
+      role: 'Developer',
+    },
+    {
+      name: 'Xin Rui Li',
+      role: 'Developer',
+    },
+    {
+      name: 'Yi Fang Yuan',
+      role: 'Developer',
+    },
+    {
+      name: 'ZhaoDong Wang',
+      role: 'Developer',
+    },
   ],
   alumni: [
     {
-      name: "Aidan Sullivan",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/aidan-sullivan-1b282a126/"
+      name: 'Tyrone Wong',
+      role: 'Co-Founder, Project Manager',
+      linkedin: 'https://www.linkedin.com/in/tyrone-wong/',
     },
     {
-      name: "Alexander Asfar",
-      role: "Developer"
+      name: 'Aidan Sullivan',
+      role: 'Developer',
+      linkedin: 'https://www.linkedin.com/in/aidan-sullivan-1b282a126/',
     },
     {
-      name: "Ali Shobeiri",
-      role: "Co-Founder, VP External",
-      linkedin: "https://www.linkedin.com/in/ali-shobeiri/"
+      name: 'Alexander Asfar',
+      role: 'Developer',
     },
     {
-      name: "Emma Eagles",
-      role: "VP Internal",
-      linkedin: "https://www.linkedin.com/in/emma-eagles-69b9a4136/"
+      name: 'Ali Shobeiri',
+      role: 'Co-Founder, VP External',
+      linkedin: 'https://www.linkedin.com/in/ali-shobeiri/',
     },
     {
-      name: "Gwynette Labitoria",
-      role: "Developer"
+      name: 'Emma Eagles',
+      role: 'VP Internal',
+      linkedin: 'https://www.linkedin.com/in/emma-eagles-69b9a4136/',
     },
     {
-      name: "Hope Kelly",
-      role: "Developer",
-      linkedin: "http://linkedin.com/in/hope-kelly-449912140"
+      name: 'Gwynette Labitoria',
+      role: 'Developer',
     },
     {
-      name: "Idil Ates",
-      role: "Project Manager"
+      name: 'Hope Kelly',
+      role: 'Developer',
+      linkedin: 'http://linkedin.com/in/hope-kelly-449912140',
     },
     {
-      name: "Kira Noel",
-      role: "Developer"
+      name: 'Idil Ates',
+      role: 'Project Manager',
     },
     {
-      name: "Michel Majdalani",
-      role: "Developer"
+      name: 'Kira Noel',
+      role: 'Developer',
     },
     {
-      name: "Thomas Wright",
-      role: "Developer",
-      linkedin: "https://www.linkedin.com/in/thomas-wright-b29227141/"
+      name: 'Michel Majdalani',
+      role: 'Developer',
     },
-  ]
+    {
+      name: 'Thomas Wright',
+      role: 'Developer',
+      linkedin: 'https://www.linkedin.com/in/thomas-wright-b29227141/',
+    },
+  ],
 };

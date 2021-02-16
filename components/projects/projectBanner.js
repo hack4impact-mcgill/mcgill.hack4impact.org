@@ -1,14 +1,13 @@
-import { Row, Col, Container } from "reactstrap";
-import ActionButton from "../actionButton";
-import Link from "next/link";
+import { Row, Col, Container } from 'reactstrap';
+import ActionButton from '../actionButton';
 
-export default ({
+const ProjectBanner = ({
   title,
   clientDetail,
   clientLink,
   githubLink,
   projectLink,
-  previousLink
+  previousLink,
 }) => (
   <>
     <section className="project-page-banner">
@@ -16,9 +15,9 @@ export default ({
         <Row>
           <Col md="12">
             <h1 className="project-title mb-4">
-              <Link href={clientLink}>
-                <a className="section-title-link">{title}</a>
-              </Link>
+              <a className="section-title-link" href={clientLink}>
+                {title}
+              </a>
             </h1>
           </Col>
         </Row>
@@ -36,7 +35,7 @@ export default ({
                 text="Final Product"
                 link={projectLink}
                 white
-                style={{ marginRight: "10px" }}
+                style={{ marginRight: '10px' }}
               />
             ) : null}
             {githubLink !== undefined && githubLink !== null ? (
@@ -61,7 +60,7 @@ export default ({
         background: radial-gradient(white, #64ab8a);
         background-size: cover;
         background-attachment: fixed;
-        font-family: "Chivo", sans-serif;
+        font-family: 'Chivo', sans-serif;
         text-align: center;
       }
       .section-title-link {
@@ -85,3 +84,5 @@ export default ({
     `}</style>
   </>
 );
+
+export default ProjectBanner;

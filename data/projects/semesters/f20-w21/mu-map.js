@@ -1,18 +1,15 @@
-// Fa19 - First Move Up project
-
-const name = 'Move Up - CRM Tool';
-const id = 'moveup-crm';
+const name = 'Mu - Open-Air Museum Map';
+const id = 'mu-map';
 const detail =
   'A project to help Move Up manage their client information with one unified system.';
 const coverImagePath =
   '/static/images/projects/moveup-crm/moveup_crm_problem.svg';
 const clientDetail =
-  'Move Up is a Bay Area-based non-profit organization that empowers under-served women by helping them find jobs, succeed in careers, and start small businesses.';
-const clientLink = 'https://www.moveuptoday.org/';
+  'Mu is a Montreal-based organization which aims to beautify the city by creating murals that are anchored in local communities.';
+const clientLink = 'https://mumtl.org/';
 const previousLink = null;
 const clientFeatures = null;
-const problem =
-  'As Move Up scales up to more clients in the Bay Area and beyond, they needed a system that could keep track of all their client information in one place. Previously they kept track of information by using various spreadsheets, which made it difficult to access data efficiently.';
+const problem = '.';
 const problemImagePath =
   '/static/images/projects/moveup-crm/moveup_crm_problem.svg';
 const solution =
@@ -25,22 +22,21 @@ const quote = null;
 const quoteSource = null;
 const quoteSourceTitle = null;
 
-const githubLink = 'https://github.com/hack4impact-mcgill/move-up-crm-tool';
+const githubLink = 'https://github.com/hack4impact-mcgill/mu-map';
 const projectLink = null;
 
 const team = {
   type: 'no-pic',
   detail: {
-    pm: ['Idil Ates'],
+    pm: ['Ted Spare'],
     swe: [
-      'Aidan Sullivan',
-      'Alex Asfar',
-      'Celine Huang',
-      'Curtis Lin',
-      'Gwynette Labitoria',
-      'Hope Kelly',
-      'Michel Majdalani',
-      'Ted Spare',
+      'Lin Xiao Zheng',
+      'Tony Ou',
+      'Gabriel Paquette',
+      'Jacek Dziewonski',
+      'Sibo Yang',
+      'Yi Fang Yuan',
+      'Blanche Francheterre',
     ],
   },
 };

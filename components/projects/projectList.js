@@ -1,10 +1,12 @@
-import Section from "../section";
-import SemesterProjectList from "./semesterProjectList";
+import Section from '../section';
+import SemesterProjectList from './semesterProjectList';
 
-export default () => (
+const ProjectList = () => (
   <div>
     <Section>
       <SemesterProjectList />
     </Section>
   </div>
 );
+
+export default ProjectList;

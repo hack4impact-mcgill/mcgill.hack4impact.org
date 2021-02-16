@@ -1,134 +1,98 @@
-import { Row, Card, Col, Container } from "reactstrap";
-import Link from "next/link";
+import { Row, Card, Col } from 'reactstrap';
 
 // need to add to this whenever a new library/technology is used
 // this must match the strings listed in props.techStack, which is an array
 const techStackMasterList = {
   react: {
-    link: "https://reactjs.org/",
-    title: "React",
-    imgPath: "/static/images/techStack/react.jpg"
-  },
-  redux: {
-    link: "https://redux.js.org/",
-    title: "Redux",
-    imgPath: "/static/images/techStack/redux.jpg"
+    link: 'https://reactjs.org/',
+    title: 'React',
+    imgPath: '/static/images/techStack/react.jpg',
   },
   flask: {
-    link: "http://flask.pocoo.org/",
-    title: "Flask",
-    imgPath: "/static/images/techStack/flask.jpg"
+    link: 'http://flask.pocoo.org/',
+    title: 'Flask',
+    imgPath: '/static/images/techStack/flask.jpg',
   },
   mongodb: {
-    link: "https://www.mongodb.com/",
-    title: "MongoDB",
-    imgPath: "/static/images/techStack/mongodb.jpg"
+    link: 'https://www.mongodb.com/',
+    title: 'MongoDB',
+    imgPath: '/static/images/techStack/mongodb.jpg',
   },
   reactnative: {
-    link: "https://facebook.github.io/react-native/",
-    title: "React Native",
-    imgPath: "/static/images/techStack/react.jpg"
+    link: 'https://facebook.github.io/react-native/',
+    title: 'React Native',
+    imgPath: '/static/images/techStack/react.jpg',
   },
   postgres: {
-    link: "https://www.postgresql.org/",
-    title: "Postgres",
-    imgPath: "/static/images/techStack/postgres.jpg"
-  },
-  relay: {
-    link: "https://facebook.github.io/relay/",
-    title: "Relay",
-    imgPath: "/static/images/techStack/relay.jpg"
+    link: 'https://www.postgresql.org/',
+    title: 'Postgres',
+    imgPath: '/static/images/techStack/postgres.jpg',
   },
   nodejs: {
-    link: "https://nodejs.org/en/",
-    title: "Node.js",
-    imgPath: "/static/images/techStack/nodejs.jpg"
+    link: 'https://nodejs.org/en/',
+    title: 'Node.js',
+    imgPath: '/static/images/techStack/nodejs.jpg',
   },
   graphql: {
-    link: "https://graphql.org/",
-    title: "GraphQL",
-    imgPath: "/static/images/techStack/graphql.jpg"
+    link: 'https://graphql.org/',
+    title: 'GraphQL',
+    imgPath: '/static/images/techStack/graphql.jpg',
   },
   redis: {
-    link: "https://redis.io/",
-    title: "Redis",
-    imgPath: "/static/images/techStack/redis.jpg"
+    link: 'https://redis.io/',
+    title: 'Redis',
+    imgPath: '/static/images/techStack/redis.jpg',
   },
   python: {
-    link: "https://www.python.org/",
-    title: "Python",
-    imgPath: "/static/images/techStack/python.jpg"
+    link: 'https://www.python.org/',
+    title: 'Python',
+    imgPath: '/static/images/techStack/python.jpg',
   },
   sklearn: {
-    link: "https://scikit-learn.org/stable/",
-    title: "Scikit-Learn",
-    imgPath: "/static/images/techStack/sklearn.png"
-  },
-  gensim: {
-    link: "https://radimrehurek.com/gensim/",
-    title: "Gensim",
-    imgPath: "/static/images/techStack/gensim.png"
-  },
-  nltk: {
-    link: "https://www.nltk.org",
-    title: "NLTK",
-    imgPath: "/static/images/techStack/python.jpg"
+    link: 'https://scikit-learn.org/stable/',
+    title: 'Scikit-Learn',
+    imgPath: '/static/images/techStack/sklearn.png',
   },
   beautifulsoup: {
-    link: "https://www.crummy.com/software/BeautifulSoup/bs4/doc/",
-    title: "Beautiful Soup",
-    imgPath: "/static/images/techStack/beautiful soup.jpg"
-  },
-  dynamodb: {
-    link: "https://aws.amazon.com/dynamodb/",
-    title: "DynamoDB",
-    imgPath: "/static/images/techStack/dynamodb.png"
+    link: 'https://www.crummy.com/software/BeautifulSoup/bs4/doc/',
+    title: 'Beautiful Soup',
+    imgPath: '/static/images/techStack/beautiful soup.jpg',
   },
   aws: {
-    link: "https://aws.amazon.com",
-    title: "AWS",
-    imgPath: "/static/images/techStack/aws.png"
-  },
-  spacy: {
-    link: "https://spacy.io",
-    title: "Spacy",
-    imgPath: "/static/images/techStack/spacy.jpg"
+    link: 'https://aws.amazon.com',
+    title: 'AWS',
+    imgPath: '/static/images/techStack/aws.png',
   },
   box: {
-    link: "https://box.com",
-    title: "Box",
-    imgPath: "/static/images/techStack/box.jpg"
-  },
-  yargs: {
-    link: "http://yargs.js.org",
-    title: "Yargs",
-    imgPath: "/static/images/techStack/yargs.png"
+    link: 'https://box.com',
+    title: 'Box',
+    imgPath: '/static/images/techStack/box.jpg',
   },
   next: {
-    link: "https://nextjs.org",
-    title: "NextJS",
-    imgPath: "/static/images/techStack/next.png"
+    link: 'https://nextjs.org',
+    title: 'NextJS',
+    imgPath: '/static/images/techStack/next.png',
   },
   express: {
-    link: "https://expressjs.com",
-    title: "ExpressJS",
-    imgPath: "/static/images/techStack/express.png"
+    link: 'https://expressjs.com',
+    title: 'ExpressJS',
+    imgPath: '/static/images/techStack/express.png',
   },
   vue: {
-    link: "https://vuejs.org/",
-    title: "Vue.js",
-    imgPath: "/static/images/techStack/vue.png"
+    link: 'https://vuejs.org/',
+    title: 'Vue.js',
+    imgPath: '/static/images/techStack/vue.png',
   },
   airtable: {
-    link: "https://airtable.com",
-    title: "Airtable",
-    imgPath: "/static/images/techStack/airtable.png"
+    link: 'https://airtable.com',
+    title: 'Airtable',
+    imgPath: '/static/images/techStack/airtable.png',
   },
   twilio: {
-    link: "https://twilio.com",
-    title: "Twilio",
-    imgPath: "/static/images/techStack/twilio.png"
-  }
+    link: 'https://twilio.com',
+    title: 'Twilio',
+    imgPath: '/static/images/techStack/twilio.png',
+  },
 };
 
 const ProjectTechStack = ({ techStack }) =>
@@ -144,23 +108,22 @@ const ProjectTechStack = ({ techStack }) =>
             </div>
           </div>
         </Row>
-        <div className="center" style={{ margin: "auto" }}>
-          {techStack.map(tech => (
+        <div className="center" style={{ margin: 'auto' }}>
+          {techStack.map((tech) => (
             <Col md="2" xs="6">
               <Card className="border-0">
-                <Link href={techStackMasterList[tech].link}>
-                  <a>
-                    <img
-                      src={techStackMasterList[tech].imgPath}
-                      className="img-thumbnail img-fluid tech-stack-img"
-                    />
-                  </a>
-                </Link>
-                <Link href={techStackMasterList[tech].link}>
-                  <a className="text-center tech-stack-link">
-                    {techStackMasterList[tech].title}
-                  </a>
-                </Link>
+                <a href={techStackMasterList[tech].link}>
+                  <img
+                    src={techStackMasterList[tech].imgPath}
+                    className="img-thumbnail img-fluid tech-stack-img"
+                  />
+                </a>
+                <a
+                  href={techStackMasterList[tech].link}
+                  className="text-center tech-stack-link"
+                >
+                  {techStackMasterList[tech].title}
+                </a>
               </Card>
             </Col>
           ))}

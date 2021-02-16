@@ -1,17 +1,17 @@
-import { Card, CardBody } from "reactstrap";
-import ActionButton from "../actionButton";
-import Link from "next/link";
+import { Card, CardBody } from 'reactstrap';
+import ActionButton from '../actionButton';
+import Link from 'next/link';
 
-export default ({ title, imgPath, link, subTitle }) => (
+const ProjectCards = ({ title, imgPath, link, subTitle }) => (
   <>
     <Link href={link}>
       <Card
         className="bg-light mb-3 project-card h-100"
-        style={{ height: "100%" }}
+        style={{ height: '100%' }}
       >
         <img
           className="card-img-top"
-          style={{ maxHeight: "180px" }}
+          style={{ maxHeight: '180px' }}
           src={imgPath}
           alt={title}
         />
@@ -40,3 +40,5 @@ export default ({ title, imgPath, link, subTitle }) => (
     `}</style>
   </>
 );
+
+export default ProjectCards;

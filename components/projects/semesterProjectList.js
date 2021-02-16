@@ -1,17 +1,17 @@
-import { Container, Row, Col } from "reactstrap";
-import ProjectCards from "./projectCards";
-import projectData from "../../data/projectData";
+import { Container, Row, Col } from 'reactstrap';
+import ProjectCards from './projectCards';
+import projectData from '../../data/projectData';
 
-export default () => (
+const SemesterProjectList = () => (
   <Container>
-    {projectData.map(semester => (
+    {projectData.map((semester) => (
       <div>
         <Row>
           <h1 className="section-title center">{semester.semester} Projects</h1>
         </Row>
         <Row>
-          {semester.projects.map(project => (
-            <Col md="4" sm="6" style={{ marginBottom: "25px" }}>
+          {semester.projects.map((project) => (
+            <Col md="4" sm="6" style={{ marginBottom: '25px' }}>
               <ProjectCards
                 title={project.name}
                 imgPath={project.coverImagePath}
@@ -25,3 +25,5 @@ export default () => (
     ))}
   </Container>
 );
+
+export default SemesterProjectList;
