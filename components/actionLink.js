@@ -1,8 +1,8 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const ActionLink = ({ link, text, style, passHref }) => (
   <Link href={link} passHref={passHref ?? false}>
-    <a className={"link"} style={{ color: "#1f285f", ...style }}>
+    <a className={'link'} style={{ color: '#1f285f', ...style }}>
       {text}
       <style jsx>{`
         .link {

@@ -1,7 +1,6 @@
-import Section from "../section";
-import { Container, Row, Col } from "reactstrap";
-import ActionButton from "../actionButton";
-import { Action } from "rxjs/internal/scheduler/Action";
+import Section from '../section';
+import { Container, Row } from 'reactstrap';
+import ActionButton from '../actionButton';
 
 const ProjectExplore = () => (
   <Section darkgrey>
@@ -25,7 +24,7 @@ const ProjectExplore = () => (
       <Row>
         <div className="text-center">
           <ActionButton
-            style={{ marginRight: "10px" }}
+            style={{ marginRight: '10px' }}
             text="Students"
             link="/apply/students"
           />

@@ -1,7 +1,6 @@
-import { Container, Row, Col, Card } from "reactstrap";
-import ActionButton from "../actionButton";
-import { ImagePathConversion } from "../../data/helper";
-import TeamMemberIcon from "../memberIcon";
+import { Container, Row, Col } from 'reactstrap';
+import ActionButton from '../actionButton';
+import TeamMemberIcon from '../memberIcon';
 
 const ProjectTeam = ({ team }) => (
   <section className="project-team">
@@ -13,11 +12,11 @@ const ProjectTeam = ({ team }) => (
       </Row>
 
       <Row>
-        {team.type === "no-pic" ? (
+        {team.type === 'no-pic' ? (
           <div className="text-center">
             <Row>
               <Col />
-              {team.detail.pm.map(productManager => {
+              {team.detail.pm.map((productManager) => {
                 return (
                   <TeamMemberIcon
                     nopic
@@ -32,29 +31,31 @@ const ProjectTeam = ({ team }) => (
               <Col md="12">
                 <div className="text-center">
                   <p className="text-center">
-                    <b> Developers: </b>{" "}
-                    {team.detail.swe.map(function(swe, index) {
-                      if (index === team.detail.swe.length - 1) {
-                        return <>{swe} </>;
-                      } else {
-                        return <>{swe}, </>;
-                      }
-                    })}
+                    <b> Developers: </b> {team.detail.swe.join(', ')}
+                  </p>
+                </div>
+              </Col>
+            </Row>
+            <Row style={{ marginTop: '20px' }}>
+              <Col md="12">
+                <div className="text-center">
+                  <p className="text-center">
+                    <b> UI/UX Design: </b> {team.detail.design.join(', ')}
                   </p>
                 </div>
               </Col>
             </Row>
           </div>
         ) : (
-          team.detail.map(member => (
+          team.detail.map((member) => (
             <TeamMemberIcon name={member.name} role={member.role} />
           ))
         )}
       </Row>
       <Row>
-        <div style={{ margin: "30px auto" }}>
+        <div style={{ margin: '30px auto' }}>
           <ActionButton
-            style={{ margin: "30px auto" }}
+            style={{ margin: '30px auto' }}
             white
             text="View Other Projects"
             link="/projects"

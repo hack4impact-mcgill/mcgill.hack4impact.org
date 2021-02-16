@@ -45,6 +45,7 @@ const team = {
       'Yi Fang Yuan',
       'Blanche Francheterre',
     ],
+    design: ['Sophearah Suy-Puth', 'Pauline Swen'],
   },
 };
 
