@@ -1,6 +1,6 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import Link from 'next/link';
 
 const Footer = () => (
   <section className="footer-section">
@@ -12,7 +12,7 @@ const Footer = () => (
           </div>
           <p>
             For all inquiries of partnership or sponsorship, please contact us
-            at{" "}
+            at{' '}
             <a href="mailto:hack4impact@mcgilleus.ca">
               hack4impact@mcgilleus.ca
             </a>
@@ -78,12 +78,12 @@ const Footer = () => (
     </Container>
     <style jsx>{`
       section {
-        background-color: #104a80;
+        background-color: #1f285f;
         min-height: 350px;
         padding-top: 70px !important;
       }
       .footer-section {
-        background-color: #104a80;
+        background-color: #1f285f;
         min-height: 350px;
         padding-top: 70px !important;
       }
