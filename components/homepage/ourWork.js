@@ -1,17 +1,16 @@
-import React from "react";
-import { Container, Row, Col, Button } from "reactstrap";
-import Link from "next/link";
-import { Spring, Trail } from "react-spring";
-import Section from "../section";
-import ProjectContainer from "../projectContainer";
-import ActionLink from "../actionLink";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import { Spring, Trail } from 'react-spring';
+import Section from '../section';
+import ProjectContainer from '../projectContainer';
+import ActionLink from '../actionLink';
 
 const items = [
   <ProjectContainer
-    title="Move Up"
-    subtitle="CRM tool for effective client data management"
-    image="url('/static/images/projects/moveup-crm/moveup_crm_problem.svg')"
-    link="/projects?name=moveup-crm"
+    title="Mu"
+    subtitle="Online interactive map to help Montreal residents easily find murals in the city"
+    image="url('/static/images/projects/mu-map/mu_map_solution.png')"
+    link="/projects?name=mu-map"
   />,
   <ProjectContainer
     title="Move Up"
@@ -24,7 +23,7 @@ const items = [
     subtitle="Mobile app and data visualization to help reduce food waste"
     image="url('/static/images/projects/mealcare/mealcare_problem_blue.svg')"
     link="/projects?name=mealcare"
-  />
+  />,
 ];
 
 const OurWorkSection = () => (
@@ -35,7 +34,7 @@ const OurWorkSection = () => (
         from={{ opacity: 0 }}
         to={{ opacity: 1 }}
       >
-        {props => (
+        {(props) => (
           <div style={props} id="our-work-title-box">
             <h2 className="title text-center">
               We believe in using tech for good.
@@ -55,12 +54,12 @@ const OurWorkSection = () => (
         <Row>
           <Trail
             items={items}
-            keys={item => item.key}
+            keys={(item) => item.key}
             config={{ delay: 1200 }}
-            from={{ opacity: 0, transform: "translate3d(0,200px,0)" }}
-            to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
+            from={{ opacity: 0, transform: 'translate3d(0,200px,0)' }}
+            to={{ opacity: 100, transform: 'translate3d(0,0px,0)' }}
           >
-            {item => props => (
+            {(item) => (props) => (
               <Col key={item.key} sm="4" style={props}>
                 {item}
               </Col>
@@ -68,7 +67,7 @@ const OurWorkSection = () => (
           </Trail>
         </Row>
       </div>
-      <Row style={{ paddingTop: "5px" }}>
+      <Row style={{ paddingTop: '5px' }}>
         <ActionLink text="View our other projects" link="/projects" />
       </Row>
     </Container>
