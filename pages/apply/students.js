@@ -1,13 +1,12 @@
-import { Container } from "reactstrap";
-import ApplicationProcess from "../../components/apply/applicationProcess";
-import Quote from "../../components/quote";
-import FAQ from "../../components/faq";
-import GradientBanner from "../../components/gradientBanner";
-import ErrorMessage from "../../components/errorMessage";
-import Head from "../../components/head";
-import Nav from "../../components/nav";
-import Footer from "../../components/footer";
-import data from "../../data/studentApplyData";
+import ApplicationProcess from '../../components/apply/applicationProcess';
+import Quote from '../../components/quote';
+import FAQ from '../../components/faq';
+import GradientBanner from '../../components/gradientBanner';
+import Head from '../../components/head';
+import Nav from '../../components/nav';
+import Footer from '../../components/footer';
+import data from '../../data/studentApplyData';
+
 const Students = () => (
   <div>
     <Head title="H4I Apply | Students" />

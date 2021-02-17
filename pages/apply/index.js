@@ -1,10 +1,9 @@
-import GradientBanner from "../../components/gradientBanner";
-import ActionButton from "../../components/actionButton";
-import Head from "../../components/head";
-import Nav from "../../components/nav";
-import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
-import Footer from "../../components/footer";
+import GradientBanner from '../../components/gradientBanner';
+import ActionButton from '../../components/actionButton';
+import Head from '../../components/head';
+import Nav from '../../components/nav';
+import { Container, Row, Col } from 'reactstrap';
+import Footer from '../../components/footer';
 
 const ApplyPage = () => (
   <>
@@ -19,9 +18,10 @@ const ApplyPage = () => (
               <div className="col-md-9 offset-md-2">
                 <h4 className="text-title">Students</h4>
                 <p>
-                  Want to apply your skills to benefit the community? Learn how
-                  you can build software products that has the potential to make
-                  an impact alongside a team of motivated and talented peers.
+                  Are you a McGill student wanting to apply your skills to
+                  benefit the community? Learn how you can build software
+                  products that has the potential to make an impact alongside a
+                  team of motivated and talented peers.
                 </p>
                 <ActionButton text="Apply" link="/apply/students" />
               </div>
