@@ -3,7 +3,7 @@ import Interview from '../static/icons/interview.svg';
 import Calendar from '../static/icons/calendar.svg';
 import Contract from '../static/icons/contract.svg';
 
-const applicationLink = 'https://www.facebook.com/hack4impactmcgill';
+const applicationLink = 'https://www.facebook.com/events/186853143401512/';
 
 const subHeadline =
   'Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.';

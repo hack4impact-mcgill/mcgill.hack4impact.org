@@ -8,36 +8,46 @@ export default {
       linkedin: 'https://linkedin.com/in/albertkragl',
     },
   ],
-  team: [
+  execs: [
     {
-      name: 'Yue Dai',
-      role: 'Co-Founder, VP Technology',
-      linkedin: 'https://www.linkedin.com/in/yue-dai-0531/',
-    },
-    {
-      name: 'Jad Hamdan',
-      role: 'VP Events',
-    },
-    {
-      name: 'Melissa Li',
-      role: 'VP Finance, Design Lead',
-    },
-    {
-      name: 'Madonna Huang',
-      role: 'VP Sponsorship',
-    },
-    {
-      name: 'Philip Tam',
-      role: 'VP External',
-    },
-    {
-      name: 'Nishat Prova',
-      role: 'VP Communications',
+      name: 'Colleen Chang',
+      role: 'Co-President',
     },
     {
       name: 'Zhi Rui Guo',
+      role: 'Co-President',
+      linkedin: 'https://www.linkedin.com/in/zhi-rui-guo/'
+    },
+    {
+      name: 'Carol Altimas',
+      role: 'VP Events',
+    },
+    {
+      name: 'William Zhang',
+      role: 'VP Technology'
+    },
+    {
+      name: 'Sophearah Suy-Puth',
+      role: 'VP Communications',
+    },
+    {
+      name: 'Sym Piracha',
+      role: 'VP Sponsorship',
+    },
+    {
+      name: 'Camilla Djamalov',
+      role: 'VP Finance',
+    },
+    {
+      name: 'Nicki Esfehani',
+      role: 'VP External'
+    },
+    {
+      name: 'Jerry Xia',
       role: 'VP Internal',
     },
+  ],
+  team: [
     {
       name: 'Celine Huang',
       role: 'Project Manager',
@@ -49,15 +59,7 @@ export default {
       linkedin: 'https://www.linkedin.com/in/ted-spare-4aa508134',
     },
     {
-      name: 'Jerry Xia',
-      role: 'UI/UX Designer',
-    },
-    {
       name: 'Pauline Swen',
-      role: 'UI/UX Designer',
-    },
-    {
-      name: 'Sophearah Suy-Puth',
       role: 'UI/UX Designer',
     },
     {
@@ -66,10 +68,6 @@ export default {
     },
     {
       name: 'Alice Kang',
-      role: 'Developer',
-    },
-    {
-      name: 'Carol Altimas',
       role: 'Developer',
     },
     {
@@ -109,10 +107,6 @@ export default {
       role: 'Developer',
     },
     {
-      name: 'Sym Piracha',
-      role: 'Developer',
-    },
-    {
       name: 'Tony Ou',
       role: 'Developer',
     },
@@ -130,6 +124,31 @@ export default {
     },
   ],
   alumni: [
+    {
+      name: 'Yue Dai',
+      role: 'Co-Founder, VP Technology',
+      linkedin: 'https://www.linkedin.com/in/yue-dai-0531/',
+    },
+    {
+      name: 'Jad Hamdan',
+      role: 'VP Events',
+    },
+    {
+      name: 'Melissa Li',
+      role: 'VP Finance, Design Lead',
+    },
+    {
+      name: 'Madonna Huang',
+      role: 'VP Sponsorship',
+    },
+    {
+      name: 'Philip Tam',
+      role: 'VP External',
+    },
+    {
+      name: 'Nishat Prova',
+      role: 'VP Communications',
+    },
     {
       name: 'Tyrone Wong',
       role: 'Co-Founder, Project Manager',

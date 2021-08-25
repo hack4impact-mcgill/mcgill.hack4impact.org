@@ -14,7 +14,7 @@ export default ({ directors }) => (
       <div className="mb-3 text-center">
         <Col md="12">
           <h4 className="text-title">
-            <em> Message from our President </em>
+            <em> Message from our Chapter Founder </em>
           </h4>
         </Col>
       </div>
