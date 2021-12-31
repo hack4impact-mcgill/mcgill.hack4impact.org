@@ -11,12 +11,8 @@ export default {
   execs: [
     {
       name: 'Colleen Chang',
-      role: 'Co-President',
-    },
-    {
-      name: 'Zhi Rui Guo',
-      role: 'Co-President',
-      linkedin: 'https://www.linkedin.com/in/zhi-rui-guo/'
+      role: 'President',
+      linkedin: 'https://www.linkedin.com/in/colleen-chang/'
     },
     {
       name: 'Carol Altimas',
@@ -28,11 +24,12 @@ export default {
     },
     {
       name: 'Sophearah Suy-Puth',
-      role: 'VP Communications',
+      role: 'VP Communications, Design Lead',
     },
     {
       name: 'Sym Piracha',
       role: 'VP Sponsorship',
+      linkedin: 'https://www.linkedin.com/in/sympiracha/'
     },
     {
       name: 'Camilla Djamalov',
@@ -49,49 +46,75 @@ export default {
   ],
   team: [
     {
-      name: 'Celine Huang',
-      role: 'Project Manager',
-      linkedin: 'https://www.linkedin.com/in/celinexhuang/',
+      name: 'Kathleen Younge',
+      role: 'PM'
     },
     {
-      name: 'Ted Spare',
-      role: 'Project Manager',
-      linkedin: 'https://www.linkedin.com/in/ted-spare-4aa508134',
+      name: 'Dylan Xu',
+      role: 'PM'
     },
     {
-      name: 'Pauline Swen',
-      role: 'UI/UX Designer',
+      name: 'Yufeng Peng',
+      role: 'PM'
     },
     {
-      name: 'Ahmad Ghawanmeh',
-      role: 'Developer',
+      name: 'Jocelyn Gervais',
+      role: 'Developer'
     },
     {
-      name: 'Alice Kang',
-      role: 'Developer',
+      name: 'Magnus Gao',
+      role: 'Developer'
     },
     {
-      name: 'Curtis Lin',
-      role: 'Developer',
+      name: 'Brian Hu',
+      role: 'Developer'
     },
     {
-      name: 'Declan Giltz',
-      role: 'Developer',
+      name: 'Nur Firzana Binti Mohamad Sadik',
+      role: 'Developer'
+    },
+    {
+      name: 'Yijia Jing',
+      role: 'Developer'
+    },
+    {
+      name: 'Tommy He',
+      role: 'Developer'
+    },
+    {
+      name: 'Mahroo Rahman',
+      role: 'Developer'
+    },
+    {
+      name: 'Saumyaa Verma',
+      role: 'Developer'
+    },
+    {
+      name: 'Aiyu Wang',
+      role: 'Developer'
+    },
+    {
+      name: 'Aria Rens',
+      role: 'Developer'
+    },
+    {
+      name: 'Duaa Memon',
+      role: 'UX Designer'
+    },
+    {
+      name: 'Yunjie Zhang',
+      role: 'UX Designer'
+    },
+    {
+      name: 'Ashley Lau',
+      role: 'UX Designer'
+    },
+    {
+      name: 'Alex Popian',
+      role: 'UX Designer'
     },
     {
       name: 'Gabriel Paquette',
-      role: 'Developer',
-    },
-    {
-      name: 'Geoffrey Kim',
-      role: 'Developer',
-    },
-    {
-      name: 'George Kandalaft',
-      role: 'Developer',
-    },
-    {
-      name: 'Jacek Dziewonski',
       role: 'Developer',
     },
     {
@@ -107,19 +130,11 @@ export default {
       role: 'Developer',
     },
     {
-      name: 'Tony Ou',
-      role: 'Developer',
-    },
-    {
-      name: 'Xin Rui Li',
-      role: 'Developer',
-    },
-    {
       name: 'Yi Fang Yuan',
       role: 'Developer',
     },
     {
-      name: 'ZhaoDong Wang',
+      name: 'Declan Giltz',
       role: 'Developer',
     },
   ],
@@ -174,6 +189,15 @@ export default {
       linkedin: 'https://www.linkedin.com/in/emma-eagles-69b9a4136/',
     },
     {
+      name: 'Zhi Rui Guo',
+      role: 'Co-President',
+      linkedin: 'https://www.linkedin.com/in/zhi-rui-guo/'
+    },
+    {
+      name: 'Yun Kai Peng',
+      role: 'Technical Mentor'
+    },
+    {
       name: 'Gwynette Labitoria',
       role: 'Developer',
     },
@@ -198,6 +222,56 @@ export default {
       name: 'Thomas Wright',
       role: 'Developer',
       linkedin: 'https://www.linkedin.com/in/thomas-wright-b29227141/',
+    },
+    {
+      name: 'Celine Huang',
+      role: 'Project Manager',
+      linkedin: 'https://www.linkedin.com/in/celinexhuang/',
+    },
+    {
+      name: 'Ted Spare',
+      role: 'Project Manager',
+      linkedin: 'https://www.linkedin.com/in/ted-spare-4aa508134',
+    },
+    {
+      name: 'Pauline Swen',
+      role: 'UI/UX Designer',
+    },
+    {
+      name: 'Ahmad Ghawanmeh',
+      role: 'Developer',
+    },
+    {
+      name: 'Alice Kang',
+      role: 'Developer',
+    },
+    {
+      name: 'Curtis Lin',
+      role: 'Developer',
+    },
+    {
+      name: 'Geoffrey Kim',
+      role: 'Developer',
+    },
+    {
+      name: 'George Kandalaft',
+      role: 'Developer',
+    },
+    {
+      name: 'Jacek Dziewonski',
+      role: 'Developer',
+    },
+    {
+      name: 'Tony Ou',
+      role: 'Developer',
+    },
+    {
+      name: 'Xin Rui Li',
+      role: 'Developer',
+    },
+    {
+      name: 'ZhaoDong Wang',
+      role: 'Developer',
     },
   ],
 };
