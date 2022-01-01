@@ -12,15 +12,18 @@ export default {
     {
       name: 'Colleen Chang',
       role: 'President',
-      linkedin: 'https://www.linkedin.com/in/colleen-chang/'
+      linkedin: 'https://www.linkedin.com/in/colleen-chang/',
+      nopic: false
     },
     {
       name: 'Carol Altimas',
       role: 'VP Events',
+      nopic: true
     },
     {
       name: 'William Zhang',
-      role: 'VP Technology'
+      role: 'VP Technology',
+      nopic: true
     },
     {
       name: 'Sophearah Suy-Puth',
@@ -34,10 +37,12 @@ export default {
     {
       name: 'Camilla Djamalov',
       role: 'VP Finance',
+      nopic: true
     },
     {
       name: 'Nicki Esfehani',
-      role: 'VP External'
+      role: 'VP External',
+      nopic: true
     },
     {
       name: 'Jerry Xia',
@@ -47,95 +52,115 @@ export default {
   team: [
     {
       name: 'Kathleen Younge',
-      role: 'PM'
+      role: 'PM',
+      nopic: true
     },
     {
       name: 'Dylan Xu',
-      role: 'PM'
+      role: 'PM',
+      nopic: true
     },
     {
       name: 'Yufeng Peng',
-      role: 'PM'
+      role: 'PM',
+      nopic: true
     },
     {
       name: 'Jocelyn Gervais',
-      role: 'Developer'
+      role: 'Developer',
+      nopic: true
     },
     {
       name: 'Magnus Gao',
-      role: 'Developer'
+      role: 'Developer',
+      nopic: true
     },
     {
       name: 'Brian Hu',
-      role: 'Developer'
+      role: 'Developer',
+      nopic: true
     },
     {
       name: 'Nur Firzana Binti Mohamad Sadik',
-      role: 'Developer'
+      role: 'Developer',
+      nopic: true
     },
     {
       name: 'Yijia Jing',
-      role: 'Developer'
+      role: 'Developer',
+      nopic: true
     },
     {
       name: 'Tommy He',
-      role: 'Developer'
+      role: 'Developer',
+      nopic: true
     },
     {
       name: 'Mahroo Rahman',
-      role: 'Developer'
+      role: 'Developer',
+      nopic: true
     },
     {
       name: 'Saumyaa Verma',
-      role: 'Developer'
+      role: 'Developer',
+      nopic: true
     },
     {
       name: 'Aiyu Wang',
-      role: 'Developer'
+      role: 'Developer',
+      nopic: true
     },
     {
       name: 'Aria Rens',
-      role: 'Developer'
+      role: 'Developer',
+      nopic: true
     },
     {
       name: 'Duaa Memon',
-      role: 'UX Designer'
+      role: 'UX Designer',
+      nopic: true
     },
     {
       name: 'Yunjie Zhang',
-      role: 'UX Designer'
+      role: 'UX Designer',
+      nopic: true
     },
     {
       name: 'Ashley Lau',
-      role: 'UX Designer'
+      role: 'UX Designer',
+      nopic: true
     },
     {
       name: 'Alex Popian',
-      role: 'UX Designer'
+      role: 'UX Designer',
+      nopic: true
     },
     {
       name: 'Gabriel Paquette',
       role: 'Developer',
+      nopic: true
     },
     {
       name: 'Lin Xiao Zheng',
-      role: 'Developer',
+      role: 'Developer'
     },
     {
       name: 'Peter Guanhua Rong',
       role: 'Developer',
+      nopic: true
     },
     {
       name: 'Sibo Yang',
       role: 'Developer',
+      nopic: true
     },
     {
       name: 'Yi Fang Yuan',
-      role: 'Developer',
+      role: 'Developer'
     },
     {
       name: 'Declan Giltz',
-      role: 'Developer',
+      role: 'Developer'
     },
   ],
   alumni: [
@@ -147,6 +172,7 @@ export default {
     {
       name: 'Jad Hamdan',
       role: 'VP Events',
+      nopic: true
     },
     {
       name: 'Melissa Li',
@@ -155,10 +181,12 @@ export default {
     {
       name: 'Madonna Huang',
       role: 'VP Sponsorship',
+      nopic: true
     },
     {
       name: 'Philip Tam',
       role: 'VP External',
+      nopic: true
     },
     {
       name: 'Nishat Prova',
@@ -172,11 +200,13 @@ export default {
     {
       name: 'Aidan Sullivan',
       role: 'Developer',
+      nopic: true,
       linkedin: 'https://www.linkedin.com/in/aidan-sullivan-1b282a126/',
     },
     {
       name: 'Alexander Asfar',
       role: 'Developer',
+      nopic: true,
     },
     {
       name: 'Ali Shobeiri',
@@ -195,11 +225,13 @@ export default {
     },
     {
       name: 'Yun Kai Peng',
-      role: 'Technical Mentor'
+      role: 'Technical Mentor',
+      nopic: true
     },
     {
       name: 'Gwynette Labitoria',
       role: 'Developer',
+      nopic: true,
     },
     {
       name: 'Hope Kelly',
@@ -209,19 +241,23 @@ export default {
     {
       name: 'Idil Ates',
       role: 'Project Manager',
+      nopic: true
     },
     {
       name: 'Kira Noel',
       role: 'Developer',
+      nopic: true,
     },
     {
       name: 'Michel Majdalani',
       role: 'Developer',
+      nopic: true,
     },
     {
       name: 'Thomas Wright',
       role: 'Developer',
       linkedin: 'https://www.linkedin.com/in/thomas-wright-b29227141/',
+      nopic: true,
     },
     {
       name: 'Celine Huang',
@@ -240,38 +276,47 @@ export default {
     {
       name: 'Ahmad Ghawanmeh',
       role: 'Developer',
+      nopic: true,
     },
     {
       name: 'Alice Kang',
       role: 'Developer',
+      nopic: true,
     },
     {
       name: 'Curtis Lin',
       role: 'Developer',
+      nopic: true,
     },
     {
       name: 'Geoffrey Kim',
       role: 'Developer',
+      nopic: true,
     },
     {
       name: 'George Kandalaft',
       role: 'Developer',
+      nopic: true,
     },
     {
       name: 'Jacek Dziewonski',
       role: 'Developer',
+      nopic: true,
     },
     {
       name: 'Tony Ou',
       role: 'Developer',
+      nopic: true,
     },
     {
       name: 'Xin Rui Li',
       role: 'Developer',
+      nopic: true,
     },
     {
       name: 'ZhaoDong Wang',
       role: 'Developer',
+      nopic: true,
     },
   ],
 };

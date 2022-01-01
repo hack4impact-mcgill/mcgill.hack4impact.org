@@ -7,7 +7,7 @@ const TeamMemberIcon = ({ name, role, linkedin, nopic }) => (
       <div className="text-center">
         <a href={linkedin !== undefined ? linkedin : null}>
           <img
-            src={ImagePathConversion(name)}
+            src={nopic ? ImagePathConversion('default') : ImagePathConversion(name)}
             className="rounded-circle img-fluid team-icon"
           />
         </a>

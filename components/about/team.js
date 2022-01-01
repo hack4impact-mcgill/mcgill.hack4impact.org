@@ -15,6 +15,7 @@ const TeamSection = () => (
             name={member.name}
             role={member.role}
             linkedin={member.linkedin}
+            nopic={member.nopic}
           />
         ))}
       </Row>
@@ -28,6 +29,7 @@ const TeamSection = () => (
             name={member.name}
             role={member.role}
             linkedin={member.linkedin}
+            nopic={member.nopic}
           />
         ))}
       </Row>
@@ -41,6 +43,7 @@ const TeamSection = () => (
             name={member.name}
             role={member.role}
             linkedin={member.linkedin}
+            nopic={member.nopic}
           />
         ))}
       </Row>

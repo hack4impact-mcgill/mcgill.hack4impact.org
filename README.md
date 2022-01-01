@@ -23,7 +23,9 @@ Each project page is under `/projects?name={project_id}`. Ex: `/projects?name=c2
 
 ### People Pictures
 
-Whenever you need to add a new member to the organization, whether to the `/about` or `/project` page, you would need to add a photo of them to the folder `/static/images/people/` and name it `{name}.jpg`. Ex: for `Timothy Ko`, `timothy_ko.jpg`. Fill in the spaces with `_`. Then, in any configuration file for their name, put in the name itself (`Timothy Ko`)
+Whenever you need to add a new member to the organization, whether to the `/about` or `/project` page, you would need to add a photo of them to the folder `/static/images/people/` and name it `{name}.jpg`. Ex: for `Timothy Ko`, `timothy_ko.jpg`. Fill in the spaces with `_`. Then, in any configuration file for their name, put in the name itself (`Timothy Ko`).
+
+If the new member prefers the default picture, be sure to add the field `nopic: true` in the member's data in `/data/teamData.js`.
 
 ### Project Data configuration
 
