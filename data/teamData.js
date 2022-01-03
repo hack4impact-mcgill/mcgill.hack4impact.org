@@ -12,13 +12,11 @@ export default {
     {
       name: 'Colleen Chang',
       role: 'President',
-      linkedin: 'https://www.linkedin.com/in/colleen-chang/',
-      nopic: false
+      linkedin: 'https://www.linkedin.com/in/colleen-chang/'
     },
     {
       name: 'Carol Altimas',
-      role: 'VP Events',
-      nopic: true
+      role: 'VP Events'
     },
     {
       name: 'William Zhang',
@@ -36,8 +34,7 @@ export default {
     },
     {
       name: 'Camilla Djamalov',
-      role: 'VP Finance',
-      nopic: true
+      role: 'VP Finance'
     },
     {
       name: 'Nicki Esfehani',
