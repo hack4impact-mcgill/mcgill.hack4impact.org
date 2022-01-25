@@ -69,33 +69,27 @@ export default {
     },
     {
       name: 'Magnus Gao',
-      role: 'Developer',
-      nopic: true
+      role: 'Developer'
     },
     {
       name: 'Brian Hu',
-      role: 'Developer',
-      nopic: true
+      role: 'Developer'
     },
     {
       name: 'Nur Firzana Binti Mohamad Sadik',
-      role: 'Developer',
-      nopic: true
+      role: 'Developer'
     },
     {
       name: 'Yijia Jing',
-      role: 'Developer',
-      nopic: true
+      role: 'Developer'
     },
     {
       name: 'Tommy He',
-      role: 'Developer',
-      nopic: true
+      role: 'Developer'
     },
     {
       name: 'Mahroo Rahman',
-      role: 'Developer',
-      nopic: true
+      role: 'Developer'
     },
     {
       name: 'Saumyaa Verma',
@@ -104,23 +98,19 @@ export default {
     },
     {
       name: 'Aiyu Wang',
-      role: 'Developer',
-      nopic: true
+      role: 'Developer'
     },
     {
       name: 'Aria Rens',
-      role: 'Developer',
-      nopic: true
+      role: 'Developer'
     },
     {
       name: 'Duaa Memon',
-      role: 'UX Designer',
-      nopic: true
+      role: 'UX Designer'
     },
     {
       name: 'Yunjie Zhang',
-      role: 'UX Designer',
-      nopic: true
+      role: 'UX Designer'
     },
     {
       name: 'Ashley Lau',
@@ -129,8 +119,7 @@ export default {
     },
     {
       name: 'Alex Popian',
-      role: 'UX Designer',
-      nopic: true
+      role: 'UX Designer'
     },
     {
       name: 'Gabriel Paquette',
