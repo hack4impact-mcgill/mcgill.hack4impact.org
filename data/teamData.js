@@ -123,8 +123,7 @@ export default {
     },
     {
       name: 'Gabriel Paquette',
-      role: 'Developer',
-      nopic: true
+      role: 'Developer'
     },
     {
       name: 'Lin Xiao Zheng',
@@ -132,8 +131,7 @@ export default {
     },
     {
       name: 'Peter Guanhua Rong',
-      role: 'Developer',
-      nopic: true
+      role: 'Developer'
     },
     {
       name: 'Sibo Yang',
