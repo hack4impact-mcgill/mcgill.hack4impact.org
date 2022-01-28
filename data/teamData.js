@@ -49,18 +49,15 @@ export default {
   team: [
     {
       name: 'Kathleen Younge',
-      role: 'PM',
-      nopic: true
+      role: 'PM'
     },
     {
       name: 'Dylan Xu',
-      role: 'PM',
-      nopic: true
+      role: 'PM'
     },
     {
       name: 'Yufeng Peng',
-      role: 'PM',
-      nopic: true
+      role: 'PM'
     },
     {
       name: 'Jocelyn Gervais',
@@ -93,8 +90,7 @@ export default {
     },
     {
       name: 'Saumyaa Verma',
-      role: 'Developer',
-      nopic: true
+      role: 'Developer'
     },
     {
       name: 'Aiyu Wang',
