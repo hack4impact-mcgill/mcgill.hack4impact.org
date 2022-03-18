@@ -11,8 +11,13 @@ export default {
   execs: [
     {
       name: 'Colleen Chang',
-      role: 'President',
+      role: 'Co-President',
       linkedin: 'https://www.linkedin.com/in/colleen-chang/'
+    },
+    {
+      name: 'Sym Piracha',
+      role: 'Co-President',
+      linkedin: 'https://www.linkedin.com/in/sympiracha/'
     },
     {
       name: 'Carol Altimas',
@@ -28,11 +33,6 @@ export default {
       role: 'VP Communications, Design Lead',
     },
     {
-      name: 'Sym Piracha',
-      role: 'VP Sponsorship',
-      linkedin: 'https://www.linkedin.com/in/sympiracha/'
-    },
-    {
       name: 'Camilla Djamalov',
       role: 'VP Finance'
     },
@@ -45,6 +45,10 @@ export default {
       name: 'Jerry Xia',
       role: 'VP Internal',
     },
+    {
+      name: 'Saad Shahbaz',
+      role: 'VP Sponsorship'
+    }
   ],
   team: [
     {
