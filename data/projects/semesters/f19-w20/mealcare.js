@@ -40,7 +40,8 @@ const team = {
       "Robin Leman",
       "ZhaoDong Wang",
       "Zhi Rui Guo"
-    ]
+    ],
+    design: ['Neroli Ko']
   }
 };
 

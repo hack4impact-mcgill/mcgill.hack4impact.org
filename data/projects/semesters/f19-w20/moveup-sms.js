@@ -31,6 +31,7 @@ const team = {
   detail: {
     pm: ['Albert Kragl'],
     swe: ['Kira Noel', 'Madonna Huang', 'Tom Wright', 'Xin Rui Li'],
+    design: ['N/A'],
   },
 };
 

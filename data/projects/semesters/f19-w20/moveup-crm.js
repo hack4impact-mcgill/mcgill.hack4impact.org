@@ -42,6 +42,7 @@ const team = {
       'Michel Majdalani',
       'Ted Spare',
     ],
+    design: ['N/A'],
   },
 };
 
