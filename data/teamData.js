@@ -10,75 +10,67 @@ export default {
   ],
   execs: [
     {
-      name: 'Colleen Chang',
-      role: 'Co-President',
-      linkedin: 'https://www.linkedin.com/in/colleen-chang/'
-    },
-    {
       name: 'Sym Piracha',
       role: 'Co-President',
       linkedin: 'https://www.linkedin.com/in/sympiracha/'
     },
     {
-      name: 'Carol Altimas',
-      role: 'VP Events'
-    },
-    {
-      name: 'William Zhang',
-      role: 'VP Technology',
-      nopic: true
-    },
-    {
       name: 'Sophearah Suy-Puth',
-      role: 'VP Communications, Design Lead',
-    },
-    {
-      name: 'Camilla Djamalov',
-      role: 'VP Finance'
+      role: 'Co-President',
+      linkedin: 'https://www.linkedin.com/in/sophearah-suy-puth/'
     },
     {
       name: 'Nicki Esfehani',
       role: 'VP External',
+      linkedin: 'https://www.linkedin.com/in/nicki-esfehani/',
       nopic: true
     },
     {
-      name: 'Jerry Xia',
-      role: 'VP Internal',
+      name: 'Saad Shahbaz',
+      linkedin: 'https://www.linkedin.com/in/saadshahbaz/',
+      role: 'VP Finance'
     },
     {
-      name: 'Saad Shahbaz',
-      role: 'VP Sponsorship'
-    }
+      name: 'Gabriel Paquette',
+      linkedin: 'https://www.linkedin.com/in/gabriel-p-paquette/',
+      role: 'VP Events'
+    },
+    {
+      name: 'Peter Guanhua Rong',
+      linkedin: 'https://www.linkedin.com/in/guanhua-peter-rong/',
+      role: 'VP Technology'
+    },
   ],
   team: [
     {
       name: 'Kathleen Younge',
+      linkedin: 'https://www.linkedin.com/in/kathleen-younge-777908174/',
       role: 'PM'
     },
     {
       name: 'Dylan Xu',
+      linkedin: 'https://www.linkedin.com/in/yizhou-dylan-xu/',
       role: 'PM'
     },
     {
       name: 'Yufeng Peng',
+      linkedin: 'https://www.linkedin.com/in/yufeng-peng/',
       role: 'PM'
     },
     {
-      name: 'Jocelyn Gervais',
-      role: 'Developer',
-      nopic: true
+      name: 'Camilla Djamalov',
+      linkedin: 'https://www.linkedin.com/in/camilla-djamalov/',
+      role: 'PM'
     },
     {
       name: 'Magnus Gao',
-      role: 'Developer'
+      linkedin: 'https://www.linkedin.com/in/m-m-gao/',
+      role: 'Tech Lead'
     },
     {
       name: 'Brian Hu',
-      role: 'Developer'
-    },
-    {
-      name: 'Nur Firzana Binti Mohamad Sadik',
-      role: 'Developer'
+      linkedin: 'https://www.linkedin.com/in/briannhu/',
+      role: 'Tech Lead'
     },
     {
       name: 'Yijia Jing',
@@ -86,66 +78,50 @@ export default {
     },
     {
       name: 'Tommy He',
+      linkedin: 'https://www.linkedin.com/in/tommyhe6/',
       role: 'Developer'
     },
     {
       name: 'Mahroo Rahman',
+      linkedin: 'https://www.linkedin.com/in/mahroo-rahman/',
       role: 'Developer'
     },
     {
       name: 'Saumyaa Verma',
+      linkedin: 'https://www.linkedin.com/in/saumyaa-verma/',
       role: 'Developer'
     },
     {
       name: 'Aiyu Wang',
+      linkedin: 'https://www.linkedin.com/in/aiyu-wang/',
       role: 'Developer'
     },
     {
       name: 'Aria Rens',
+      linkedin: 'https://www.linkedin.com/in/aria-rens/',
       role: 'Developer'
     },
     {
       name: 'Duaa Memon',
+      linkedin: 'https://www.linkedin.com/in/duaa-memon-3316b51b8/',
       role: 'UX Designer'
-    },
-    {
-      name: 'Yunjie Zhang',
-      role: 'UX Designer'
-    },
-    {
-      name: 'Ashley Lau',
-      role: 'UX Designer',
-      nopic: true
     },
     {
       name: 'Alex Popian',
+      linkedin: 'https://www.linkedin.com/in/alexandru-popian/',
       role: 'UX Designer'
     },
     {
-      name: 'Gabriel Paquette',
-      role: 'Developer'
-    },
-    {
       name: 'Lin Xiao Zheng',
-      role: 'Developer'
-    },
-    {
-      name: 'Peter Guanhua Rong',
+      linkedin: 'https://www.linkedin.com/in/lin-xiao-z-339430180/',
       role: 'Developer'
     },
     {
       name: 'Sibo Yang',
       role: 'Developer',
+      linkedin: 'https://www.linkedin.com/in/sibo-yang-042b92194/',
       nopic: true
-    },
-    {
-      name: 'Yi Fang Yuan',
-      role: 'Developer'
-    },
-    {
-      name: 'Declan Giltz',
-      role: 'Developer'
-    },
+    }
   ],
   alumni: [
     {
@@ -301,6 +277,66 @@ export default {
       name: 'ZhaoDong Wang',
       role: 'Developer',
       nopic: true,
+    },
+    {
+      name: 'Colleen Chang',
+      role: 'Co-President',
+      linkedin: 'https://www.linkedin.com/in/colleen-chang/'
+    },
+    {
+      name: 'Carol Altimas',
+      role: 'VP Events'
+    },
+    {
+      name: 'William Zhang',
+      role: 'VP Technology',
+      nopic: true
+    },
+    {
+      name: 'Jerry Xia',
+      role: 'VP Internal',
+    },
+    {
+      name: 'Firzana Sadik',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Yunjie Zhang',
+      role: 'UX Designer'
+    },
+    {
+      name: 'Jocelyn Gervais',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Yi Fang Yuan',
+      role: 'Developer'
+    },
+    {
+      name: 'Declan Giltz',
+      role: 'Developer'
+    },
+    {
+      name: 'Robin Leman',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Blanche Francheterre',
+      role: 'Developer',
+      nopic: true,
+    },
+    {
+      name: 'Elodie Ithier',
+      role: 'PM',
+      nopic: true,
+    },
+    {
+      name: 'Ashley Lau',
+      role: 'UX Designer',
+      nopic: true
     },
   ],
 };
