@@ -7,7 +7,7 @@ export default () => (
     <Container>
       <Row>
         <h1 className="section-title center" style={{ marginBottom: "50px" }}>
-          Our Sponsors
+          Our Past Sponsors
         </h1>
       </Row>
       <div className="sponsor-row">
