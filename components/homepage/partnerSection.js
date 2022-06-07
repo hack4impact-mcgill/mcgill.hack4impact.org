@@ -7,7 +7,7 @@ export default () => (
     <Container>
       <Row>
         <h1 className="section-title center" style={{ marginBottom: "50px" }}>
-          Our Sponsors
+          Our Past Sponsors
         </h1>
       </Row>
       <div className="sponsor-row">
@@ -31,7 +31,7 @@ export default () => (
           <a
             className={"link"}
             style={{ color: "#1f285f" }}
-            href="mailto:vpsponsorship.hack4impact@mcgilleus.ca"
+            href="mailto:finance.hack4impact@ssmu.ca"
           >
             Partner With Us
           </a>
