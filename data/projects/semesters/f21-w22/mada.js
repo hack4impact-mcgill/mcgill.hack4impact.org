@@ -9,10 +9,11 @@ const previousLink = null;
 const clientFeatures = null;
 const problem = 'MADA needs a more efficient method of communicating with volunteers what meals to deliver and when.';
 const problemImagePath = '/static/images/projects/mada/mada-problem.jpg';
-const solution = "We're working with MADA to create a mobile application to communicate each volunteers availability and organize meal delivery.";
+const solution = "We are working with MADA to create a CRM tool that allows MADA employees to monitor volunteers availability and organize meal delivery.";
 const solutionImagePath = '/static/images/projects/mada/mada-solution.png';
 const features = null;
 const techStack = [
+  'postgres',
   'flask',
   'react',
 ];

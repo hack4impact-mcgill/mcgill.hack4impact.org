@@ -2,7 +2,7 @@ const name = 'MealCare Revamp';
 const id = 'mealcare-revamp';
 const detail = "A revamped mobile app to help volunteers track food waste and a data backend for in-depth data analysis.";
 const coverImagePath = "/static/images/projects/mealcare/mealcare_problem_blue.svg";
-const clientDetail = 'MealCare is a student-founded non-profit dedicated to reducing food waste and food insecurity across Canadian communities.';
+const clientDetail = 'MealCare is a student-founded non-profit dedicated to reducing food waste and food insecurity across Canadian communities. This is done through volunteers who transport excess food from restaurants to homeless shelters and soup kitchens.';
 const clientLink = 'https://www.mealcare.org/';
 const previousLink = null;
 const clientFeatures = null;
@@ -13,6 +13,7 @@ const solutionImagePath = '/static/images/projects/mealcare-revamp/mealcare_solu
 const features = null;
 const techStack = [
   'postgres',
+  'fastapi',
   'react',
 ];
 const quote = null;
@@ -25,7 +26,7 @@ const projectLink = null;
 const team = {
   type: 'no-pic',
   detail: {
-    pm: ['Elodie Ithier', 'Dylan Xu'],
+    pm: ['Elodie Ithier', 'Dylan Xu', 'Yufeng Peng'],
     swe: [
       'Magnus Gao',
       'Yijia Jing',
