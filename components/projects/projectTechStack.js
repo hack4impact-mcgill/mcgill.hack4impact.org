@@ -118,6 +118,11 @@ const techStackMasterList = {
     title: 'Mapbox',
     imgPath: '/static/images/techStack/mapbox.png',
   },
+  fastapi: {
+    link: 'https://fastapi.tiangolo.com/',
+    title: 'FastAPI',
+    imgPath: '/static/images/techStack/fastapi.png'
+  }
 };
 
 const ProjectTechStack = ({ techStack }) =>
