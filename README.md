@@ -1,6 +1,6 @@
 # McGill Chapter Website - mcgill.hack4impact.org
 
-Hack4Impact McGill is a student initiative that pairs students with non-profit organizations to develop socially impactful technical projects. Every year, Hack4Impact McGill takes on several new projects with a variety of non-profits, and our members (consisting of student project managers, UI & UX designers and developers) get to implement them from scratch over the course of 1-2 semesters. Students get to apply their skills by working on real-world projects that make a real impact and non-profits technical solutions helping them work more effectively.
+Hack4Impact McGill is a student initiative that pairs students with non-profit organizations to develop socially impactful technical projects. Every year, Hack4Impact McGill takes on several new projects with a variety of non-profits, and our members (consisting of student project managers, UI & UX designers and developers) get to implement them from scratch over the course of 1-2 semesters. Students get to apply their skills by working on real-world projects that make a real impact and non-profits get technical solutions helping them work more effectively.
 
 Based on the [UIUC Chapter Website](https://github.com/hack4impact-uiuc/uiuc.hack4impact.org).
 
