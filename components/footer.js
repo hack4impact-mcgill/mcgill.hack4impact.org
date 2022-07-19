@@ -13,7 +13,7 @@ const Footer = () => (
           <p>
             For all inquiries of partnership or sponsorship, please contact us
             at{' '}
-            <a href="mailto:president.hack4impact@ssmu.ca">
+            <a href="mailto:hack4impact@ssmu.ca">
             president.hack4impact@ssmu.ca
             </a>
             .
@@ -50,7 +50,7 @@ const Footer = () => (
               <a href="https://github.com/hack4impact-mcgill">Github</a>
             </li>
             <li>
-              <a href="mailto:president.hack4impact@ssmu.ca">Email</a>
+              <a href="mailto:hack4impact@ssmu.ca">Email</a>
             </li>
           </ul>
         </div>
