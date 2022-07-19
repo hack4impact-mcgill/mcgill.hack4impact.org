@@ -14,7 +14,7 @@ const Footer = () => (
             For all inquiries of partnership or sponsorship, please contact us
             at{' '}
             <a href="mailto:hack4impact@ssmu.ca">
-            president.hack4impact@ssmu.ca
+            hack4impact@ssmu.ca
             </a>
             .
           </p>
