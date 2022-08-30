@@ -40,6 +40,11 @@ export default {
       linkedin: 'https://www.linkedin.com/in/guanhua-peter-rong/',
       role: 'VP Technology'
     },
+    {
+      name: 'Duaa Memon',
+      linkedin: 'https://www.linkedin.com/in/duaa-memon-3316b51b8/',
+      role: 'VP Design'
+    },
   ],
   team: [
     {
@@ -100,11 +105,6 @@ export default {
       name: 'Aria Rens',
       linkedin: 'https://www.linkedin.com/in/aria-rens/',
       role: 'Developer'
-    },
-    {
-      name: 'Duaa Memon',
-      linkedin: 'https://www.linkedin.com/in/duaa-memon-3316b51b8/',
-      role: 'UX Designer'
     },
     {
       name: 'Alex Popian',
