@@ -7,25 +7,38 @@ export default () => (
     <Container>
       <Row>
         <h1 className="section-title center" style={{ marginBottom: "50px" }}>
-          Our Past Sponsors
+          Our Sponsors
         </h1>
       </Row>
-      <div className="sponsor-row">
-        <a href="https://deloitte.com/" alt="Deloitte">
+      <div className="sponsor-row center" style={{ marginBottom: "50px" }}>
+        <a href="https://www.coveo.com" alt="Deloitte">
           <img
-            height="75"
-            src="/static/images/sponsors/deloitte.svg"
-            className="center"
-          />
-        </a>
-        <a href="https://www.morganstanley.com/" alt="Morgan Stanley">
-          <img
-            height="95"
-            src="/static/images/sponsors/morgan_stanley.svg"
-            className="center"
+            height="170"
+            src="/static/images/sponsors/Coveo.jpg"
           />
         </a>
       </div>
+      <Row>
+        <h3 className="center" style={{ marginBottom: "50px" }}>
+          Our Past Sponsors
+        </h3>
+      </Row>
+      <Row>
+        <div className="sponsor-row center">
+          <a href="https://deloitte.com/" alt="Deloitte">
+            <img
+              height="25"
+              src="/static/images/sponsors/deloitte.svg"
+            />
+          </a>
+          <a href="https://www.morganstanley.com/" alt="Morgan Stanley">
+            <img
+              height="30"
+              src="/static/images/sponsors/morgan_stanley.svg"
+            />
+          </a>
+        </div>
+      </Row>
       <Row>
         <div className="center partner-button">
           <a
@@ -55,7 +68,7 @@ export default () => (
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding-left: 65px;
+        width: 400px;
       }
       .link {
         font-weight: 400;
