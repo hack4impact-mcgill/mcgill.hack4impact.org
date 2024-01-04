@@ -31,7 +31,7 @@ const ClientFeatures = ({ features }) =>
         .client-feature-box {
           margin: auto 60px;
           margin-top: 60px;
-          font-family: "Chivo", sans-serif;
+          font-family: "Hanken Grotesk", sans-serif;
         }
         .feature-detail {
           font-size: 1.4rem;

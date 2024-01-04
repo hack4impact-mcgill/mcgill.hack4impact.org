@@ -20,7 +20,7 @@ const OutlineButton = ({ text, link, style }) => (
       }
 
       button a {
-        font-family: "Chivo", sans-serif;
+        font-family: "Hanken Grotesk", sans-serif;
         font-weight: 100;
         font-size: 14px;
         color: white !important;

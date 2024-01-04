@@ -21,7 +21,7 @@ const Footer = () => (
         </Col>
         <div className="col-md-1" />
         <div className="col-md-2 ">
-          <h4>ORGANIZATION</h4>
+          <h4>ABOUT US</h4>
           <ul>
             <li>
               <Link href="/about">
@@ -41,13 +41,19 @@ const Footer = () => (
           </ul>
         </div>
         <div className="col-md-2">
-          <h4>EXTRAS</h4>
+          <h4>CONNECT</h4>
           <ul>
             <li>
               <a href="https://www.facebook.com/hack4impactmcgill/">Facebook</a>
             </li>
             <li>
+              <a href="https://www.instagram.com/hack4impactmcgill/">Instagram</a>
+            </li>
+            <li>
               <a href="https://github.com/hack4impact-mcgill">Github</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/hack4impact-mcgill">LinkedIn</a>
             </li>
             <li>
               <a href="mailto:hack4impact@ssmu.ca">Email</a>

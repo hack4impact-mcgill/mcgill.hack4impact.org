@@ -11,9 +11,9 @@ const projectAppExample =
   "https://docs.google.com/document/d/1SGG7gxu8lgWMOhxIULMSUZQa-4p0bLwrwDl4SAZW2lE/edit";
 
 // constants for dates
-const applicationDueDate = "January 16, 2019";
-const currentSemester = "Spring 2019";
-const nextSemester = "Fall 2019";
+const applicationDueDate = "";
+const currentSemester = "Spring 2024";
+const nextSemester = "Fall 2024";
 
 /*
 what's exported
@@ -36,7 +36,7 @@ export default {
           <br />
           This <a href={interestFormLink}> form </a>
           is open throughout the year and shoot us an
-          <a href="mailto:hack4impact@mcgilleus.ca"> email</a> after you've
+          <a href="mailto:hack4impact@ssmu.ca"> email</a> after you've
           submitted it!
           <ActionButton
             style={{ display: "block", marginTop: "10px" }}
@@ -74,7 +74,7 @@ export default {
         </>
       ),
       icon: <Contract />,
-      date: applicationDueDate
+      // date: applicationDueDate
     }
   ],
   quote: {
