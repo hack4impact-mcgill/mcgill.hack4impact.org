@@ -6,6 +6,11 @@ body {
   letter-spacing: 0.3px;
   background: #445261;
 }
+
+strong, li {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
 .container {
   max-width: 1000px !important;
 }

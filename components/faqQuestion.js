@@ -36,6 +36,7 @@ class FaqQuestion extends React.Component {
             border-bottom: 1px solid #e9ecef;
           }
           .question {
+            font-family: "Hanken Grotesk", sans-serif;
             display: flex;
             -webkit-box-align: center;
             align-items: center;
