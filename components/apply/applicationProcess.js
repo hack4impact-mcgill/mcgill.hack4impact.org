@@ -16,7 +16,7 @@ const ApplicationProcess = ({ closed, processes, closedText, titleDetail }) => (
       <Row>
         <div className="col-md-12">
           <p className="text-center">{titleDetail}</p>
-          {closed && closedText}
+          <p>{closed && closedText}</p>
         </div>
       </Row>
 

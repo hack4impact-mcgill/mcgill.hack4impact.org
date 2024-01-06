@@ -7,7 +7,7 @@ body {
   background: #445261;
 }
 
-strong, li {
+* {
   font-family: "Hanken Grotesk", sans-serif;
 }
 
