@@ -130,7 +130,7 @@ const ProjectTechStack = ({ techStack }) =>
     <></>
   ) : (
     <>
-      <section className="tech-stack" style={{ padding: '0'}}>
+      <section className="tech-stack" style={{ padding: '0' }}>
         <Row>
           <div className="col-md-12">
             <div className="text-left">

@@ -11,7 +11,7 @@ const SemesterProjectList = () => (
         </Row>
         <Row style={{ marginBottom: `${idx !== projectData.length - 1 ? '35px' : '0px'}` }}>
           {semester.projects.map((project) => (
-            <Col md="4" sm="6" style={{ marginBottom: '25px'}}>
+            <Col md="4" sm="6" style={{ marginBottom: '25px' }}>
               <ProjectCards
                 title={project.name}
                 imgPath={project.coverImagePath}
