@@ -130,11 +130,11 @@ const ProjectTechStack = ({ techStack }) =>
     <></>
   ) : (
     <>
-      <section className="tech-stack margin-sm-all">
+      <section className="tech-stack" style={{ padding: '0'}}>
         <Row>
           <div className="col-md-12">
             <div className="text-left">
-              <h5 className="project-detail-title"> Tech Stack </h5>
+              <h5 className="project-detail-title mb-5"> Tech Stack </h5>
             </div>
           </div>
         </Row>
@@ -160,9 +160,6 @@ const ProjectTechStack = ({ techStack }) =>
         </div>
       </section>
       <style jsx>{`
-        .tech-stack {
-          margin-top: 20px;
-        }
         .tech-stack div {
           display: flex;
           justify-content: left;

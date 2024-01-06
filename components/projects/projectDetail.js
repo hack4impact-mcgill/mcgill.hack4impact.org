@@ -8,10 +8,10 @@ const ProjectDetail = ({ project }) => (
       <Row>
         <Col md="6">
           <Card className="border-0">
-            <h5 className="card-title text-center project-detail-title">
+            <h5 className="card-title text-start project-detail-title">
               Problem
             </h5>
-            <div className="text-center mt-3 img-holder">
+            <div className="text-start mt-3 img-holder">
               <img
                 src={project.problemImagePath}
                 className="card-img-top light-shadow"
@@ -23,10 +23,10 @@ const ProjectDetail = ({ project }) => (
 
         <Col md="6">
           <Card className="border-0">
-            <h5 className="card-title text-center project-detail-title">
+            <h5 className="card-title text-start project-detail-title">
               Solution
             </h5>
-            <div className="text-center mt-3 img-holder">
+            <div className="text-start mt-3 img-holder">
               <img
                 src={project.solutionImagePath}
                 className="card-img-top light-shadow"
@@ -37,13 +37,13 @@ const ProjectDetail = ({ project }) => (
         </Col>
         <Row>
           <Col md="6">
-            <div className="card-body">
-              <p className="card-text text-center">{project.problem}</p>
+            <div className="card-body" style={{ paddingLeft: '0'}}>
+              <p className="card-text text-start">{project.problem}</p>
             </div>
           </Col>
           <Col md="6">
-            <div className="card-body">
-              <p className="card-text text-center">{project.solution}</p>
+            <div className="card-body" style={{ paddingLeft: '0'}}>
+              <p className="card-text text-start">{project.solution}</p>
             </div>
           </Col>
         </Row>
