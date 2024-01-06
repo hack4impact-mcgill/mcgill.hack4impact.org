@@ -130,15 +130,15 @@ const ProjectTechStack = ({ techStack }) =>
     <></>
   ) : (
     <>
-      <div className="tech-stack margin-sm-all">
+      <section className="tech-stack margin-sm-all">
         <Row>
           <div className="col-md-12">
-            <div className="text-center">
+            <div className="text-left">
               <h5 className="project-detail-title"> Tech Stack </h5>
             </div>
           </div>
         </Row>
-        <div className="center" style={{ margin: 'auto' }}>
+        <div className="left" style={{ margin: 'auto' }}>
           {techStack.map((tech) => (
             <Col md="2" xs="6">
               <Card className="border-0">
@@ -158,16 +158,15 @@ const ProjectTechStack = ({ techStack }) =>
             </Col>
           ))}
         </div>
-      </div>
+      </section>
       <style jsx>{`
         .tech-stack {
           margin-top: 20px;
         }
         .tech-stack div {
-          padding: 5px;
           display: flex;
-          justify-content: center;
-          text-align: center;
+          justify-content: left;
+          text-align: left;
         }
         .tech-stack-link {
           color: #155da1;
@@ -175,6 +174,12 @@ const ProjectTechStack = ({ techStack }) =>
         .tech-stack-img:hover {
           box-shadow: 0 5px 30px rgba(44, 62, 80, 0.1);
         }
+        @media only screen and (max-width: 640px) {
+          .tech-stack div {
+            flex-direction: column;
+          }
+        }
+        
       `}</style>
     </>
   );

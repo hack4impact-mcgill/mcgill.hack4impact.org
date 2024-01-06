@@ -12,7 +12,7 @@ const TeamMemberIcon = ({ name, role, linkedin, nopic }) => (
 
     <div className="card-body">
       <p className="text-left">
-        <b className="text-bold"> {name} </b> <br /> {role}{" "}
+        <b className="text-bold text-18px"> {name} </b> <br /> {role}{" "}
         {linkedin !== undefined ? (
           <a href={linkedin}>
             {" "}
