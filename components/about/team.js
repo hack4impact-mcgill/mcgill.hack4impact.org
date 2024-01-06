@@ -20,7 +20,7 @@ const TeamSection = () => (
         ))}
       </Row>
       <div className="p-5 m-3">
-        <h2 className="center"> Developers | Designers | PMs </h2>
+        <h2 className="center"> Developers, Designers, & PMs </h2>
       </div>
       <Row>
         {TeamData.team.map(member => (

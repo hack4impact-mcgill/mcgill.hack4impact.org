@@ -36,8 +36,8 @@ const ActionButton = ({ link, text, style, white, onClick }) => (
         color: white;
       }
       .styled-btn {
-        font-family: 'Chivo', sans-serif;
-        font-weight: 100;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-weight: 400;
         font-size: 14px;
         text-decoration: none;
       }
@@ -58,6 +58,7 @@ const ActionButton = ({ link, text, style, white, onClick }) => (
       .styled-btn:hover {
         box-shadow: rgba(0, 0, 0, 0.12) 3px 5px 20px;
         transition: border 0.2s, background 0.2s, color 0.2s ease-out;
+        cursor: pointer;
       }
     `}</style>
   </>

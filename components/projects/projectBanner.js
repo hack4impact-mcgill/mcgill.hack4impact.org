@@ -64,7 +64,7 @@ const ProjectBanner = ({
         background: radial-gradient(white, #64ab8a);
         background-size: cover;
         background-attachment: fixed;
-        font-family: 'Chivo', sans-serif;
+        font-family: 'Hanken Grotesk', sans-serif;
         text-align: center;
       }
       .section-title-link {

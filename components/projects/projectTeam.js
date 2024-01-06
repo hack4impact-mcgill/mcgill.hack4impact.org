@@ -3,43 +3,39 @@ import ActionButton from '../actionButton';
 import TeamMemberIcon from '../memberIcon';
 
 const ProjectTeam = ({ team }) => (
-  <section className="project-team">
+  <section id="project-team">
     <Container>
       <Row>
         <Col md="12">
-          <h5 className="project-detail-title center mb-5"> Project Team </h5>
+          <h5 className="project-detail-title text-left mb-5"> Project Team </h5>
         </Col>
       </Row>
 
       <Row>
         {team.type === 'no-pic' ? (
-          <div className="text-center">
+          <div className="text-left">
             <Row>
-              <Col />
-              {team.detail.pm.map((productManager) => {
-                return (
-                  <TeamMemberIcon
-                    nopic
-                    name={productManager}
-                    role="Product Manager"
-                  />
-                );
-              })}
-              <Col />
+            <Col md="12">
+                <div className="text-left">
+                  <p className="text-left">
+                    <b> Project Managers: </b> {team.detail.pm.join(', ')}
+                  </p>
+                </div>
+              </Col>
             </Row>
             <Row>
               <Col md="12">
-                <div className="text-center">
-                  <p className="text-center">
+                <div className="text-left">
+                  <p className="text-left">
                     <b> Developers: </b> {team.detail.swe.join(', ')}
                   </p>
                 </div>
               </Col>
             </Row>
-            <Row style={{ marginTop: '20px' }}>
+            <Row>
               <Col md="12">
-                <div className="text-center">
-                  <p className="text-center">
+                <div className="text-left">
+                  <p className="text-left">
                     <b> UI/UX Design: </b> {team.detail.design.join(', ')}
                   </p>
                 </div>

@@ -72,10 +72,12 @@ const OurWorkSection = () => (
       </Row>
     </Container>
     <style jsx>{`
+      .title {
+        font-family: "Hanken Grotesk", sans-serif;
+      }
       .subtitle {
         padding-top: 10px;
         color: #5b5e6d;
-        letter-spacing: 1px;
       }
       #our-work-title-box {
         text-align: center;
@@ -83,8 +85,9 @@ const OurWorkSection = () => (
       }
       .project-showcase-box {
         padding: 10px 10px 5px 10px;
-      }
+      } 
       .link {
+        font-family: "Hanken Grotesk", sans-serif;
         font-weight: 400;
         line-height: 1.2;
         letter-spacing: normal;

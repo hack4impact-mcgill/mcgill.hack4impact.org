@@ -2,7 +2,7 @@
 Common Styling
 */
 body {
-    font-family: "Heebo",sans-serif;
+    font-family: "Hanken Grotesk",sans-serif;
     letter-spacing: .3px;
     background: #445261;
 }
@@ -26,7 +26,7 @@ section {
 
 p {
     font-weight: 400;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
     line-height: 1.5;
     
 }
@@ -44,20 +44,20 @@ p {
     font-size: 30px;
     margin-bottom: 25px;
     font-weight:400;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .text-title{
     font-size: 25px;
     margin-bottom: 25px;
     font-weight:500;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 .project-detail-title {
     font-size: 30px;
     margin-bottom: 25px;
     font-weight:550;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .btn {
@@ -228,7 +228,7 @@ h2 {
     margin: 1% 0 0 -7%;
 }
 .project-body-quote {
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .blockquote-fancy-cite {
@@ -247,7 +247,7 @@ h2 {
 }
 
 .blockquote-footer {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 @media (max-width:900px) {

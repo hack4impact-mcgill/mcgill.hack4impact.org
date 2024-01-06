@@ -2,18 +2,37 @@
 Common Styling
 */
 body {
-  font-family: "Heebo", sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
   letter-spacing: 0.3px;
   background: #445261;
 }
+
+* {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
 .container {
   max-width: 1000px !important;
+}
+
+.left {
+  text-align: left;
+  margin: auto;
 }
 
 .text-center {
   text-align: center;
   margin: 0 auto;
 }
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-18px {
+  font-size: 18px;
+}
+
 .center {
   text-align: center;
   margin: auto;
@@ -25,8 +44,9 @@ section {
 }
 
 p {
-  font-weight: 400;
-  font-family: "Heebo", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
   line-height: 1.5;
 }
 
@@ -43,20 +63,20 @@ p {
   font-size: 30px;
   margin-bottom: 25px;
   font-weight: 400;
-  font-family: "Chivo", sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 .text-title {
   font-size: 25px;
   margin-bottom: 25px;
   font-weight: 500;
-  font-family: "Chivo", sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 .project-detail-title {
   font-size: 30px;
   margin-bottom: 25px;
   font-weight: 550;
-  font-family: "Chivo", sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 .btn {
@@ -81,7 +101,12 @@ a {
 }
 
 h2 {
+  font-family: "Hanken Grotesk", sans-serif;
   font-weight: 400;
+}
+
+h2.center {
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 .gray-subsection {
@@ -108,6 +133,7 @@ h2 {
 */
 #mainNav {
   background-color: #ffffff;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 #mainNav .navbar-toggler {
@@ -118,6 +144,7 @@ h2 {
   color: #1f285f;
   border: 0;
   background-color: #bfe6ec;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -126,6 +153,7 @@ h2 {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: #1f285f;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
@@ -227,7 +255,7 @@ h2 {
   margin: 1% 0 0 -7%;
 }
 .project-body-quote {
-  font-family: "Chivo", sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 .blockquote-fancy-cite {
@@ -246,7 +274,7 @@ h2 {
 }
 
 .blockquote-footer {
-  font-family: "Heebo", sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 @media (max-width: 900px) {

@@ -15,7 +15,7 @@ const Students = () => (
       color="#64ab8a"
       title={data.title}
       subHeadline={data.subHeadline}
-      buttonText="Apply Now"
+      buttonText="Applications Closed"
       buttonLink={data.applicationLink}
     />
     <ApplicationProcess

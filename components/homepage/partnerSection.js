@@ -71,6 +71,7 @@ export default () => (
         width: 400px;
       }
       .link {
+        font-family: "Hanken Grotesk", sans-serif;
         font-weight: 400;
         line-height: 1.2;
         letter-spacing: normal;

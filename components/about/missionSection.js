@@ -43,8 +43,7 @@ const MissionSection = () => (
       .mission-body-text {
         color: #323648;
 
-        font-weight: 550;
-        letter-spacing: 0.6px;
+        font-weight: 500;
       }
     `}</style>
   </section>

@@ -97,7 +97,7 @@ const GradientBanner = ({
         font-size: 60px !important;
         font-weight: 600;
         color: #323648;
-        font-family: "Chivo", sans-serif;
+        font-family: "Hanken Grotesk", sans-serif;
       }
       .sub-headline {
         max-width: 100%;

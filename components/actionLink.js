@@ -6,6 +6,7 @@ const ActionLink = ({ link, text, style, passHref }) => (
       {text}
       <style jsx>{`
         .link {
+          font-family: "Hanken Grotesk", sans-serif;
           font-weight: 400;
           line-height: 1.2;
           letter-spacing: normal;
