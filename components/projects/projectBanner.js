@@ -7,18 +7,18 @@ const ProjectBanner = ({
   clientLink,
   githubLink,
   projectLink,
-  previousLink,
+  previousLink
 }) => (
   <>
-    <section className="project-page-banner">
-      <Container className="margin-sm-all">
+    <section className='project-page-banner'>
+      <Container className='margin-sm-all'>
         <Row>
-          <Col md="12">
-            <h1 className="project-title mb-4">
+          <Col md='12'>
+            <h1 className='project-title mb-4'>
               <a
-                className="section-title-link"
+                className='section-title-link'
                 href={clientLink}
-                target="_blank"
+                target='_blank'
               >
                 {title}
               </a>
@@ -27,28 +27,28 @@ const ProjectBanner = ({
         </Row>
 
         <Row>
-          <div className="col-md-8 offset-md-2">
-            <p className="project-subtitle">{clientDetail}</p>
+          <div className='col-md-8 offset-md-2'>
+            <p className='project-subtitle subtitle-text'>{clientDetail}</p>
           </div>
         </Row>
 
-        <Row className="text-center">
-          <Col md="12">
+        <Row className='text-center'>
+          <Col md='12'>
             {projectLink !== undefined && projectLink != null ? (
               <ActionButton
-                text="Final Product"
+                text='Final Product'
                 link={projectLink}
                 white
                 style={{ marginRight: '10px' }}
               />
             ) : null}
             {githubLink !== undefined && githubLink !== null ? (
-              <ActionButton text="View Code" link={githubLink} white />
+              <ActionButton text='View Code' link={githubLink} white />
             ) : null}
             {previousLink !== undefined && previousLink !== null ? (
-              <div className="previous-button">
+              <div className='previous-button'>
                 <ActionButton
-                  text="View Previous Project"
+                  text='View Previous Project'
                   link={previousLink}
                   white
                 />
@@ -78,7 +78,6 @@ const ProjectBanner = ({
         font-weight: 600;
       }
       .project-subtitle {
-        font-size: 18px;
         font-weight: 500;
       }
       .previous-button {

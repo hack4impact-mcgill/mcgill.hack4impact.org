@@ -1,32 +1,34 @@
-import { Collapse } from 'reactstrap';
-import React from 'react';
+import { Collapse } from "reactstrap";
+import React from "react";
 
 class FaqQuestion extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      collapse: false,
+      collapse: false
     };
   }
   toggle = () => {
     this.setState({
-      collapse: !this.state.collapse,
+      collapse: !this.state.collapse
     });
   };
   render() {
     const { question, answer } = this.props;
     return (
       <>
-        <div className="item">
+        <div className='item'>
           <div
-            className={`question ${this.state.collapse ? 'active' : ''}`}
+            className={`question ${this.state.collapse ? "active" : ""}`}
             onClick={this.toggle}
           >
             <a>{question}</a>
-            <a className="expand-sign">+</a>
+            <a className='expand-sign' style={{ fontFamily: "monospace" }}>
+              {this.state.collapse ? "–" : "+"}
+            </a>
           </div>
           <Collapse isOpen={this.state.collapse}>
-            <div className="answer">
+            <div className='answer'>
               <p>{answer}</p>
             </div>
           </Collapse>

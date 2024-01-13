@@ -1,44 +1,44 @@
-import React from 'react';
-import Interview from '../static/icons/interview.svg';
-import Calendar from '../static/icons/calendar.svg';
-import Contract from '../static/icons/contract.svg';
+import React from "react";
+import Interview from "../static/icons/interview.svg";
+import Calendar from "../static/icons/calendar.svg";
+import Contract from "../static/icons/contract.svg";
 
-const applicationLink = '#';
+const applicationLink = "#";
 
 const subHeadline =
-  'Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.';
+  "Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.";
 const quote = {
   text:
-    'A lot of classwork at McGill is super theoretical. The difference between industry and schoolwork is massive, and we want to help students bridge that gap. At Hack4Impact, you get to build a project from the ground up. Being exposed to building something from scratch is a great experience as a student.',
-  source: 'Albert Kragl',
-  sourceTitle: "'21",
+    "A lot of classwork at McGill is super theoretical. The difference between industry and schoolwork is massive, and we want to help students bridge that gap. At Hack4Impact, you get to build a project from the ground up. Being exposed to building something from scratch is a great experience as a student.",
+  source: "Albert Kragl",
+  sourceTitle: "'21"
 };
 
 const faq = [
   {
-    question: 'What is the general premise of Hack4Impact?',
+    question: "What is the general premise of Hack4Impact?",
     answer: (
       <>
         <p>
-          <i>Team:</i> Work on a team of 4-7 students led by a Product Manager{' '}
+          <i>Team:</i> Work on a team of 4-7 students led by a Product Manager{" "}
         </p>
         <p>
-          <i>Build: </i> Develop the product throughout 1-2 semesters{' '}
+          <i>Build: </i> Develop the product throughout 1-2 semesters{" "}
         </p>
         <p>
-          <i>Ship: </i> Deliver the final product to the nonprofit client!{' '}
+          <i>Ship: </i> Deliver the final product to the nonprofit client!{" "}
         </p>
         <p>
           <i>Community: </i> Join an organization with a strong focus on
-          mentorship and social community events{' '}
+          mentorship and social community events{" "}
         </p>
       </>
-    ),
+    )
   },
   {
-    question: 'Is extensive web development experience required?',
+    question: "Is extensive web development experience required?",
     answer:
-      'Nope! Mentorship is a core value of our organization so we are always looking to take less experienced developers as long as you are willing to put in the time and have the passion to learn. You will have a tight feedback loop with your project leads along with experienced members on your team to ensure your success and project’s success in order to benefit the nonprofit your team is working with.',
+      "Nope! Mentorship is a core value of our organization so we are always looking to take less experienced developers as long as you are willing to put in the time and have the passion to learn. You will have a tight feedback loop with your project leads along with experienced members on your team to ensure your success and project’s success in order to benefit the nonprofit your team is working with."
   },
   {
     question: "Why don't you accept more students?",
@@ -49,7 +49,7 @@ const faq = [
         <br />
         <ul>
           <li>
-            {' '}
+            {" "}
             We can’t work with all the non-profits in the world, because the
             quality of work and projects is just not scalable. We need to be
             incredibly selective with our leads because any risk of wasting 1-2
@@ -77,10 +77,10 @@ const faq = [
         Leads to take on more projects but maintain the high quality work we are
         know for.
       </>
-    ),
+    )
   },
   {
-    question: 'What are you looking for in new potential members?',
+    question: "What are you looking for in new potential members?",
     answer: (
       <>
         The one thing that we value most over everything else is your
@@ -88,15 +88,15 @@ const faq = [
         sure to take a wide variety of skill sets every semester. If you want to
         improve your skills, we strongly encourage you to apply!
       </>
-    ),
-  },
+    )
+  }
 ];
 
-const applicationDetail = '';
+const applicationDetail = "";
 
 const studentProcess = [
   {
-    title: 'Online Application',
+    title: "Online Application",
     detail: (
       <>
         <p>
@@ -107,10 +107,10 @@ const studentProcess = [
         </p>
       </>
     ),
-    icon: <Calendar />,
+    icon: <Calendar />
   },
   {
-    title: 'Takehome Challenge',
+    title: "Takehome Challenge",
     detail: (
       <>
         <p>
@@ -122,10 +122,10 @@ const studentProcess = [
         </p>
       </>
     ),
-    icon: <Contract />,
+    icon: <Contract />
   },
   {
-    title: 'Interview',
+    title: "Interview",
     detail: (
       <>
         <p>
@@ -136,31 +136,31 @@ const studentProcess = [
         </p>
       </>
     ),
-    icon: <Interview />,
-  },
+    icon: <Interview />
+  }
 ];
 
 const closedText = (
   <b>
-    Our applications open at the start of each Fall semester. Keep an
-    eye out on our{' '}
-    <a href="https://www.facebook.com/hack4impactmcgill" target="_blank">
+    Our applications open at the start of each Fall semester. Keep an eye out on
+    our{" "}
+    <a href='https://www.facebook.com/hack4impactmcgill' target='_blank'>
       Facebook
-    </a>{' '}
+    </a>{" "}
     or&nbsp;
-    <a href="https://www.instagram.com/hack4impactmcgill/" target="_blank">
+    <a href='https://www.instagram.com/hack4impactmcgill/' target='_blank'>
       Instagram
-    </a>{' '}
+    </a>{" "}
     to see when applications open!
   </b>
 );
 export default {
-  title: 'Students',
+  title: "Students",
   subHeadline,
   applicationLink,
   quote,
   faq,
   studentProcess,
   closedText,
-  applicationDetail,
+  applicationDetail
 };

@@ -1,21 +1,21 @@
 /*
   Mission Section holding the photo and our mission in the /about page
 */
-import { Container, Row, Col } from "reactstrap";
-import { Spring } from "react-spring";
+import { Container, Row, Col } from 'reactstrap';
+import { Spring } from 'react-spring';
 
 const MissionSection = () => (
-  <section className="mission-section">
+  <section className='mission-section'>
     <Container>
       <Row>
-        <Col md="12" className="text-center">
-          <h2 className="project-detail-title">Our Mission</h2>
+        <Col md='12' className='text-center'>
+          <h2 className='project-detail-title'>Our Mission</h2>
         </Col>
       </Row>
 
       <Row>
-        <Col md="12" className="text-center">
-          <p className="mission-body-text">
+        <Col md='12' className='text-center'>
+          <p className='mission-body-text subtitle-text'>
             Hack4Impact exists for both nonprofits and students. We connect
             student software developers with nonprofits and other socially
             responsible businesses to develop powerful new tools for social

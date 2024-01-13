@@ -1,21 +1,23 @@
-import ApplicationProcess from '../../components/apply/applicationProcess';
-import Quote from '../../components/quote';
-import FAQ from '../../components/faq';
-import GradientBanner from '../../components/gradientBanner';
-import Head from '../../components/head';
-import Nav from '../../components/nav';
-import Footer from '../../components/footer';
-import data from '../../data/studentApplyData';
+import ApplicationProcess from "../../components/apply/applicationProcess";
+import Quote from "../../components/quote";
+import FAQ from "../../components/faq";
+import GradientBanner from "../../components/gradientBanner";
+import Head from "../../components/head";
+import Nav from "../../components/nav";
+import Footer from "../../components/footer";
+import data from "../../data/studentApplyData";
 
 const Students = () => (
   <div>
-    <Head title="H4I Apply | Students" />
-    <Nav navType="otherNav" />
+    <Head title='H4I Apply | Students' />
+    <Nav navType='otherNav' />
     <GradientBanner
-      color="#64ab8a"
+      color='#64ab8a'
       title={data.title}
       subHeadline={data.subHeadline}
-      buttonText="Applications Closed"
+      buttonText={
+        data.applicationLink === "#" ? "Applications Closed" : "Apply"
+      }
       buttonLink={data.applicationLink}
     />
     <ApplicationProcess
