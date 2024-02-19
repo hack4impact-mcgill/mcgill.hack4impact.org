@@ -4,12 +4,12 @@ import projectData from '../../data/projectData';
 
 const SemesterProjectList = () => (
   <Container>
-    {projectData.map((semester) => (
+    {projectData.map((semester, idx) => (
       <div>
         <Row>
           <h1 className="section-title center">{semester.semester} Projects</h1>
         </Row>
-        <Row>
+        <Row style={{ marginBottom: `${idx !== projectData.length - 1 ? '35px' : '0px'}` }}>
           {semester.projects.map((project) => (
             <Col md="4" sm="6" style={{ marginBottom: '25px' }}>
               <ProjectCards
