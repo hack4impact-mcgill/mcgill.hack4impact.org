@@ -13,8 +13,9 @@ class FAQ extends React.Component {
       <Section>
         <Container>
           <h1 className="section-title">Frequently Asked Questions</h1>
-          {this.props.questions.map(question => (
+          {this.props.questions.map((question, idx) => (
             <FaqQuestion
+              key={idx}
               question={question.question}
               answer={question.answer}
             />

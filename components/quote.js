@@ -9,14 +9,14 @@ const Quote = ({ quote, source, sourceTitle }) =>
       <Container>
         <Row>
           <Col md="12">
-            <blockquote class="blockquote">
+            <blockquote className="blockquote">
               <b>
                 <h1> “ </h1>
               </b>
-              <p class="project-body-quote">
+              <p className="project-body-quote">
                 <b>{quote}</b>
               </p>
-              <footer class="blockquote-footer">
+              <footer className="blockquote-footer">
                 {source}
                 <cite title="Source Title">, {sourceTitle}</cite>
               </footer>

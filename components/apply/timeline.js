@@ -10,6 +10,7 @@ const Timeline = ({ processes }) => (
       {processes !== undefined &&
         processes.map(process => (
           <VerticalTimelineElement
+            key={process.title}
             className="vertical-timeline-element-work"
             date={process.date}
             iconStyle={{ background: "#155DA1", color: "#fff" }}
