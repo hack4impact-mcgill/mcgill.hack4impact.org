@@ -6,6 +6,15 @@ const TeamMemberIcon = ({ name, role, linkedin, nopic }) => (
     <Card className="border-0 member-icon">
       <div className="text-center">
         <a href={linkedin !== undefined ? linkedin : null}>
+          {nopic ? 
+          (<img
+            className="rounded-circle img-fluid team-icon"
+            src={ImagePathConversion('default')}
+          />) :
+          (<img
+            className="rounded-circle img-fluid team-icon"
+            src={ImagePathConversion(name)}
+          />)}
         </a>
       </div>
     </Card>

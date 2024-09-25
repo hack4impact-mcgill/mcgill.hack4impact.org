@@ -1,7 +1,7 @@
 import React from 'react';
-import Interview from '../static/icons/interview.svg';
-import Calendar from '../static/icons/calendar.svg';
-import Contract from '../static/icons/contract.svg';
+import Interview from '../public/static/icons/interview.svg';
+import Calendar from '../public/static/icons/calendar.svg';
+import Contract from '../public/static/icons/contract.svg';
 
 const applicationLink = '#';
 
