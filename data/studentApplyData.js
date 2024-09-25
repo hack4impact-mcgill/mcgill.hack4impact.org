@@ -142,12 +142,7 @@ const studentProcess = [
 
 const closedText = (
   <b>
-    Our applications open at the start of each Fall semester. Keep an
-    eye out on our{' '}
-    <a href="https://www.facebook.com/hack4impactmcgill" target="_blank">
-      Facebook
-    </a>{' '}
-    or&nbsp;
+    Our applications open at the start of each Fall semester. Keep an eye out on our{' '}
     <a href="https://www.instagram.com/hack4impactmcgill/" target="_blank">
       Instagram
     </a>{' '}

@@ -5,8 +5,8 @@ import ActionButton from "../components/actionButton";
 import Link from "next/link";
 
 // constants that will affect links in the nonprofit application page
-const applicationLink = "https://forms.gle/KTrdEyyet2vb15VPA";
-const interestFormLink = "https://forms.gle/KTrdEyyet2vb15VPA";
+const applicationLink = "https://forms.gle/Djsn1BZPssLjLuq79";
+const interestFormLink = "https://forms.gle/Djsn1BZPssLjLuq79";
 const projectAppExample =
   "https://docs.google.com/document/d/1SGG7gxu8lgWMOhxIULMSUZQa-4p0bLwrwDl4SAZW2lE/edit";
 
