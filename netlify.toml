@@ -4,4 +4,3 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-  version = "5.7.2"
