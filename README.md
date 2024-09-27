@@ -78,3 +78,6 @@ Always remember to update the `applicationLink`, the Dates, etc. They will all b
 ### SVG images
 
 SVGs on this site are all downloaded from [undraw](https://undraw.co/illustrations) with a base color of `#43A327` for green and `#5D9FDA` for blue.
+
+### Deployment Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e40c6776-1e38-411d-a7e5-b29727e5825f/deploy-status)](https://app.netlify.com/sites/mcgill-h4i/deploys)
