@@ -27,8 +27,8 @@ export default ({ duration, children, iterations }) => (
     `}</style>
     <div className="slider-content-wrapper">
       {iterations != undefined
-        ? [...Array(iterations)].map(x => <div key={x}>{children}</div>)
-        : [...Array(2)].map(x => <div key={x}>{children}</div>)}
+        ? [...Array(iterations)].map((_, index) => <div key={index}>{children}</div>)
+        : [...Array(2)].map((_, index) => <div key={index}>{children}</div>)}
     </div>
   </div>
 );

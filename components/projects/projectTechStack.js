@@ -139,8 +139,8 @@ const ProjectTechStack = ({ techStack }) =>
           </div>
         </Row>
         <div className="left" style={{ margin: 'auto' }}>
-          {techStack.map((tech) => (
-            <Col md="2" xs="6">
+          {techStack.map((tech, idx) => (
+            <Col key={idx} md="2" xs="6">
               <Card className="border-0">
                 <a href={techStackMasterList[tech].link}>
                   <img

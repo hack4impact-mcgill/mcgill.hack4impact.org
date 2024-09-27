@@ -1,0 +1,9 @@
+[build]
+  publish = ".next"
+  command = "yarn build"
+
+[build.environment]
+  NODE_OPTIONS = "--openssl-legacy-provider"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

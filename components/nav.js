@@ -50,17 +50,17 @@ class NavigationBar extends React.Component {
           <Collapse navbar isOpen={!this.state.collapsed}>
             <Nav navbar className="text-uppercase ml-auto">
               <NavItem>
-                <Link prefetch href="/about">
+                <Link href="/about">
                   <a className="nav-link pl-3">About</a>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link prefetch href="/projects">
+                <Link href="/projects">
                   <a className="nav-link pl-3">Projects</a>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link prefetch href="/apply">
+                <Link href="/apply">
                   <a className="nav-link pl-3">Apply</a>
                 </Link>
               </NavItem>

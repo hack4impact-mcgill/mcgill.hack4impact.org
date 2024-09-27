@@ -34,7 +34,7 @@ const Footer = () => (
               </Link>
             </li>
             <li>
-              <Link href="../static/sponsorship.pdf">
+              <Link href="/static/sponsorship.pdf">
                 <a>Sponsorship</a>
               </Link>
             </li>
@@ -44,10 +44,10 @@ const Footer = () => (
           <h4>CONNECT</h4>
           <ul>
             <li>
-              <a href="https://www.facebook.com/hack4impactmcgill/">Facebook</a>
+              <a href="https://www.instagram.com/hack4impactmcgill/">Instagram</a>
             </li>
             <li>
-              <a href="https://www.instagram.com/hack4impactmcgill/">Instagram</a>
+              <a href="https://www.facebook.com/hack4impactmcgill/">Facebook</a>
             </li>
             <li>
               <a href="https://github.com/hack4impact-mcgill">Github</a>
