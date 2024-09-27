@@ -1,52 +1,72 @@
 export default {
   directors: [
     {
-      name: 'Albert Kragl',
-      year: "'21",
+      name: 'Rei Kong',
+      year: "'25",
       quote:
         'I co-founded Hack4Impact looking to work with incredible and hard-working students while using my skills to do something more meaningful. With Hack4Impact, I’d like to give this same opportunity to our members while pushing them to learn and grow tremendously both personally and professionally.',
-      linkedin: 'https://linkedin.com/in/albertkragl',
+      linkedin: 'https://linkedin.com/in/rei-kong'
     },
   ],
   execs: [
     {
-      name: 'Sym Piracha',
-      role: 'Co-President',
-      linkedin: 'https://www.linkedin.com/in/sympiracha/'
-    },
-    {
-      name: 'Sophearah Suy-Puth',
-      role: 'Co-President',
-      linkedin: 'https://www.linkedin.com/in/sophearah-suy-puth/'
-    },
-    {
-      name: 'Nicki Esfehani',
-      role: 'VP External',
-      linkedin: 'https://www.linkedin.com/in/nicki-esfehani/',
+      name: 'Mika Vohl',
+      role: 'Director of Engineering',
+      linkedin: 'https://www.linkedin.com/in/mikavohl/',
       nopic: true
     },
     {
-      name: 'Saad Shahbaz',
-      linkedin: 'https://www.linkedin.com/in/saadshahbaz/',
-      role: 'VP Finance'
+      name: 'Tiffany Miller',
+      role: 'Director of Engineering',
+      linkedin: 'https://www.linkedin.com/in/',
+      nopic: true
     },
     {
-      name: 'Gabriel Paquette',
-      linkedin: 'https://www.linkedin.com/in/gabriel-p-paquette/',
-      role: 'VP Events'
+      name: 'Mack Faulkner',
+      role: 'Director of Outreach',
+      linkedin: 'https://www.linkedin.com/in/',
+      nopic: true
     },
     {
-      name: 'Peter Guanhua Rong',
-      linkedin: 'https://www.linkedin.com/in/guanhua-peter-rong/',
-      role: 'VP Technology'
+      name: 'Rup',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Director of Marketing',
+      nopic: true
     },
     {
-      name: 'Duaa Memon',
-      linkedin: 'https://www.linkedin.com/in/duaa-memon-3316b51b8/',
-      role: 'VP Design'
+      name: 'Faisal',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Director of Sponsorship and Finance',
+      nopic: true
     },
+    {
+      name: 'Lina',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Director of Product',
+      nopic: true
+    }
   ],
   team: [
+    {
+      name: 'Karan Gandhi',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Nicklas Astorian',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Tech Lead',
+      nopic: true
+    },
+    {
+      name: 'Lara',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Product Manager',
+      nopic: true
+    },
+  ],
+  alumni: [
     {
       name: 'Kathleen Younge',
       linkedin: 'https://www.linkedin.com/in/kathleen-younge-777908174/',
@@ -121,9 +141,7 @@ export default {
       role: 'Developer',
       linkedin: 'https://www.linkedin.com/in/sibo-yang-042b92194/',
       nopic: true
-    }
-  ],
-  alumni: [
+    },
     {
       name: 'Yue Dai',
       role: 'Co-Founder, VP Technology',
