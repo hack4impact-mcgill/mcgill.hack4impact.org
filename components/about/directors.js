@@ -21,7 +21,7 @@ export default ({ directors }) => (
     </Row>
     <Row>
       {directors.map(director => (
-        <Col md="12">
+        <Col key={director.name} md="12">
           <Card className="card border-0">
             <div className="text-center mb-2">
               <img
