@@ -3,25 +3,15 @@ import { ImagePathConversion } from "../../data/helper";
 import Section from "../section";
 
 export default ({ directors }) => (
-  <Section>
+  <Section reduced={true}>
     <Row>
       <div className="text-center section-title">
         <h2>Our Executive Team</h2>
       </div>
     </Row>
-
-    <Row>
-      <div className="mb-3 text-center">
-        <Col md="12">
-          <h4 className="text-title">
-            <em>Message from our Chapter President </em>
-          </h4>
-        </Col>
-      </div>
-    </Row>
-    <Row>
+    <Row className="justify-content-center">
       {directors.map(director => (
-        <Col md="12">
+        <Col key={director.name} md="4">
           <Card className="card border-0">
             <div className="text-center mb-2">
               <img
@@ -31,24 +21,20 @@ export default ({ directors }) => (
               />
             </div>
             <CardBody className="card-body">
-              <blockquote className="blockquote text-center mb-0">
-                <p>"{director.quote}"</p>
-                <footer className="blockquote-footer">
-                  {director.name}
-                  <cite title="Source Title"> {director.year} </cite>
-                  {director.linkedin !== undefined ? (
-                    <a href={director.linkedin}>
-                      {" "}
-                      |{" "}
-                      <img
-                        width="12"
-                        className="linkedin-icon pb-1"
-                        src="/static/icons/linkedin.svg"
-                      />
-                    </a>
-                  ) : null}
-                </footer>
-              </blockquote>
+              <p className="text-center">
+                <b className="text-bold text-18px">{director.name}</b> <br /> Executive Director{" "}
+                {director.linkedin !== undefined ? (
+                  <a href={director.linkedin}>
+                    {" "}
+                    |{" "}
+                    <img
+                      width="12"
+                      className="linkedin-icon"
+                      src="/static/icons/linkedin.svg"
+                    />
+                  </a>
+                ) : null}
+              </p>
             </CardBody>
           </Card>
         </Col>
@@ -59,55 +45,5 @@ export default ({ directors }) => (
         }
       `}</style>
     </Row>
-
-    {/* <Row>
-      <div className="mb-3 text-center">
-        <Col md="12">
-          <h4 className="text-title">
-            <em> Message from our Chapter Founder </em>
-          </h4>
-        </Col>
-      </div>
-    </Row>
-    <Row>
-      {directors.map(director => (
-        <Col md="12">
-          <Card className="card border-0">
-            <div className="text-center mb-2">
-              <img
-                className="rounded-circle img-fluid director-icon"
-                src={ImagePathConversion(director.name)}
-                id="co-director"
-              />
-            </div>
-            <CardBody className="card-body">
-              <blockquote className="blockquote text-center mb-0">
-                <p>"{director.quote}"</p>
-                <footer className="blockquote-footer">
-                  {director.name}
-                  <cite title="Source Title"> {director.year} </cite>
-                  {director.linkedin !== undefined ? (
-                    <a href={director.linkedin}>
-                      {" "}
-                      |{" "}
-                      <img
-                        width="12"
-                        className="linkedin-icon pb-1"
-                        src="/static/icons/linkedin.svg"
-                      />
-                    </a>
-                  ) : null}
-                </footer>
-              </blockquote>
-            </CardBody>
-          </Card>
-        </Col>
-      ))}
-      <style jsx>{`
-        .director-icon {
-          max-height: 240px;
-        }
-      `}</style>
-    </Row> */}
   </Section>
 );

@@ -2,7 +2,7 @@
   "name": "mcgill.hack4impact.org",
   "author": "Hack4Impact McGill",
   "scripts": {
-    "dev": "next",
+    "dev": "export SET NODE_OPTIONS=--openssl-legacy-provider && next",
     "build": "next build",
     "start": "next start",
     "export": "next export"
