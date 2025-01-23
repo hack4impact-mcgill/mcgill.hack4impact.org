@@ -23,15 +23,26 @@ const TeamSection = () => (
         <h2 className="center"> Developers, Designers, & PMs </h2>
       </div>
       <Row>
-        {TeamData.team.map(member => (
-          <MemberIcon
-            key={member.name}
-            name={member.name}
-            role={member.role}
-            linkedin={member.linkedin}
-            nopic={member.nopic}
-          />
-        ))}
+        {[...TeamData.team]
+          .sort((a, b) => {
+            const roleOrder = {
+              "Product Manager": 1,
+              "Tech Lead": 2,
+              "Designer": 3,
+              "Developer": 4
+            };
+            const roleCompare = (roleOrder[a.role] || 999) - (roleOrder[b.role] || 999);
+            return roleCompare !== 0 ? roleCompare : a.name.localeCompare(b.name);
+          })
+          .map(member => (
+            <MemberIcon
+              key={member.name}
+              name={member.name}
+              role={member.role}
+              linkedin={member.linkedin}
+              nopic={member.nopic}
+            />
+          ))}
       </Row>
       <div className="p-5 m-3">
         <h2 className="center"> Alumni </h2>
