@@ -75,7 +75,7 @@ export default {
       name: 'Thomas Huy Nguyen',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Developer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Ojas Srivastava',
@@ -87,7 +87,7 @@ export default {
       name: 'Emily Wang',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Developer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Kevin Zhang',
@@ -105,7 +105,7 @@ export default {
       name: 'Brianna Fan',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Designer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'James Madden',
@@ -171,19 +171,19 @@ export default {
       name: 'Gracie Diabo',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Developer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Riana Dutta',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Developer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Bo Lau',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Designer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Charlotte Marchal',
@@ -195,7 +195,7 @@ export default {
       name: 'Mojhan Abesque',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Product Manager',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Saif Shahin',
@@ -225,7 +225,7 @@ export default {
       name: 'Gülce Apaydın',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Developer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Gali Kechichian',
