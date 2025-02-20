@@ -31,9 +31,8 @@ class NavigationBar extends React.Component {
   render() {
     return (
       <Navbar
-        className={`navbar-expand-lg navbar-dark fixed-top ${
-          this.state.isTop ? "" : "shadow bg-white"
-        }`}
+        className={`navbar-expand-lg navbar-dark fixed-top ${this.state.isTop ? "" : "shadow bg-white"
+          }`}
         id={this.props.navType ? this.props.navType : "mainNav"}
       >
         <Container>
@@ -42,36 +41,38 @@ class NavigationBar extends React.Component {
               id="logo-img"
               height="50"
               width="185"
-              src="/static/images/hack4impact-mcgill-logo-long-light.png"
+              src="/static/images/Group 17.svg"
               alttext="Hack4Impact McGill logo"
             />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse navbar isOpen={!this.state.collapsed}>
-            <Nav navbar className="text-uppercase ml-auto">
+            <Nav navbar className="text-lowercase ml-auto nav-text">
               <NavItem>
                 <Link href="/about">
-                  <a className="nav-link pl-3">About</a>
+                  <a className="nav-link pl-3 nav-text">About</a>
                 </Link>
               </NavItem>
               <NavItem>
                 <Link href="/projects">
-                  <a className="nav-link pl-3">Projects</a>
+                  <a className="nav-link pl-3 nav-text">Projects</a>
                 </Link>
               </NavItem>
               <NavItem>
                 <Link href="/apply">
-                  <a className="nav-link pl-3">Apply</a>
+                  <a className="nav-link pl-3 nav-text">Apply</a>
                 </Link>
               </NavItem>
             </Nav>
           </Collapse>
         </Container>
-        <style jsx>{`
-          .bg-white {
-            background-color: #ffffff;
-          }
-        `}</style>
+        <style jsx global>{`
+  .nav-link.nav-text {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    font-color: #657788 !important;
+  }
+`}</style>
       </Navbar>
     );
   }

@@ -7,28 +7,20 @@ const Banner = () => (
   <Container
     fluid
     className="bannerCont"
-    style={{ marginTop: "100px", marginBottom: "30px", maxWidth: "1200px" }}
+    style={{ 
+      marginTop: "10px", 
+      marginBottom: "30px", 
+      height: "100vh", 
+      backgroundImage: "url('/static/images/Desktop2.svg')",
+      maxWidth: "100%",        // Changed from 1200px to 100%
+      width: "100%",           // Added this
+      backgroundSize: "cover", // Added this
+      backgroundPosition: "center", // Added this
+      backgroundRepeat: "no-repeat"
+    }}
   >
     <Row>
-      <Spring
-        config={{ delay: 100, ...config.slow }}
-        from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
-        to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
-      >
-        {props => (
-          <Col
-            md="7"
-            style={{
-              ...props,
-              paddingLeft: 100,
-              paddingRight: 100,
-              paddingTop: 50
-            }}
-          >
-            <img src="/static/images/work_together_dark_green.svg" />
-          </Col>
-        )}
-      </Spring>
+      
       <Col md="5">
         <Spring
           config={{ delay: 450, ...config.slow }}
@@ -37,7 +29,7 @@ const Banner = () => (
         >
           {props => (
             <div style={props} id="homepage-main-headline">
-              <h1>Software for Nonprofits </h1>
+              <h1>hack4impact </h1>
             </div>
           )}
         </Spring>
@@ -47,41 +39,24 @@ const Banner = () => (
           to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
         >
           {props => (
+            <div style={props} id="homepage-main-headline2">
+              <h1>mcgill </h1>
+            </div>
+          )}
+        </Spring>
+        <Spring
+          config={{ delay: 450, ...config.slow }}
+          from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
+          to={{ opacity: 100, transform: "translate3d(0,0p</div>x,0)" }}
+        >
+          {props => (
             <div style={props} id="homepage-sub-headline">
               <p>
-                We are a team of McGill students who create robust software for
-                social good. We believe that our engineering skill sets do not
-                render us useless in addressing social injustices. Instead, they
-                empower us to build a better society together.
+                software for non-profits
               </p>
             </div>
           )}
         </Spring>
-        <div>
-          <Spring
-            config={{ delay: 500, ...config.slow }}
-            from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
-            to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
-          >
-            {props => (
-              <ActionButton style={props} link="/about" text="Learn More" />
-            )}
-          </Spring>
-          <Spring
-            config={{ delay: 550, ...config.slow }}
-            from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
-            to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
-          >
-            {props => (
-              <ActionButton
-                white
-                link="/apply"
-                text="Apply"
-                style={{ marginLeft: "20px", ...props }}
-              />
-            )}
-          </Spring>
-        </div>
       </Col>
     </Row>
     <style jsx>
@@ -94,7 +69,6 @@ const Banner = () => (
         .bannerCont {
           max-width: 1500px;
           margin: 0px;
-          color: #fff !important;
           text-rendering: optimizeLegibility;
           -webkit-font-smoothing: antialiased;
           margin-top: 30px;
@@ -120,26 +94,30 @@ const Banner = () => (
         }
 
         #homepage-main-headline h1 {
-          font-size: 60px !important;
-          font-weight: 600;
-          color: #323648;
+          font-size: 80px !important;
+          font-weight: bold;
+          margin-bottom: -15px;
+          margin-top: 300px;
+          color: #fff;
           font-family: "Hanken Grotesk", sans-serif;
-        }
-        #sub-headline {
-          max-width: 600px;
-          margin: 0 auto;
+          margin-left: 20px;
         }
 
-        #homepage-sub-headline {
-          max-width: 600px;
-          margin: 0 auto;
+        #homepage-main-headline2 h1 {
+          font-size: 80px !important;
+          margin-top: 0;
+          font-weight: bold;
+          color: #F2594B;
+          font-family: "Hanken Grotesk", sans-serif;
+          margin-left: 20px;
         }
 
         #homepage-sub-headline p {
-          font-size: 17px;
-          margin-bottom: 28px auto;
-          color: #323648;
+          font-size: 30px;
+          margin-bottom: 28px;
+          color: #fff;
           font-weight: 350;
+          margin-left: 20px;
         }
       `}
     </style>

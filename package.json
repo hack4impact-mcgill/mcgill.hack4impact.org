@@ -2,7 +2,7 @@
   "name": "mcgill.hack4impact.org",
   "author": "Hack4Impact McGill",
   "scripts": {
-    "dev": "next",
+    "dev": "export SET NODE_OPTIONS=--openssl-legacy-provider && next",
     "build": "next build",
     "start": "next start",
     "export": "next export"
@@ -21,6 +21,7 @@
     "react-toastify": "^4.5.1",
     "react-vertical-timeline-component": "^2.3.1",
     "reactstrap": "^6.5.0",
+    "sharp": "^0.33.5",
     "yarn": "^1.22.0"
   },
   "devDependencies": {

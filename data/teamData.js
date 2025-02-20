@@ -1,52 +1,240 @@
 export default {
   directors: [
     {
-      name: 'Albert Kragl',
-      year: "'21",
-      quote:
-        'I co-founded Hack4Impact looking to work with incredible and hard-working students while using my skills to do something more meaningful. With Hack4Impact, I’d like to give this same opportunity to our members while pushing them to learn and grow tremendously both personally and professionally.',
-      linkedin: 'https://linkedin.com/in/albertkragl',
+      name: 'Rei Kong',
+      year: "'25",
+      // quote:
+        // 'I co-founded Hack4Impact looking to work with incredible and hard-working students while using my skills to do something more meaningful. With Hack4Impact, I’d like to give this same opportunity to our members while pushing them to learn and grow tremendously both personally and professionally.',
+      linkedin: 'https://linkedin.com/in/rei-kong'
     },
+    {
+      name: 'Mika Vohl',
+      year: "'27",
+      // quote: 'I joined Hack4Impact to work with a group of passionate and talented individuals to create a positive impact in the world. I am excited to help members grow and develop their skills while working on impactful projects.',
+      linkedin: 'https://www.linkedin.com/in/mikavohl/',
+    }
   ],
   execs: [
     {
-      name: 'Sym Piracha',
-      role: 'Co-President',
-      linkedin: 'https://www.linkedin.com/in/sympiracha/'
+      name: 'Gui Oba',
+      linkedin: 'https://www.linkedin.com/in/guilherme-oba/',
+      role: 'Director of Design',
+      nopic: false
     },
     {
-      name: 'Sophearah Suy-Puth',
-      role: 'Co-President',
-      linkedin: 'https://www.linkedin.com/in/sophearah-suy-puth/'
+      name: 'Mira Muti',
+      linkedin: 'https://www.linkedin.com/in/mira-muti-ab166922b/',
+      role: 'Director of Marketing',
+      nopic: false
     },
     {
-      name: 'Nicki Esfehani',
-      role: 'VP External',
-      linkedin: 'https://www.linkedin.com/in/nicki-esfehani/',
+      name: 'Leo Baudelet',
+      linkedin: 'https://www.linkedin.com/in/leo-baudelet-7b570229a/',
+      role: 'Director of Internal Affairs',
+      nopic: false
+    },
+    {
+      name: 'Tiffany Miller',
+      role: 'Director of Engineering',
+      linkedin: 'https://www.linkedin.com/in/tiffanymillerr/',
+      nopic: false
+    },
+    {
+      name: 'Faisal Jaradat',
+      linkedin: 'https://www.linkedin.com/in/faisal-jaradat/',
+      role: 'Director of Sponsorship and Finance',
       nopic: true
     },
     {
-      name: 'Saad Shahbaz',
-      linkedin: 'https://www.linkedin.com/in/saadshahbaz/',
-      role: 'VP Finance'
-    },
-    {
-      name: 'Gabriel Paquette',
-      linkedin: 'https://www.linkedin.com/in/gabriel-p-paquette/',
-      role: 'VP Events'
-    },
-    {
-      name: 'Peter Guanhua Rong',
-      linkedin: 'https://www.linkedin.com/in/guanhua-peter-rong/',
-      role: 'VP Technology'
-    },
-    {
-      name: 'Duaa Memon',
-      linkedin: 'https://www.linkedin.com/in/duaa-memon-3316b51b8/',
-      role: 'VP Design'
+      name: 'Mack Faulkner',
+      role: 'Director of External Affairs',
+      linkedin: 'https://www.linkedin.com/in/',
+      nopic: false
     },
   ],
   team: [
+    {
+      name: 'Karan Gandhi',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: false
+    },
+    {
+      name: 'Nicklas Astorian',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Tech Lead',
+      nopic: true
+    },
+    {
+      name: 'Lara Landauro',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Product Manager',
+      nopic: false
+    },
+    {
+      name: 'Thomas Huy Nguyen',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: false
+    },
+    {
+      name: 'Ojas Srivastava',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Emily Wang',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: false
+    },
+    {
+      name: 'Kevin Zhang',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Wasif Somji',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Brianna Fan',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Designer',
+      nopic: false
+    },
+    {
+      name: 'James Madden',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Tech Lead',
+      nopic: true
+    },
+    {
+      name: 'Jatin Kalsi',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Tech Lead',
+      nopic: true
+    },
+    {
+      name: 'Sophia Li',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Product Manager',
+      nopic: true
+    },
+    {
+      name: 'Annie Gouchee',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Product Manager',
+      nopic: true
+    },
+    {
+      name: 'Rupneet Shahriar',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Product Manager',
+      nopic: true
+    },
+    {
+      name: 'Hanzi Li',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Tech Lead',
+      nopic: true
+    },
+    {
+      name: 'Yu An Lu',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Tech Lead',
+      nopic: true
+    },
+    {
+      name: 'Dashiell Rich',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Edouard Desparois-Perrault',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Eric Huang',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Gracie Diabo',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: false
+    },
+    {
+      name: 'Riana Dutta',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: false
+    },
+    {
+      name: 'Bo Lau',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Designer',
+      nopic: false
+    },
+    {
+      name: 'Charlotte Marchal',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Designer',
+      nopic: true
+    },
+    {
+      name: 'Mojhan Abesque',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Product Manager',
+      nopic: false
+    },
+    {
+      name: 'Saif Shahin',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Tech Lead',
+      nopic: true
+    },
+    {
+      name: 'Noah Chen',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Leticia Huang',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Jaewon Moon',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Gülce Apaydın',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: false
+    },
+    {
+      name: 'Gali Kechichian',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Designer',
+      nopic: true
+    },
+  ],
+  alumni: [
     {
       name: 'Kathleen Younge',
       linkedin: 'https://www.linkedin.com/in/kathleen-younge-777908174/',
@@ -121,9 +309,7 @@ export default {
       role: 'Developer',
       linkedin: 'https://www.linkedin.com/in/sibo-yang-042b92194/',
       nopic: true
-    }
-  ],
-  alumni: [
+    },
     {
       name: 'Yue Dai',
       role: 'Co-Founder, VP Technology',

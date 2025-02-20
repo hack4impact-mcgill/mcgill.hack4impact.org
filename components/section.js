@@ -1,9 +1,8 @@
 import React from "react";
-import { Container, Row } from "reactstrap";
 
-const Section = ({ children, grey, darkgrey }) => (
+const Section = ({ children, grey, darkgrey, reduced = false }) => (
   <section
-    className="typical-section"
+    className={reduced ? "reduced-section" : "typical-section"}
     style={{
       background: grey ? "rgb(250, 251, 252)" : darkgrey ? "#ebeff2" : undefined
     }}
@@ -22,6 +21,10 @@ const Section = ({ children, grey, darkgrey }) => (
             padding: 100px 0;
             margin: auto;
           }
+          .reduced-section {
+            padding: 50px 0;
+            margin: auto;
+          }
         `}
       </style>
     </div>
@@ -29,4 +32,3 @@ const Section = ({ children, grey, darkgrey }) => (
 );
 
 export default Section;
-// rgb(250, 251, 252) !important
