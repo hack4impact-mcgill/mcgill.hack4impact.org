@@ -40,6 +40,12 @@ export default {
       nopic: false
     },
     {
+      name: 'Elliott Kalt',
+      role: 'Director of Engineering',
+      linkedin: 'https://www.linkedin.com/in/elliott-kalt/',
+      nopic: false
+    },
+    {
       name: 'Faisal Jaradat',
       linkedin: 'https://www.linkedin.com/in/faisal-jaradat/',
       role: 'Director of Sponsorship and Finance',
