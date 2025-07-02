@@ -81,10 +81,10 @@ const GradientBanner = ({
     <style jsx>{`
       section {
         background: radial-gradient(
-          white,
-          ${color !== undefined ? color : "#aac3ff"}
+          #252956,
+          ${color !== undefined ? color : "#252956"}
         );
-        padding: 12% 0;
+        margin-top: 16px;
         padding: 8% 0;
       }
 
@@ -96,7 +96,7 @@ const GradientBanner = ({
       .main-headline h1 {
         font-size: 60px !important;
         font-weight: 600;
-        color: #323648;
+        color: #ffffff;
         font-family: "Hanken Grotesk", sans-serif;
       }
       .sub-headline {
@@ -107,7 +107,7 @@ const GradientBanner = ({
       p {
         font-size: 20px;
         margin-bottom: 28px auto;
-        color: #323648;
+        color: #fff;
       }
       .arrow {
         margin: auto;
@@ -115,7 +115,7 @@ const GradientBanner = ({
         height: 0;
         border-left: 100px solid transparent;
         border-right: 100px solid transparent;
-        border-top: 60px solid #c3d5fd;
+        border-top: 60px solid #252956;
       }
     `}</style>
   </div>

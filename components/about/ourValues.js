@@ -26,7 +26,7 @@ const values = [
         to our clients, even if the solution isn’t built by Hack4Impact.
       </>
     ),
-    imagePath: "/static/images/values/value-1.svg"
+    // imagePath: "/static/images/values/value-1.svg"
   },
   {
     title: "Empathy",
@@ -44,7 +44,7 @@ const values = [
         executing on what’s best for our client.
       </>
     ),
-    imagePath: "/static/images/values/value-2.svg"
+    // imagePath: "/static/images/values/value-2.svg"
   },
   {
     title: "Intentionality",
@@ -60,12 +60,12 @@ const values = [
         precise constraints.
       </>
     ),
-    imagePath: "/static/images/values/value-3.svg"
+    // imagePath: "/static/images/values/value-3.svg"
   }
 ];
 
 const OurValues = () => (
-  <Section darkgrey>
+  <Section>
     <Container>
       <Row>
         <div className="text-center project-detail-title">
@@ -75,12 +75,12 @@ const OurValues = () => (
 
       <CardDeck>
         {values.map(value => (
-          <Card key={value.title}>
-            <img
+          <Card key={value.title} className="shadow text-center">
+            {/* <img
               className="card-img-top"
               src={value.imagePath}
               alt="Community"
-            />
+            /> */}
             <CardBody>
               <h5 className="text-title card-title"> {value.title} </h5>
               <CardText>{value.text}</CardText>

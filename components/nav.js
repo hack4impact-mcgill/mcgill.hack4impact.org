@@ -11,68 +11,61 @@ import {
 } from "reactstrap";
 
 class NavigationBar extends React.Component {
-  state = {
-    isTop: true,
-    collapsed: true
-  };
-  componentDidMount() {
-    document.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 100;
-      if (isTop !== this.state.isTop) {
-        this.setState({ isTop });
-      }
-    });
-  }
-  toggleNavbar = () => {
-    this.setState({
-      collapsed: !this.state.collapsed
-    });
-  };
+  state = { collapsed: true };
+
+  toggleNavbar = () => this.setState(s => ({ collapsed: !s.collapsed }));
+
   render() {
     return (
       <Navbar
-        className={`navbar-expand-lg navbar-dark fixed-top ${this.state.isTop ? "" : "shadow bg-white"
-          }`}
-        id={this.props.navType ? this.props.navType : "mainNav"}
+        expand="lg"                 /* adds .navbar-expand-lg        */
+        fixed="top"                 /* adds .fixed-top               */
+        light                       /* adds .navbar-light            */
+        className="bg-white shadow" /* solid white background        */
+        id={this.props.navType || "mainNav"}
       >
         <Container>
-          <NavbarBrand className="js-scroll-trigger" href="/">
+          <NavbarBrand href="/">
             <img
               id="logo-img"
               height="50"
               width="185"
               src="/static/images/Group 17.svg"
-              alttext="Hack4Impact McGill logo"
+              alt="Hack4Impact McGill logo"
             />
           </NavbarBrand>
-          <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+
+          <NavbarToggler
+            onClick={this.toggleNavbar}
+            aria-label="Toggle navigation"
+            className="mr-2"
+          />
+
           <Collapse navbar isOpen={!this.state.collapsed}>
-            <Nav navbar className="text-lowercase ml-auto nav-text">
-              <NavItem>
-                <Link href="/about">
-                  <a className="nav-link pl-3 nav-text">About</a>
-                </Link>
-              </NavItem>
-              <NavItem>
-                <Link href="/projects">
-                  <a className="nav-link pl-3 nav-text">Projects</a>
-                </Link>
-              </NavItem>
-              <NavItem>
-                <Link href="/apply">
-                  <a className="nav-link pl-3 nav-text">Apply</a>
-                </Link>
-              </NavItem>
+            <Nav navbar className="ml-auto">
+              {[
+                { href: "/about", label: "About" },
+                { href: "/projects", label: "Projects" },
+                { href: "/apply", label: "Apply" }
+              ].map(link => (
+                <NavItem key={link.href}>
+                  <Link href={link.href} legacyBehavior>
+                    <a className="nav-link nav-text px-3">{link.label}</a>
+                  </Link>
+                </NavItem>
+              ))}
             </Nav>
           </Collapse>
         </Container>
+
+        {/* link styles */}
         <style jsx global>{`
-  .nav-link.nav-text {
-    font-size: 16px !important;
-    font-weight: 700 !important;
-    font-color: #657788 !important;
-  }
-`}</style>
+          .nav-link.nav-text {
+            font-size: 16px !important;
+            font-weight: 700 !important;
+            color: #657788 !important; /* use “color”, not “font-color” */
+          }
+        `}</style>
       </Navbar>
     );
   }
