@@ -12,7 +12,7 @@ const Students = () => (
     <Head title="H4I Apply | Students" />
     <Nav navType="otherNav" />
     <GradientBanner
-      color="#64ab8a"
+      color="#252956"
       title={data.title}
       subHeadline={data.subHeadline}
       buttonText="Applications Closed"

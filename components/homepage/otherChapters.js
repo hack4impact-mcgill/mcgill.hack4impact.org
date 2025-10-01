@@ -1,7 +1,6 @@
 import Section from "../section";
 import BackgroundSlider from "../backgroundSlider";
 import { Row } from "reactstrap";
-import Link from "next/link";
 
 const clients = [
   {

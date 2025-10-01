@@ -7,20 +7,20 @@ import ActionLink from '../actionLink';
 
 const items = [
   <ProjectContainer
-    title="Mu"
-    subtitle="Online interactive map to help Montreal residents easily find murals in the city"
+    title="Resilience MTL"
+    subtitle=""
     image="url('/static/images/projects/mu-map/mu_map_solution.png')"
     link="/projects?name=mu-map"
   />,
   <ProjectContainer
-    title="Move Up"
-    subtitle="SMS tool for easy client signup"
+    title="LiteraLingo"
+    subtitle="A figurative language translation app"
     image="url('/static/images/projects/moveup-sms/moveup_sms_problem.svg')"
     link="/projects?name=moveup-sms"
   />,
   <ProjectContainer
-    title="MealCare"
-    subtitle="Mobile app and data visualization to help reduce food waste"
+    title="Welcome Collective"
+    subtitle="Inventory management system"
     image="url('/static/images/projects/mealcare/mealcare_problem_blue.svg')"
     link="/projects?name=mealcare"
   />,

@@ -8,10 +8,11 @@ export default {
       linkedin: 'https://linkedin.com/in/rei-kong'
     },
     {
-      name: 'Mika Vohl',
-      year: "'27",
+      name: 'Sophia Li',
+      year: "'28",
       // quote: 'I joined Hack4Impact to work with a group of passionate and talented individuals to create a positive impact in the world. I am excited to help members grow and develop their skills while working on impactful projects.',
-      linkedin: 'https://www.linkedin.com/in/mikavohl/',
+      linkedin: 'https://www.linkedin.com/in/sophia-x-li/',
+      nopic: false
     }
   ],
   execs: [
@@ -22,21 +23,9 @@ export default {
       nopic: false
     },
     {
-      name: 'Mira Muti',
-      linkedin: 'https://www.linkedin.com/in/mira-muti-ab166922b/',
-      role: 'Director of Marketing',
-      nopic: false
-    },
-    {
       name: 'Leo Baudelet',
       linkedin: 'https://www.linkedin.com/in/leo-baudelet-7b570229a/',
       role: 'Director of Internal Affairs',
-      nopic: false
-    },
-    {
-      name: 'Tiffany Miller',
-      role: 'Director of Engineering',
-      linkedin: 'https://www.linkedin.com/in/tiffanymillerr/',
       nopic: false
     },
     {
@@ -52,10 +41,28 @@ export default {
       nopic: true
     },
     {
+      name: 'Anisha Mohapatra',
+      linkedin: 'https://www.linkedin.com/in/anisha-mohapatra-3b6280173/',
+      role: 'Director of Product',
+      nopic: false
+    },
+    {
       name: 'Mack Faulkner',
       role: 'Director of External Affairs',
       linkedin: 'https://www.linkedin.com/in/',
       nopic: false
+    },
+    {
+      name: 'Hamza Amr',
+      role: 'Director of Engineering',
+      linkedin: 'https://www.linkedin.com/in/',
+      nopic: true
+    },
+    {
+      name: 'Samaksh Khandelwal',
+      role: 'Director of Public Relations',
+      linkedin: 'https://www.linkedin.com/in/',
+      nopic: true
     },
   ],
   team: [
@@ -123,12 +130,6 @@ export default {
       name: 'Jatin Kalsi',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Tech Lead',
-      nopic: true
-    },
-    {
-      name: 'Sophia Li',
-      linkedin: 'https://www.linkedin.com/in/',
-      role: 'Product Manager',
       nopic: true
     },
     {

@@ -18,7 +18,7 @@ const NonProfits = () => (
     <Head title="H4I Apply | Nonprofits" />
     <Nav navType="otherNav" />
     <GradientBanner
-      color="#64ab8a"
+      color="#252956"
       title={data.title}
       subHeadline={data.subHeadline}
       buttonText="Apply Now"
