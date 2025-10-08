@@ -56,7 +56,7 @@ export default {
       name: 'Hamza Amr',
       role: 'Director of Engineering',
       linkedin: 'https://www.linkedin.com/in/',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Samaksh Khandelwal',

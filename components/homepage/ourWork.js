@@ -8,21 +8,21 @@ import ActionLink from '../actionLink';
 const items = [
   <ProjectContainer
     title="Resilience MTL"
-    subtitle=""
+    subtitle="Collaborating with Resilience Montreal to build digital support tools."
     image="url('/static/images/projects/mu-map/mu_map_solution.png')"
-    link="/projects?name=mu-map"
+    link="/projects?name=resilience-mtl"
   />,
   <ProjectContainer
     title="LiteraLingo"
     subtitle="A figurative language translation app"
     image="url('/static/images/projects/moveup-sms/moveup_sms_problem.svg')"
-    link="/projects?name=moveup-sms"
+    link="/projects?name=literalingo"
   />,
   <ProjectContainer
     title="Welcome Collective"
     subtitle="Inventory management system"
     image="url('/static/images/projects/mealcare/mealcare_problem_blue.svg')"
-    link="/projects?name=mealcare"
+    link="/projects?name=welcome-collective"
   />,
 ];
 
