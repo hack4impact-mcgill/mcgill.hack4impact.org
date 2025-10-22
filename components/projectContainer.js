@@ -8,7 +8,7 @@ const ProjectContainer = ({ title, subtitle, image, link }) => (
       <div
         className="project-item"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), ${image}`
+          backgroundImage: `linear-gradient(165deg, rgba(12, 24, 68, 0.6), rgba(12, 24, 68, 0.4)), ${image}`
         }}
       >
         <h4>{title}</h4>
@@ -38,15 +38,22 @@ const ProjectContainer = ({ title, subtitle, image, link }) => (
           height: 95%;
           width: auto;
           min-height: 200px;
+          transition: transform 0.25s ease, box-shadow 0.25s ease;
         }
         .project-item:hover {
-          box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2),
-            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 12px 24px rgba(17, 36, 92, 0.25);
+          transform: translateY(-6px);
+          cursor: pointer;
+        }
+        h4 {
+          margin-bottom: 12px;
+          font-weight: 700;
+          letter-spacing: 0.02em;
         }
         p {
           margin: 0px;
           color: #f9fafc;
-          font-weight: 650;
+          font-weight: 500;
         }
       `}</style>
     </a>

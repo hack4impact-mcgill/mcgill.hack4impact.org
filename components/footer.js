@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer = () => (
   <section className="footer-section">
@@ -8,7 +9,12 @@ const Footer = () => (
       <Row>
         <Col md="5" xs="12" className="footer-left-div">
           <div className="footer-logo-box">
-            <img src="/static/images/h4i_white.png" height="35" width="200" />
+            <Image
+              src="/static/images/h4i_white.png"
+              height={35}
+              width={200}
+              alt="Hack4Impact McGill wordmark"
+            />
           </div>
           <p>
             For all inquiries of partnership or sponsorship, please contact us

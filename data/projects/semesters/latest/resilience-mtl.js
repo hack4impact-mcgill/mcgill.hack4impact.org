@@ -1,7 +1,7 @@
 const name = 'Resilience MTL';
 const id = 'resilience-mtl';
 const detail = 'Collaborating with Resilience Montreal to build digital support tools.';
-const coverImagePath = '/static/images/projects/mu-map/mu_map_solution.png';
+const coverImagePath = '/static/images/projects/resilience/resilience_cover.png';
 const clientDetail =
   'Resilience Montreal is a day shelter and drop-in centre serving unhoused and vulnerable community members in Montreal.';
 const clientLink = 'https://resiliencemontreal.com/';

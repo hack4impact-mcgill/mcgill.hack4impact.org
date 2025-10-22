@@ -1,7 +1,7 @@
 const name = 'LiteraLingo';
 const id = 'literalingo';
 const detail = 'A figurative language translation app.';
-const coverImagePath = '/static/images/projects/moveup-sms/moveup-sms-cover.jpg';
+const coverImagePath = '/static/images/projects/literalingo/literalingo-cover.svg';
 const clientDetail = 'More information coming soon.';
 const clientLink = null;
 const previousLink = null;

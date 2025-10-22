@@ -15,86 +15,107 @@ const ProjectBanner = ({
   return (
     <>
       <section className="project-page-banner">
-        <Container className="margin-sm-all">
-          <Row>
-            <Col md="12">
-              <h1 className="project-title mb-4">
-                {hasClientLink ? (
-                  <a
-                    className="section-title-link"
-                    href={clientLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {title}
-                  </a>
-                ) : (
-                  <span className="section-title-link">{title}</span>
-                )}
-              </h1>
-            </Col>
-          </Row>
+        <div className="banner-overlay">
+          <Container>
+            <Row className="justify-content-center text-center">
+              <Col lg="10">
+                <h1 className="project-title mb-3">
+                  {hasClientLink ? (
+                    <a
+                      className="section-title-link"
+                      href={clientLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {title}
+                    </a>
+                  ) : (
+                    <span className="section-title-link">{title}</span>
+                  )}
+                </h1>
+                {clientDetail ? (
+                  <p className="project-subtitle">{clientDetail}</p>
+                ) : null}
+              </Col>
+            </Row>
 
-          <Row>
-            <div className="col-md-8 offset-md-2">
-              {clientDetail ? (
-                <p className="project-subtitle">{clientDetail}</p>
-              ) : null}
-            </div>
-          </Row>
-
-          <Row className="text-center">
-            <Col md="12">
-              {projectLink !== undefined && projectLink != null ? (
-                <ActionButton
-                  text="Final Product"
-                  link={projectLink}
-                  white
-                  style={{ marginRight: '10px' }}
-                />
-              ) : null}
-              {githubLink !== undefined && githubLink !== null ? (
-                <ActionButton text="View Code" link={githubLink} white />
-              ) : null}
-              {previousLink !== undefined && previousLink !== null ? (
-                <div className="previous-button">
-                  <ActionButton
-                    text="View Previous Project"
-                    link={previousLink}
-                    white
-                  />
+            <Row className="justify-content-center">
+              <Col lg="8">
+                <div className="banner-cta">
+                  {projectLink ? (
+                    <ActionButton white text="Final Product" link={projectLink} />
+                  ) : null}
+                  {githubLink ? (
+                    <ActionButton white text="View Code" link={githubLink} />
+                  ) : null}
+                  {previousLink ? (
+                    <ActionButton
+                      white
+                      text="Previous Iteration"
+                      link={previousLink}
+                    />
+                  ) : null}
                 </div>
-              ) : null}
-            </Col>
-          </Row>
-        </Container>
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </section>
       <style jsx>{`
         .project-page-banner {
-          padding: 7% 0;
-          background: radial-gradient(#3d94eeff, #155da1);
-          background-size: cover;
-          background-attachment: fixed;
+          position: relative;
+          overflow: hidden;
           font-family: 'Hanken Grotesk', sans-serif;
-          text-align: center;
+          background: #1f285f;
+          color: #f4f6ff;
         }
-        .section-title-link {
-          color: black;
+
+        .banner-overlay {
+          padding: 120px 0 80px;
+          background: transparent;
         }
-        .section-title-link:hover {
-          color: #155da1;
-        }
+
         .project-title {
-          font-size: 40px;
-          font-weight: 600;
+          font-size: clamp(2.2rem, 4vw, 3.1rem);
+          font-weight: 700;
+          letter-spacing: 0.02em;
+          margin-bottom: 1.5rem;
         }
+
+        .section-title-link {
+          color: inherit;
+        }
+
+        .section-title-link:hover {
+          text-decoration: none;
+          color: #ffffff;
+        }
+
         .project-subtitle {
-          font-size: 18px;
-          font-weight: 500;
+          font-size: 1.15rem;
+          line-height: 1.6;
+          color: rgba(244, 246, 255, 0.85);
+          margin-bottom: 2.25rem;
         }
-        .previous-button {
-          margin: 1vh;
-          margin-bottom: 0vh;
+
+        .banner-cta {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 12px;
+        }
+
+        :global(.banner-cta .styled-btn) {
+          min-width: 170px;
+        }
+
+        @media (max-width: 768px) {
+          .banner-overlay {
+            padding: 90px 0 60px;
+          }
+          .banner-cta {
+            width: 100%;
+          }
         }
       `}</style>
     </>

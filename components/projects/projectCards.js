@@ -15,7 +15,7 @@ const ProjectCards = ({ title, imgPath, link, subTitle }) => (
           src={imgPath}
           alt={title}
         />
-        <CardBody>
+        <CardBody className="project-card-body">
           <h5 className="text-title card-title text-center">{title}</h5>
           <p className="text-center" id="card-text">
             {subTitle}
@@ -27,15 +27,30 @@ const ProjectCards = ({ title, imgPath, link, subTitle }) => (
       </Card>
     </Link>
     <style jsx>{`
-      .action-btn-box {
-        margin-top: 30px;
-      }
-      .project-card:hover {
-        box-shadow: 0 5px 30px rgba(44, 62, 80, 0.1);
-      }
       .project-card {
         border: none;
         height: 100% !important;
+        border-radius: 18px;
+        overflow: hidden;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        display: flex;
+        flex-direction: column;
+      }
+      .project-card:hover {
+        box-shadow: 0 5px 30px rgba(44, 62, 80, 0.1);
+        transform: translateY(-8px);
+      }
+      .project-card-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .project-card-body h5 {
+        margin-bottom: 16px;
+      }
+      .action-btn-box {
+        margin-top: auto;
+        padding-top: 24px;
       }
     `}</style>
   </>

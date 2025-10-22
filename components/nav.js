@@ -9,6 +9,7 @@ import {
   NavItem,
   Nav
 } from "reactstrap";
+import Image from "next/image";
 
 class NavigationBar extends React.Component {
   state = { collapsed: true };
@@ -25,14 +26,19 @@ class NavigationBar extends React.Component {
         id={this.props.navType || "mainNav"}
       >
         <Container>
-          <NavbarBrand href="/">
-            <img
-              id="logo-img"
-              height="50"
-              width="185"
-              src="/static/images/Group 17.svg"
-              alt="Hack4Impact McGill logo"
-            />
+          <NavbarBrand tag="div" className="p-0">
+            <Link href="/" legacyBehavior>
+              <a className="navbar-brand-link" aria-label="Hack4Impact McGill home">
+                <Image
+                  id="logo-img"
+                  height={50}
+                  width={185}
+                  src="/static/images/Group 17.svg"
+                  alt="Hack4Impact McGill logo"
+                  priority
+                />
+              </a>
+            </Link>
           </NavbarBrand>
 
           <NavbarToggler
@@ -58,12 +64,20 @@ class NavigationBar extends React.Component {
           </Collapse>
         </Container>
 
-        {/* link styles */}
         <style jsx global>{`
           .nav-link.nav-text {
             font-size: 16px !important;
             font-weight: 700 !important;
             color: #657788 !important; /* use “color”, not “font-color” */
+          }
+          .navbar-brand-link {
+            display: inline-flex;
+            align-items: center;
+          }
+          .navbar-brand-link:focus-visible {
+            outline: 3px solid #1f285f;
+            outline-offset: 3px;
+            border-radius: 4px;
           }
         `}</style>
       </Navbar>

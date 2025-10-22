@@ -1,12 +1,6 @@
 export default {
   directors: [
-    {
-      name: 'Rei Kong',
-      year: "'25",
-      // quote:
-        // 'I co-founded Hack4Impact looking to work with incredible and hard-working students while using my skills to do something more meaningful. With Hack4Impact, I’d like to give this same opportunity to our members while pushing them to learn and grow tremendously both personally and professionally.',
-      linkedin: 'https://linkedin.com/in/rei-kong'
-    },
+
     {
       name: 'Sophia Li',
       year: "'28",
@@ -62,7 +56,7 @@ export default {
       name: 'Samaksh Khandelwal',
       role: 'Director of Public Relations',
       linkedin: 'https://www.linkedin.com/in/',
-      nopic: true
+      nopic: false
     },
   ],
   team: [
@@ -71,6 +65,12 @@ export default {
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Developer',
       nopic: false
+    },
+    {
+      name: 'Rei Kong',
+      year: "'25",
+      role: 'Product Designer',
+      linkedin: 'https://linkedin.com/in/rei-kong'
     },
     {
       name: 'Nicklas Astorian',

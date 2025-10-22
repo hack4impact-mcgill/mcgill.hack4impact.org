@@ -1,4 +1,4 @@
-import { Row, Card, Col } from 'reactstrap';
+import { Row } from 'reactstrap';
 
 // need to add to this whenever a new library/technology is used
 // this must match the strings listed in props.techStack, which is an array
@@ -121,62 +121,107 @@ const techStackMasterList = {
   fastapi: {
     link: 'https://fastapi.tiangolo.com/',
     title: 'FastAPI',
-    imgPath: '/static/images/techStack/fastapi.png'
-  }
+    imgPath: '/static/images/techStack/fastapi.png',
+  },
 };
 
 const ProjectTechStack = ({ techStack }) =>
-  techStack === undefined || techStack === null ? (
+  techStack === undefined || techStack === null || techStack.length === 0 ? (
     <></>
   ) : (
     <>
-      <section className="tech-stack" style={{ padding: '0' }}>
-        <Row>
-          <div className="col-md-12">
-            <div className="text-left">
-              <h5 className="project-detail-title mb-5"> Tech Stack </h5>
-            </div>
+      <section className="tech-stack">
+        <Row className="justify-content-center text-center">
+          <div className="col-lg-10">
+            <h5 className="project-detail-title section-heading mb-4">Tech Stack</h5>
+            <p className="section-subtitle">
+              Tools and frameworks we used to bring this build to life.
+            </p>
           </div>
         </Row>
-        <div className="left" style={{ margin: 'auto' }}>
-          {techStack.map((tech, idx) => (
-            <Col key={idx} md="2" xs="6">
-              <Card className="border-0">
-                <a href={techStackMasterList[tech].link}>
-                  <img
-                    src={techStackMasterList[tech].imgPath}
-                    className="img-thumbnail img-fluid tech-stack-img"
-                  />
-                </a>
-                <a
-                  href={techStackMasterList[tech].link}
-                  className="text-center tech-stack-link"
-                >
-                  {techStackMasterList[tech].title}
-                </a>
-              </Card>
-            </Col>
-          ))}
+        <div className="tech-grid">
+          {techStack.map(tech => {
+            const techInfo = techStackMasterList[tech];
+            if (!techInfo) {
+              return null;
+            }
+            return (
+              <a
+                key={tech}
+                className="tech-pill"
+                href={techInfo.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="tech-pill__name">{techInfo.title}</span>
+              </a>
+            );
+          })}
         </div>
       </section>
       <style jsx>{`
-        .tech-stack div {
+        .tech-stack {
+          margin: 80px auto 60px;
+          padding: 48px 36px;
+          background: rgba(28, 52, 140, 0.06);
+          border-radius: 20px;
+        }
+
+        .section-heading {
+          font-size: 1.9rem;
+          font-weight: 700;
+          letter-spacing: 0.05em;
+        }
+
+        .section-subtitle {
+          color: #42507a;
+          margin-bottom: 32px;
+        }
+
+        .tech-grid {
           display: flex;
-          justify-content: left;
-          text-align: left;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 14px;
         }
-        .tech-stack-link {
-          color: #155da1;
+
+        .tech-pill {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: 12px 24px;
+          border-radius: 999px;
+          background: linear-gradient(120deg, #ffffff, rgba(255, 255, 255, 0.75));
+          box-shadow: 0 12px 30px rgba(28, 52, 140, 0.12);
+          text-decoration: none;
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
-        .tech-stack-img:hover {
-          box-shadow: 0 5px 30px rgba(44, 62, 80, 0.1);
+
+        .tech-pill__name {
+          font-weight: 600;
+          font-size: 0.95rem;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: #1d2d6d;
         }
-        @media only screen and (max-width: 640px) {
-          .tech-stack div {
-            flex-direction: column;
+
+        .tech-pill:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 18px 36px rgba(28, 52, 140, 0.2);
+        }
+
+        @media (max-width: 768px) {
+          .tech-stack {
+            margin: 60px auto 40px;
+            padding: 36px 22px;
+          }
+          .tech-pill {
+            padding: 10px 18px;
+          }
+          .tech-pill__name {
+            font-size: 0.85rem;
           }
         }
-        
       `}</style>
     </>
   );
