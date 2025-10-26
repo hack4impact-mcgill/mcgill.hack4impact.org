@@ -33,7 +33,7 @@ class NavigationBar extends React.Component {
                   id="logo-img"
                   height={50}
                   width={185}
-                  src="/static/images/Group 17.svg"
+                  src="/static/images/nav-logo.svg"
                   alt="Hack4Impact McGill logo"
                   priority
                 />
