@@ -9,18 +9,18 @@ const items = [
   <ProjectContainer
     title="Resilience MTL"
     subtitle="Collaborating with Resilience Montreal to build digital support tools."
-    image="url('/static/images/projects/mu-map/mu_map_solution.png')"
+    image="url('/static/images/projects/resilience/resilience-background.svg')"
     link="/projects?name=resilience-mtl"
   />,
   <ProjectContainer
     title="LiteraLingo"
-    subtitle="A figurative language translation app"
-    image="url('/static/images/projects/moveup-sms/moveup_sms_problem.svg')"
+    subtitle="An app to help individuals with autism learn figurative language"
+    image="url('/static/images/projects/literalingo/literalingo-background.png')"
     link="/projects?name=literalingo"
   />,
   <ProjectContainer
     title="Welcome Collective"
-    subtitle="Inventory management system"
+    subtitle="Developing an inventory management system to help manage donations"
     image="url('/static/images/projects/mealcare/mealcare_problem_blue.svg')"
     link="/projects?name=welcome-collective"
   />,

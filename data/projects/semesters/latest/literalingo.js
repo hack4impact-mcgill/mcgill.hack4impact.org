@@ -1,15 +1,15 @@
 const name = 'LiteraLingo';
 const id = 'literalingo';
-const detail = 'A figurative language translation app.';
+const detail = 'An app to help individuals with autism learn figurative language.';
 const coverImagePath = '/static/images/projects/literalingo/literalingo-cover.svg';
-const clientDetail = 'More information coming soon.';
+const clientDetail = 'An app to help individuals with autism learn figurative language.';
 const clientLink = null;
 const previousLink = null;
 const clientFeatures = null;
-const problem = 'Project details coming soon.';
-const problemImagePath = '/static/images/projects/moveup-sms/moveup_sms_problem.svg';
-const solution = 'Project details coming soon.';
-const solutionImagePath = '/static/images/projects/moveup-sms/moveup_sms_solution.svg';
+const problem = 'Individuals with autism spectrum disorder (ASD) often struggle with understanding figurative language, such as idioms, metaphors, and sarcasm. This can lead to difficulties in social interactions and communication. LiteraLingo aims to provide an engaging and interactive platform that helps individuals with ASD learn and practice figurative language in a supportive environment.';
+const problemImagePath = '/static/images/projects/literalingo/Frame 3.svg';
+const solution = 'The LiteraLingo app offers a variety of features designed to help users learn figurative language. These include interactive lessons, quizzes, and real-life scenarios that allow users to practice and reinforce their understanding. The app also provides personalized feedback and tracks progress to ensure effective learning. By leveraging technology, LiteraLingo aims to make learning figurative language accessible and enjoyable for individuals with autism.';
+const solutionImagePath = '/static/images/projects/literalingo/Frame 4.svg';
 const features = null;
 const techStack = [];
 const quote = null;
@@ -22,7 +22,7 @@ const projectLink = null;
 const team = {
   type: 'no-pic',
   detail: {
-    pm: [],
+    pm: [''],
     swe: [],
     design: [],
   },
