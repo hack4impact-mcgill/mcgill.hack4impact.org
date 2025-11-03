@@ -71,7 +71,7 @@ const ProjectBanner = ({
         }
 
         .banner-overlay {
-          padding: 120px 0 80px;
+          padding: 80px 0 0px;
           background: transparent;
         }
 

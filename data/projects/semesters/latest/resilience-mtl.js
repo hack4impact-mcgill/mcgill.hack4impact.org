@@ -23,9 +23,10 @@ const projectLink = null;
 const team = {
   type: 'no-pic',
   detail: {
-    pm: ['Emily Wang'],
-    swe: [],
-    design: ['Jia Li'],
+    pm: ['Ellis Guo', 'Alan Hu'],
+    tl: ['Emily Wang'],
+    swe: ['Kevin Zhang', 'Ojas Srivastava', 'Shirley Ding', 'Gabrielle MacInnes', 'Malak Oualid', 'Ethan Tran', 'Zach Olsen'],
+    design: ['Rei Kong'],
   },
 };
 

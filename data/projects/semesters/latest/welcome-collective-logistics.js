@@ -1,5 +1,5 @@
-const name = 'Welcome Collective';
-const id = 'welcome-collective';
+const name = 'Welcome Collective - Logistics';
+const id = 'welcome-collective-logistics';
 const detail = 'Developing an inventory management system to help manage donations';
 const coverImagePath = '/static/images/projects/mealcare/mealcare_problem_blue.svg';
 const clientDetail =

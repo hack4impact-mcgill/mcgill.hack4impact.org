@@ -28,7 +28,7 @@ const TeamSection = () => (
             const roleOrder = {
               "Product Manager": 1,
               "Tech Lead": 2,
-              "Designer": 3,
+              "Product Designer": 3,
               "Developer": 4
             };
             const roleCompare = (roleOrder[a.role] || 999) - (roleOrder[b.role] || 999);
