@@ -156,46 +156,51 @@ export default {
       role: 'Developer',
       nopic: true
     },
-        {
+    {
       name: 'Alan Hu',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Product Manager',
       nopic: true
     },
-        {
+    {
       name: 'Ellis Guo',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Product Manager',
       nopic: true
     },
-        {
+    {
       name: 'Gabrielle MacInnes',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Developer',
       nopic: true
     },
-        {
+    {
       name: 'Zach Olsen',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Developer',
       nopic: true
     },
-        {
+    {
       name: 'Malak Oualid',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Developer',
       nopic: true
     },
-            {
+    {
       name: 'Mira Muti',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Developer',
       nopic: false
     },
-    
-    
-    
-    
+    {
+      name: 'Maria Klinski',
+      linkedin: 'https://www.linkedin.com/in/',
+      role: 'Developer',
+      nopic: true
+    }
+
+
+
   ],
   alumni: [
     {

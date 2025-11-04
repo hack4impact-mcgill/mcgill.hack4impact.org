@@ -25,7 +25,7 @@ const team = {
   detail: {
     pm: ['Mojhan Abesque', 'Angela Tang'],
     tl: ['Amine Saouidi', 'James Madden'],
-    swe: ['Faisal Jaradat', 'Mira Muti', 'Leticia Huang', 'Sara Tahdi', 'Holly Hong', 'Issam Houili'],
+    swe: ['Faisal Jaradat', 'Mira Muti', 'Leticia Huang', 'Sara Tahdi', 'Holly Hong', 'Issam Houili', 'Maria Klinski'],
     design: [],
   },
 };
