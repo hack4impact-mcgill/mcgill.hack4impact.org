@@ -4,6 +4,7 @@ export default {
     {
       name: 'Sophia Li',
       year: "'28",
+      role: 'Executive Director',
       // quote: 'I joined Hack4Impact to work with a group of passionate and talented individuals to create a positive impact in the world. I am excited to help members grow and develop their skills while working on impactful projects.',
       linkedin: 'https://www.linkedin.com/in/sophia-x-li/',
       nopic: false
@@ -62,21 +63,15 @@ export default {
     },
     {
       name: 'Ojas Srivastava',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/0jas0jas/?originalSubdomain=ca',
       role: 'Developer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Emily Wang',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Tech Lead',
       nopic: false
-    },
-    {
-      name: 'Kevin Zhang',
-      linkedin: 'https://www.linkedin.com/in/',
-      role: 'Developer',
-      nopic: true
     },
     {
       name: 'Brianna Fan',
@@ -86,13 +81,13 @@ export default {
     },
     {
       name: 'James Madden',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/jamesbmadden/',
       role: 'Tech Lead',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Jatin Kalsi',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/jatin-kalsi/',
       role: 'Tech Lead',
       nopic: true
     },
@@ -104,15 +99,15 @@ export default {
     },
     {
       name: 'Leticia Huang',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/leticia-huang/',
       role: 'Developer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Sara Tahdi',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/sara-tahdi/',
       role: 'Developer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Holly Hong',
@@ -122,57 +117,57 @@ export default {
     },
     {
       name: 'Issam Houili',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/issam-houili/',
       role: 'Developer',
       nopic: true
     },
     {
-      name: 'Amine Saouidi',
-      linkedin: 'https://www.linkedin.com/in/',
+      name: 'Amine Saoudi',
+      linkedin: 'https://www.linkedin.com/in/aminesaoudi/',
       role: 'Tech Lead',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Angela Tang',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/angelahtang/',
       role: 'Product Manager',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Kevin Zhang',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/kevin-zhang-a668a0274/',
       role: 'Developer',
       nopic: true
     },
     {
       name: 'Ethan Tran',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/-ethantran-/',
       role: 'Developer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Shirley Ding',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/shirleydg/',
       role: 'Developer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Alan Hu',
       linkedin: 'https://www.linkedin.com/in/',
       role: 'Product Manager',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Ellis Guo',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/guoellis/',
       role: 'Product Manager',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Gabrielle MacInnes',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/gabrielle-macinnes/',
       role: 'Developer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Zach Olsen',
@@ -182,9 +177,9 @@ export default {
     },
     {
       name: 'Malak Oualid',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/malakoualid/?originalSubdomain=ca',
       role: 'Developer',
-      nopic: true
+      nopic: false
     },
     {
       name: 'Mira Muti',
@@ -194,9 +189,9 @@ export default {
     },
     {
       name: 'Maria Klinski',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/maria-klinski/?originalSubdomain=ca',
       role: 'Developer',
-      nopic: true
+      nopic: false
     }
 
 
@@ -253,7 +248,7 @@ export default {
     },
     {
       name: 'Thomas Huy Nguyen',
-      linkedin: 'https://www.linkedin.com/in/',
+      linkedin: 'https://www.linkedin.com/in/thomas-huy-nguyen/',
       role: 'Developer',
       nopic: false
     },

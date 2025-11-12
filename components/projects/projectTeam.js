@@ -75,10 +75,12 @@ import TeamData from "../../data/teamData";
 import ActionButton from '../actionButton';
 
 const ROLE_ORDER = {
-  "Product Manager": 1,
-  "Tech Lead": 2,
-  "Product Designer": 3,
-  "Developer": 4
+  "Executive Director": 1,
+  "Director of External Affairs": 2,
+  "Product Manager": 3,
+  "Tech Lead": 4,
+  "Product Designer": 5,
+  "Developer": 6
 };
 
 const NO_PIC_SECTIONS = [
@@ -90,11 +92,16 @@ const NO_PIC_SECTIONS = [
 
 const normalizeName = name => (name || "").trim().toLowerCase();
 
-const TEAM_MEMBER_LOOKUP = TeamData.team.reduce((acc, member) => {
-  const key = normalizeName(member.name);
-  if (key) {
-    acc.set(key, member);
-  }
+const TEAM_SOURCES = ["team", "execs", "directors", "alumni"];
+
+const TEAM_MEMBER_LOOKUP = TEAM_SOURCES.reduce((acc, key) => {
+  const members = Array.isArray(TeamData[key]) ? TeamData[key] : [];
+  members.forEach(member => {
+    const normalized = normalizeName(member.name);
+    if (normalized && !acc.has(normalized)) {
+      acc.set(normalized, member);
+    }
+  });
   return acc;
 }, new Map());
 

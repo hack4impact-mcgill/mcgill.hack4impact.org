@@ -22,9 +22,10 @@ const projectLink = null;
 const team = {
   type: 'no-pic',
   detail: {
-    pm: [''],
-    swe: [],
-    design: [],
+    pm: ['Sophia Li', 'Mack Faulkner'],
+    tl: ['James Madden', 'Jatin Kalsi'],
+    swe: ['Emily Wang', 'Ojas Srivastava', 'Kevin Zhang', 'Simon Wu', 'Thomas Huy Nguyen', 'Wasif Somji'],
+    design: ['Gali Kechichian', 'Allenna Tang', 'Boramie Ham'],
   },
 };
 
