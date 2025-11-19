@@ -47,6 +47,18 @@ export default {
       linkedin: 'https://www.linkedin.com/in/',
       nopic: false
     },
+    {
+      name: 'Emma Gailleur',
+      role: 'Director of Internal Affairs',
+      linkedin: 'https://www.linkedin.com/in/',
+      nopic: true 
+    },
+    {
+      name: 'Simon Tran',
+      role: 'Director of Finance',
+      linkedin: 'https://www.linkedin.com/in/',
+      nopic: true
+    }
   ],
   team: [
     {
