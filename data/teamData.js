@@ -148,7 +148,7 @@ export default {
     {
       name: 'Kevin Zhang',
       linkedin: 'https://www.linkedin.com/in/kevin-zhang-a668a0274/',
-      role: 'Developer',
+      role: 'Senior Developer',
       nopic: true
     },
     {
