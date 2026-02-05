@@ -3,8 +3,6 @@ import Interview from '../public/static/icons/interview.svg';
 import Calendar from '../public/static/icons/calendar.svg';
 import Contract from '../public/static/icons/contract.svg';
 
-const applicationLink = '#';
-
 const subHeadline =
   'Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.';
 const quote = {
@@ -93,6 +91,7 @@ const faq = [
 ];
 
 const applicationDetail = '';
+const applicationLink = 'https://h4imcgill.notion.site/2f50e5578cf580febe00e557624178b7';
 
 const studentProcess = [
   {
@@ -101,9 +100,11 @@ const studentProcess = [
       <>
         <p>
           Once our applications open, fill out our online application before the
-          deadline. You can either apply online or at one of the in-person
-          involvement events that happen at the start of each semester (e.g. EUS
-          Involvement Day).
+          deadline. You can either apply online through the link in our instagram, or by simply
+          clicking this{' '}
+          <a href="https://h4imcgill.notion.site/2f50e5578cf580febe00e557624178b7" target="_blank">
+          link
+          </a>{' '}!
         </p>
       </>
     ),
@@ -142,7 +143,7 @@ const studentProcess = [
 
 const closedText = (
   <b>
-    Our applications open at the start of each Fall semester. Keep an eye out on our{' '}
+    Our applications open at the start of each Fall/Winter semester. Keep an eye out on our{' '}
     <a href="https://www.instagram.com/hack4impactmcgill/" target="_blank">
       Instagram
     </a>{' '}
