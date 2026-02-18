@@ -1,9 +1,7 @@
 [build]
-  publish = ".next"
-  command = "yarn build"
+  publish = "out"
+  command = "yarn build && yarn export"
 
 [build.environment]
+  NODE_VERSION = "20"
   NODE_OPTIONS = "--openssl-legacy-provider"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
