@@ -75,13 +75,12 @@ export default () => (
           {clients.map(client => (
             <div key={client.name}>
               <Link href={client.link}>
-                <a>
-                  <img
-                    width={client.width}
-                    height={client.height}
-                    src={client.logoPath}
-                  />
-                </a>
+                <img
+                  width={client.width}
+                  height={client.height}
+                  src={client.logoPath}
+                  alt={client.name}
+                />
               </Link>
             </div>
           ))}

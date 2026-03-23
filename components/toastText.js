@@ -2,9 +2,7 @@ import Link from "next/link";
 
 const ToastText = ({ text }) => (
   <>
-    <Link href="/apply/students">
-      <a>{text}</a>
-    </Link>
+    <Link href="/apply/students">{text}</Link>
     <style jsx>{`
       a {
         color: #ffff;

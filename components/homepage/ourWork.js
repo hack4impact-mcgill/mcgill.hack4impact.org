@@ -67,7 +67,7 @@ const OurWorkSection = () => (
           </Trail>
         </Row>
       </div>
-      <Row style={{ paddingTop: '5px' }}>
+      <Row style={{ paddingTop: '15px', justifyContent: 'center' }}>
         <ActionLink text="View our other projects" link="/projects" />
       </Row>
     </Container>

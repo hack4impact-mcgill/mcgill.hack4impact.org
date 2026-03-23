@@ -2,21 +2,19 @@
   "name": "mcgill.hack4impact.org",
   "author": "Hack4Impact McGill",
   "scripts": {
-    "dev": "export SET NODE_OPTIONS=--openssl-legacy-provider && next",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "export": "next export"
+    "start": "next start"
   },
   "dependencies": {
     "acorn": "^7.1.1",
     "detect-libc": "^1.0.3",
     "needle": "^2.4.0",
-    "next": "^10.0.6",
-    "next-page-transitions": "^1.0.0-alpha.4",
+    "next": "^14.2.32",
     "nopt": "^4.0.1",
     "rc": "^1.2.8",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-spring": "^7.2.1",
     "react-toastify": "^4.5.1",
     "react-vertical-timeline-component": "^2.3.1",

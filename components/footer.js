@@ -30,19 +30,13 @@ const Footer = () => (
           <h4>ABOUT US</h4>
           <ul>
             <li>
-              <Link href="/about">
-                <a>About Us</a>
-              </Link>
+              <Link href="/about">About Us</Link>
             </li>
             <li>
-              <Link href="/projects">
-                <a>Projects</a>
-              </Link>
+              <Link href="/projects">Projects</Link>
             </li>
             <li>
-              <Link href="/static/sponsorship.pdf">
-                <a>Sponsorship</a>
-              </Link>
+              <Link href="/static/sponsorship.pdf">Sponsorship</Link>
             </li>
           </ul>
         </div>
@@ -70,19 +64,13 @@ const Footer = () => (
           <h4>APPLY</h4>
           <ul>
             <li>
-              <Link href="/apply">
-                <a>Apply</a>
-              </Link>
+              <Link href="/apply">Apply</Link>
             </li>
             <li>
-              <Link href="/apply/students">
-                <a>Students</a>
-              </Link>
+              <Link href="/apply/students">Students</Link>
             </li>
             <li>
-              <Link href="/apply/nonprofits">
-                <a>Non-profits</a>
-              </Link>
+              <Link href="/apply/nonprofits">Non-profits</Link>
             </li>
           </ul>
         </div>
