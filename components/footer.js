@@ -19,8 +19,8 @@ const Footer = () => (
           <p>
             For all inquiries of partnership or sponsorship, please contact us
             at{' '}
-            <a href="mailto:hack4impact@ssmu.ca">
-            hack4impact@ssmu.ca
+            <a href="mailto:hack4impact@ssmu.ca" className="footer-link">
+              hack4impact@ssmu.ca
             </a>
             .
           </p>
@@ -30,13 +30,13 @@ const Footer = () => (
           <h4>ABOUT US</h4>
           <ul>
             <li>
-              <Link href="/about">About Us</Link>
+              <Link href="/about" className="footer-link">About Us</Link>
             </li>
             <li>
-              <Link href="/projects">Projects</Link>
+              <Link href="/projects" className="footer-link">Projects</Link>
             </li>
             <li>
-              <Link href="/static/sponsorship.pdf">Sponsorship</Link>
+              <Link href="/static/sponsorship.pdf" className="footer-link">Sponsorship</Link>
             </li>
           </ul>
         </div>
@@ -44,19 +44,19 @@ const Footer = () => (
           <h4>CONNECT</h4>
           <ul>
             <li>
-              <a href="https://www.instagram.com/hack4impactmcgill/">Instagram</a>
+              <a href="https://www.instagram.com/hack4impactmcgill/" className="footer-link">Instagram</a>
             </li>
             <li>
-              <a href="https://www.facebook.com/hack4impactmcgill/">Facebook</a>
+              <a href="https://www.facebook.com/hack4impactmcgill/" className="footer-link">Facebook</a>
             </li>
             <li>
-              <a href="https://github.com/hack4impact-mcgill">Github</a>
+              <a href="https://github.com/hack4impact-mcgill" className="footer-link">Github</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/hack4impact-mcgill">LinkedIn</a>
+              <a href="https://www.linkedin.com/company/hack4impact-mcgill" className="footer-link">LinkedIn</a>
             </li>
             <li>
-              <a href="mailto:hack4impact@ssmu.ca">Email</a>
+              <a href="mailto:hack4impact@ssmu.ca" className="footer-link">Email</a>
             </li>
           </ul>
         </div>
@@ -64,13 +64,13 @@ const Footer = () => (
           <h4>APPLY</h4>
           <ul>
             <li>
-              <Link href="/apply">Apply</Link>
+              <Link href="/apply" className="footer-link">Apply</Link>
             </li>
             <li>
-              <Link href="/apply/students">Students</Link>
+              <Link href="/apply/students" className="footer-link">Students</Link>
             </li>
             <li>
-              <Link href="/apply/nonprofits">Non-profits</Link>
+              <Link href="/apply/nonprofits" className="footer-link">Non-profits</Link>
             </li>
           </ul>
         </div>
@@ -90,7 +90,7 @@ const Footer = () => (
 
       .footer-section h4 {
         font-size: 15px;
-        color: #e1e1e1;
+        color: #ffffff;
         text-align: left;
         padding-bottom: 9px;
       }
@@ -110,12 +110,49 @@ const Footer = () => (
         padding-bottom: 20px;
       }
 
-      .footer-section a {
-        color: #8e8d8a;
+      :global(.footer-link) {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        color: #ffffff;
+        text-decoration: none;
+        transform: translateX(0);
+        transition: transform 0.18s ease, color 0.18s ease;
       }
 
-      .footer-section a:hover {
-        color: #d9d9d9;
+      :global(.footer-link::before) {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 100%;
+        height: 1px;
+        background: #ffffff;
+        transform: scaleX(0);
+        transform-origin: left center;
+        transition: transform 0.18s ease;
+      }
+
+      :global(.footer-link::after) {
+        content: ">";
+        opacity: 0;
+        transform: translateX(-4px);
+        transition: opacity 0.18s ease, transform 0.18s ease;
+      }
+
+      :global(.footer-link:hover) {
+        color: #ffffff;
+        transform: translateX(6px);
+      }
+
+      :global(.footer-link:hover::before) {
+        transform: scaleX(1);
+      }
+
+      :global(.footer-link:hover::after) {
+        opacity: 1;
+        transform: translateX(0);
       }
 
       .footer-left-div {
@@ -123,7 +160,7 @@ const Footer = () => (
       }
 
       .footer-section p {
-        color: #d9d9d9;
+        color: #ffffff;
       }
     `}</style>
   </section>
