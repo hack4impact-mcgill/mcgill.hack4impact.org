@@ -50,6 +50,7 @@ class NavigationBar extends React.Component {
           <Collapse navbar isOpen={!this.state.collapsed}>
             <Nav navbar className="ml-auto">
               {[
+                { href: "/", label: "Home" },
                 { href: "/about", label: "About" },
                 { href: "/projects", label: "Projects" },
                 { href: "/apply", label: "Apply" }

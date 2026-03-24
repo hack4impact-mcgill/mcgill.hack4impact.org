@@ -1,5 +1,5 @@
 import ResilienceMtlData from './resilience-mtl';
-import LiteraLingoData from './literalingo';
+import RefugeeCentreData from './refugee-centre';
 import WelcomeCollectiveData from './welcome-collective';
 
 export default {
@@ -9,7 +9,7 @@ export default {
       ...ResilienceMtlData,
     },
     {
-      ...LiteraLingoData,
+      ...RefugeeCentreData,
     },
     {
       ...WelcomeCollectiveData,
