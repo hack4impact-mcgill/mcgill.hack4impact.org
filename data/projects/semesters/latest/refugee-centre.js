@@ -25,7 +25,7 @@ const team = {
     pm: ['Leticia Huang', 'Angela Tang'],
     tl: ['James Madden', 'Amine Saoudi'],
     swe: ['Holly Hong', 'Eva Gutierrez', 'Issam Houili', 'Maria Klinski', 'Sara Tahdi'],
-    design: ['Queenie Chen'],
+    design: ['Rei Kong', 'Amy Dao'],
   },
 };
 

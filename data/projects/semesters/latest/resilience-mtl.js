@@ -26,7 +26,7 @@ const team = {
     pm: ['Ellis Guo', 'Alan Hu'],
     tl: ['Emily Wang'],
     swe: ['Kevin Zhang', 'Ojas Srivastava', 'Shirley Ding', 'Gabrielle MacInnes', 'Malak Oualid', 'Ethan Tran', 'Zach Olsen'],
-    design: ['Rei Kong', 'Amy Dao', 'Lilly Gao'],
+    design: ['Queenie Chen', 'Brianna Fan', 'Lilly Gao'],
   },
 };
 
