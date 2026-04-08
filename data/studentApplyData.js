@@ -91,7 +91,7 @@ const faq = [
 ];
 
 const applicationDetail = '';
-const applicationLink = 'https://h4imcgill.notion.site/2f50e5578cf580febe00e557624178b7';
+const applicationLink = 'https://h4imcgill.notion.site/a100e5578cf58312bf96014190c1bb17?pvs=105';
 
 const studentProcess = [
   {
