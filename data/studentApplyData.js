@@ -102,7 +102,7 @@ const studentProcess = [
           Once our applications open, fill out our online application before the
           deadline. You can either apply online through the link in our instagram, or by simply
           clicking this{' '}
-          <a href="https://h4imcgill.notion.site/2f50e5578cf580febe00e557624178b7" target="_blank">
+          <a href="https://h4imcgill.notion.site/a100e5578cf58312bf96014190c1bb17?pvs=105" target="_blank">
           link
           </a>{' '}!
         </p>
