@@ -77,6 +77,17 @@ const InvolveSection = () => (
       .involved-container h3 {
         color: #666b72;
       }
+      @media (max-width: 768px) {
+        .involved-body {
+          margin-top: 8px;
+        }
+        .involved-container {
+          margin-top: 24px;
+        }
+        p {
+          padding: 18px 0 24px !important;
+        }
+      }
     `}</style>
   </Section>
 );

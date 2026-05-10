@@ -12,10 +12,10 @@ const Banner = () => (
       marginBottom: "30px", 
       height: "100vh", 
       backgroundImage: "url('/static/images/Desktop2.svg')",
-      maxWidth: "100%",        // Changed from 1200px to 100%
-      width: "100%",           // Added this
-      backgroundSize: "cover", // Added this
-      backgroundPosition: "center", // Added this
+      maxWidth: "100%",
+      width: "100%",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
       backgroundRepeat: "no-repeat"
     }}
   >
@@ -47,7 +47,7 @@ const Banner = () => (
         <Spring
           config={{ delay: 450, ...config.slow }}
           from={{ opacity: 0, transform: "translate3d(-100px,0,0)" }}
-          to={{ opacity: 100, transform: "translate3d(0,0p</div>x,0)" }}
+          to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
         >
           {props => (
             <div style={props} id="homepage-sub-headline">
@@ -62,35 +62,17 @@ const Banner = () => (
     <style jsx>
       {`
         @media (max-width: 768px) {
-          .banner-section {
-            background-size: contain;
+          :global(.bannerCont) {
+            display: none;
           }
         }
-        .bannerCont {
+
+        :global(.bannerCont) {
           max-width: 1500px;
           margin: 0px;
           text-rendering: optimizeLegibility;
           -webkit-font-smoothing: antialiased;
           margin-top: 30px;
-        }
-        .banner-img {
-          width: 100%;
-          height: auto;
-        }
-        .banner-section {
-          height: 650px;
-          padding-top: 150px;
-          background-size: cover;
-        }
-
-        .cta-box {
-          padding-top: 7px;
-          align-content: left;
-        }
-
-        #main-banner-headline {
-          margin-bottom: 24px;
-          font-family: "Hanken Grotesk", sans-serif;
         }
 
         #homepage-main-headline h1 {

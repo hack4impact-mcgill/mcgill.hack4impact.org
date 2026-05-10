@@ -96,6 +96,14 @@ const OurWorkSection = () => (
         border-bottom: 1px solid #3f46ad;
         margin-top: 40px;
       }
+      @media (max-width: 768px) {
+        #our-work-title-box {
+          margin: 0 0 32px;
+        }
+        .project-showcase-box {
+          padding: 0;
+        }
+      }
     `}</style>
   </Section>
 );

@@ -162,6 +162,18 @@ const Footer = () => (
       .footer-section p {
         color: #ffffff;
       }
+      @media (max-width: 767px) {
+        section,
+        .footer-section {
+          padding: 48px 0 36px !important;
+        }
+        .footer-section h4 {
+          margin-top: 22px;
+        }
+        .footer-left-div {
+          padding-bottom: 8px;
+        }
+      }
     `}</style>
   </section>
 );

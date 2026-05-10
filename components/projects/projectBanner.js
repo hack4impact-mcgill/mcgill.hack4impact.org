@@ -113,8 +113,20 @@ const ProjectBanner = ({
           .banner-overlay {
             padding: 90px 0 60px;
           }
+          .project-title {
+            font-size: 2rem;
+          }
+          .project-subtitle {
+            font-size: 1rem;
+          }
           .banner-cta {
             width: 100%;
+          }
+          :global(.banner-cta a) {
+            width: 100%;
+          }
+          :global(.banner-cta .styled-btn) {
+            min-width: 0;
           }
         }
       `}</style>

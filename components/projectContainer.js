@@ -16,10 +16,11 @@ const ProjectContainer = ({ title, subtitle, image, link }) => (
     <style jsx>{`
       @media (max-width: 768px) {
         .project-item {
-          margin: 60px 0;
+          margin: 0 0 24px;
+          min-height: 220px;
         }
         p {
-          padding-top: 20px;
+          padding-top: 8px;
         }
       }
       .project-link {

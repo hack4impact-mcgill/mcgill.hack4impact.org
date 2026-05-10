@@ -56,6 +56,12 @@ const ProjectCards = ({ title, imgPath, link, subTitle }) => (
         color: #f9fafc;
         font-weight: 300;
       }
+      @media (max-width: 768px) {
+        .project-card {
+          min-height: 230px;
+          padding: 18px;
+        }
+      }
     `}</style>
   </>
 );

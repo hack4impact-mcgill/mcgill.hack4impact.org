@@ -13,8 +13,8 @@ const Section = ({ children, grey, darkgrey, reduced = false }) => (
         {`
           @media (max-width: 768px) {
             section {
-              padding: 300px 0;
-              height: 600px;
+              padding: 56px 0;
+              height: auto;
             }
           }
           .typical-section {

@@ -9,10 +9,12 @@ body {
 
 * {
   font-family: "Hanken Grotesk", sans-serif;
+  box-sizing: border-box;
 }
 
 .container {
   max-width: 1000px !important;
+  width: 100%;
 }
 
 .left {
@@ -40,7 +42,8 @@ body {
 
 section {
   padding: 90px 0;
-  display: inline-block;
+  display: block;
+  width: 100%;
 }
 
 p {
@@ -98,6 +101,11 @@ p {
 
 a {
   text-decoration: none !important;
+}
+
+img,
+svg {
+  max-width: 100%;
 }
 
 h2 {
@@ -287,5 +295,45 @@ h2.center {
   .gradient-banner-section,
   .project-page-banner {
     margin-top: 61px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 56px 0;
+  }
+
+  .section-title,
+  .project-detail-title {
+    font-size: 26px;
+  }
+
+  .text-title {
+    font-size: 22px;
+  }
+
+  .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .margin-lg-top {
+    margin-top: 48px;
+  }
+
+  .blockquote h1 {
+    font-size: 42px;
+  }
+
+  .bannerCont + section {
+    margin-top: 80px;
   }
 }

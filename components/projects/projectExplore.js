@@ -22,7 +22,7 @@ const ProjectExplore = () => (
       </Row>
 
       <Row>
-        <div className="text-center">
+        <div className="text-center explore-actions">
           <ActionButton
             style={{ marginRight: '10px' }}
             text="Students"
@@ -32,6 +32,19 @@ const ProjectExplore = () => (
         </div>
       </Row>
     </Container>
+    <style jsx>{`
+      @media (max-width: 420px) {
+        .explore-actions {
+          width: 100%;
+        }
+        .explore-actions :global(a + a) {
+          margin-top: 12px;
+        }
+        .explore-actions :global(.styled-btn) {
+          margin-right: 0 !important;
+        }
+      }
+    `}</style>
   </Section>
 );
 export default ProjectExplore;
