@@ -1,7 +1,7 @@
-const name = 'Mu - Open-Air Museum Map';
+const name = 'Mu - Open-Air Map';
 const id = 'mu-map';
 const detail =
-  'A project to help Montreal residents find local murals with an interactive online map.';
+  'A project to help Montreal residents find and learn about local murals with an interactive online map.';
 const coverImagePath = '/static/images/projects/mu-map/mu_map_solution.png';
 const clientDetail =
   'Mu is a Montreal-based organization which aims to beautify the city by creating murals that are anchored in local communities.';

@@ -117,6 +117,30 @@ const GradientBanner = ({
         border-right: 100px solid transparent;
         border-top: 60px solid #252956;
       }
+      @media (max-width: 768px) {
+        section {
+          padding: 88px 0 64px;
+        }
+        .main-headline h1 {
+          font-size: 38px !important;
+          line-height: 1.15;
+        }
+        .sub-headline {
+          padding: 0;
+        }
+        p {
+          font-size: 17px;
+        }
+        .arrow {
+          border-left-width: 56px;
+          border-right-width: 56px;
+          border-top-width: 34px;
+        }
+        :global(.sub-headline + .col-md-12 .d-inline) {
+          display: block !important;
+          margin: 12px 0 0 !important;
+        }
+      }
     `}</style>
   </div>
 );

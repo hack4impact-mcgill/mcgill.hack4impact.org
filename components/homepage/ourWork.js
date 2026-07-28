@@ -67,7 +67,7 @@ const OurWorkSection = () => (
           </Trail>
         </Row>
       </div>
-      <Row style={{ paddingTop: '5px' }}>
+      <Row style={{ paddingTop: '15px', justifyContent: 'center' }}>
         <ActionLink text="View our other projects" link="/projects" />
       </Row>
     </Container>
@@ -95,6 +95,14 @@ const OurWorkSection = () => (
         margin: auto;
         border-bottom: 1px solid #3f46ad;
         margin-top: 40px;
+      }
+      @media (max-width: 768px) {
+        #our-work-title-box {
+          margin: 0 0 32px;
+        }
+        .project-showcase-box {
+          padding: 0;
+        }
       }
     `}</style>
   </Section>

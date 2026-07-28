@@ -60,6 +60,17 @@ const ActionButton = ({ link, text, style, white, onClick }) => (
         transition: border 0.2s, background 0.2s, color 0.2s ease-out;
         cursor: pointer;
       }
+      @media (max-width: 420px) {
+        a {
+          display: block;
+          width: 100%;
+        }
+        .styled-btn {
+          width: 100%;
+          min-width: 0;
+          padding: 0 1rem;
+        }
+      }
     `}</style>
   </>
 );

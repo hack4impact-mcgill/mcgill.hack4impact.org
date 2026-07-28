@@ -57,6 +57,21 @@ const TeamMemberIcon = ({ name, role, linkedin, nopic }) => (
         box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2),
           0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
+      @media (max-width: 575px) {
+        .image-container {
+          width: 88%;
+        }
+        .card-body {
+          padding: 0.75rem 0.25rem 1.25rem;
+        }
+        p {
+          font-size: 14px;
+          line-height: 1.35;
+        }
+        .text-18px {
+          font-size: 16px;
+        }
+      }
     `}</style>
   </Col>
 );

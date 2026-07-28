@@ -107,7 +107,11 @@ const ProjectDetail = ({ project }) => (
           padding: 60px 0;
         }
         .summary-card {
-          padding: 26px 24px;
+          border-radius: 14px;
+          padding: 22px 18px;
+        }
+        .summary-copy {
+          font-size: 1rem;
         }
       }
     `}</style>

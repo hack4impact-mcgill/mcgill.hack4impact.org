@@ -69,6 +69,12 @@ export default () => (
         justify-content: space-between;
         align-items: center;
         width: 400px;
+        max-width: 100%;
+        gap: 28px;
+      }
+      .sponsor-row img {
+        height: auto;
+        max-width: 100%;
       }
       .link {
         font-family: "Hanken Grotesk", sans-serif;
@@ -79,6 +85,20 @@ export default () => (
         margin: auto;
         margin-top: 40px;
         border-bottom: 1px solid #3f46ad;
+      }
+      @media (max-width: 768px) {
+        .sponsor-row {
+          width: 100%;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .sponsor-row a {
+          display: flex;
+          justify-content: center;
+        }
+        .sponsor-row img {
+          max-height: 120px;
+        }
       }
     `}</style>
   </Section>

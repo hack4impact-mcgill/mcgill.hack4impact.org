@@ -108,6 +108,11 @@ export default () => (
         .client-logo-container > div:hover {
           opacity: 0.8;
         }
+        @media (max-width: 768px) {
+          .client-logo-container > div {
+            padding: 0 28px;
+          }
+        }
       `}</style>
     </Row>
   </Section>

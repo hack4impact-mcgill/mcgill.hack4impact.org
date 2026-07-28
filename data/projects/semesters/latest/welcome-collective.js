@@ -1,7 +1,7 @@
-const name = 'Welcome Collective';
+const name = 'WC - Inventory';
 const id = 'welcome-collective';
-const detail = 'Developing an inventory management system to help manage donations';
-const coverImagePath = '/static/images/projects/mealcare/mealcare_problem_blue.svg';
+const detail = 'Developing an inventory management system to help manage donations.';
+const coverImagePath = '/static/images/projects/welcome/welcome-collective_cover.png';
 const clientDetail =
   'Welcome Collective is a Montreal non-profit connecting newly arrived refugee claimants with the essentials they need.';
 const clientLink = 'https://www.welcomecollective.org/';

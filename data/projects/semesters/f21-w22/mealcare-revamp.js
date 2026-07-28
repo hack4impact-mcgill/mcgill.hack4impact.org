@@ -1,7 +1,7 @@
 const name = 'MealCare Revamp';
 const id = 'mealcare-revamp';
-const detail = "A revamped mobile app to help volunteers track food waste and a data backend for in-depth data analysis.";
-const coverImagePath = "/static/images/projects/mealcare/mealcare_problem_blue.svg";
+const detail = "A revamped mobile app to help volunteers track food waste.";
+const coverImagePath = "/static/images/projects/mealcare/mealcare-cover.jpg";
 const clientDetail = 'MealCare is a student-founded non-profit dedicated to reducing food waste and food insecurity across Canadian communities. This is done through volunteers who transport excess food from restaurants to homeless shelters and soup kitchens.';
 const clientLink = 'https://www.mealcare.org/';
 const previousLink = null;

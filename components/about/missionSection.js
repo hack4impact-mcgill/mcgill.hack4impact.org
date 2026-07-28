@@ -9,7 +9,7 @@ const MissionSection = () => (
   <section className="mission-section">
     <Container>
       <Row className="align-items-center">
-        <Col lg="6">
+
           <Spring
             from={{ opacity: 0, transform: "translate3d(0,40px,0)" }}
             to={{ opacity: 1, transform: "translate3d(0,0,0)" }}
@@ -33,25 +33,7 @@ const MissionSection = () => (
               </div>
             )}
           </Spring>
-        </Col>
-        <Col lg="6" className="mt-4 mt-lg-0">
-          <Spring
-            from={{ opacity: 0, transform: "translate3d(0,40px,0)" }}
-            to={{ opacity: 1, transform: "translate3d(0,0,0)" }}
-            config={{ delay: 150, tension: 120, friction: 18 }}
-          >
-            {props => (
-              <div style={props} className="mission-visual">
-                <Image
-                  src="/static/images/work_together_blue.svg"
-                  width={520}
-                  height={360}
-                  alt="Student developers collaborating with a nonprofit partner"
-                />
-              </div>
-            )}
-          </Spring>
-        </Col>
+
       </Row>
     </Container>
     <style jsx>{`

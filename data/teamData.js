@@ -30,12 +30,6 @@ export default {
       nopic: false
     },
     {
-      name: 'Hamza Alfarrash',
-      role: 'Director of Engineering',
-      linkedin: 'https://www.linkedin.com/in/',
-      nopic: false
-    },
-    {
       name: 'Mack Faulkner',
       role: 'Director of External Affairs',
       linkedin: 'https://www.linkedin.com/in/',
@@ -52,6 +46,12 @@ export default {
       role: 'Director of Internal Affairs',
       linkedin: 'https://www.linkedin.com/in/',
       nopic: true 
+    },
+    {
+      name: 'Kennedy Olsen',
+      linkedin: 'https://www.linkedin.com/in/kennedy-olsen-/',
+      role: 'Director of Engineering',
+      nopic: true
     },
     {
       name: 'Simon Tran',
@@ -112,7 +112,7 @@ export default {
     {
       name: 'Leticia Huang',
       linkedin: 'https://www.linkedin.com/in/leticia-huang/',
-      role: 'Developer',
+      role: 'Product Manager',
       nopic: false
     },
     {
@@ -204,7 +204,39 @@ export default {
       linkedin: 'https://www.linkedin.com/in/maria-klinski/?originalSubdomain=ca',
       role: 'Developer',
       nopic: false
-    }
+    },
+    {
+      name: 'Siva Muthurajan',
+      linkedin: 'https://www.linkedin.com/in/sivabalan-muthurajan/',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Eva Gutierrez',
+      linkedin: 'https://www.linkedin.com/in/eva-gutierrez-salazar/',
+      role: 'Developer',
+      nopic: true
+    },
+    {
+      name: 'Queenie Chen',
+      linkedin: 'https://www.linkedin.com/in/queenie-chen0331/',
+      role: 'Product Designer',
+      nopic: true
+    },
+    {
+      name: 'Amy Dao',
+      linkedin: 'https://www.linkedin.com/in/amyddao/',
+      role: 'Product Designer',
+      nopic: true
+    },
+    {
+      name: 'Lilly Gao',
+      linkedin: 'https://www.linkedin.com/in/lilly-gao-61b806284/',
+      role: 'Product Designer',
+      nopic: true
+    },
+
+    
 
 
 

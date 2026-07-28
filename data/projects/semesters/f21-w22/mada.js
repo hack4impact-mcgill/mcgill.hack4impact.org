@@ -1,7 +1,7 @@
 const name = 'MADA Project';
 const id = 'mada';
-const detail = 'A project to help MADA manage their volunteers and meal delivery schedule';
-const coverImagePath = '/static/images/projects/mada/mada-problem.jpg';
+const detail = 'A project to help MADA manage their volunteers and meal delivery schedules.';
+const coverImagePath = '/static/images/projects/mada/mada-cover.png';
 const clientDetail =
   "MADA is a volunteer-based organization that evolved from a small neighbourhood centre to Montreal's central address for fighting poverty in our community. MADA’s MEALS À PARTAGER program helps the disabled and elderly by delivering them fresh homemade meals every day of the week.";
 const clientLink = 'https://madacenter.com/';
