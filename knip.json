@@ -1,0 +1,13 @@
+{
+  "$schema": "https://unpkg.com/knip@6/schema.json",
+  "ignore": [
+    "docs/**",
+    "temp/**"
+  ],
+  "ignoreDependencies": [
+    "sharp",
+    "babel-plugin-inline-react-svg",
+    "eslint-config-standard",
+    "eslint-plugin-react"
+  ]
+}
