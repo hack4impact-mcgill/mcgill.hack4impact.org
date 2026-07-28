@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Container, Row, Col } from "reactstrap";
 import ProjectFeature from "./projectFeature";
 import ProjectQuote from "../quote";
@@ -10,10 +11,13 @@ const ProjectDetail = ({ project }) => (
           <div className="summary-card">
             <span className="summary-label">Problem</span>
             <div className="summary-media">
-              <img
+              <Image
                 src={project.problemImagePath}
                 className="summary-image"
                 alt={`Problem illustration for ${project.name}`}
+                fill
+                style={{ objectFit: "contain" }}
+                sizes="(max-width: 991px) 100vw, 50vw"
               />
             </div>
             <p className="summary-copy">{project.problem}</p>
@@ -23,10 +27,13 @@ const ProjectDetail = ({ project }) => (
           <div className="summary-card">
             <span className="summary-label">Solution</span>
             <div className="summary-media">
-              <img
+              <Image
                 src={project.solutionImagePath}
                 className="summary-image"
                 alt={`Solution mockup for ${project.name}`}
+                fill
+                style={{ objectFit: "contain" }}
+                sizes="(max-width: 991px) 100vw, 50vw"
               />
             </div>
             <p className="summary-copy">{project.solution}</p>
@@ -70,6 +77,8 @@ const ProjectDetail = ({ project }) => (
       }
 
       .summary-media {
+        position: relative;
+        aspect-ratio: 4 / 3;
         border-radius: 14px;
         overflow: hidden;
         background: radial-gradient(
@@ -77,12 +86,6 @@ const ProjectDetail = ({ project }) => (
           rgba(60, 93, 250, 0.15),
           rgba(60, 93, 250, 0)
         );
-      }
-
-      .summary-image {
-        width: 100%;
-        height: auto;
-        display: block;
       }
 
       .summary-copy {

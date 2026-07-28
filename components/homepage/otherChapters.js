@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Section from "../section";
 import BackgroundSlider from "../backgroundSlider";
 import { Row } from "reactstrap";
@@ -67,10 +68,11 @@ export default () => (
             {clients.map(client => (
               <div key={client.name}>
                 <a target="_blank" href={client.link}>
-                  <img
+                  <Image
                     width={client.width}
                     height={client.height}
                     src={client.logoPath}
+                    alt={`${client.name} chapter logo`}
                   />
                 </a>
               </div>

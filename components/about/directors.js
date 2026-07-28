@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Row, Col, Card, CardBody } from "reactstrap";
 import { ImagePathConversion } from "../../data/helper";
 import Section from "../section";
@@ -13,10 +14,14 @@ export default ({ directors }) => (
       {directors.map(director => (
         <Col key={director.name} md="4">
           <Card className="card border-0">
-            <div className="text-center mb-2">
-              <img
-                className="rounded-circle img-fluid director-icon"
+            <div className="text-center mb-2 director-icon-frame">
+              <Image
+                className="rounded-circle director-icon"
                 src={ImagePathConversion(director.name)}
+                alt={director.name}
+                fill
+                style={{ objectFit: "cover" }}
+                sizes="(max-width: 767px) 60vw, 240px"
                 id="co-director"
               />
             </div>
@@ -40,8 +45,12 @@ export default ({ directors }) => (
         </Col>
       ))}
       <style jsx>{`
-        .director-icon {
-          max-height: 240px;
+        .director-icon-frame {
+          position: relative;
+          width: 240px;
+          max-width: 100%;
+          aspect-ratio: 1;
+          margin: 0 auto;
         }
       `}</style>
     </Row>

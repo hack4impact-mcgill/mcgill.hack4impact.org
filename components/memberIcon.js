@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Container, Row, Col, Card } from "reactstrap";
 import { ImagePathConversion } from "../data/helper";
 
@@ -6,17 +7,23 @@ const TeamMemberIcon = ({ name, role, linkedin, nopic }) => (
     <Card className="border-0 member-icon">
       <div className="text-center">
         <a href={linkedin !== undefined ? linkedin : null}>
-          {nopic ? 
+          {nopic ?
           (<div className="image-container">
-            <img
-              className="rounded-circle img-fluid team-icon"
+            <Image
+              className="rounded-circle team-icon"
               src={ImagePathConversion('default')}
+              alt={name}
+              fill
+              sizes="(max-width: 767px) 50vw, 25vw"
             />
           </div>) :
           (<div className="image-container">
-            <img
-              className="rounded-circle img-fluid team-icon"
+            <Image
+              className="rounded-circle team-icon"
               src={ImagePathConversion(name)}
+              alt={name}
+              fill
+              sizes="(max-width: 767px) 50vw, 25vw"
             />
           </div>)}
         </a>
@@ -41,6 +48,7 @@ const TeamMemberIcon = ({ name, role, linkedin, nopic }) => (
     </div>
     <style jsx>{`
       .image-container {
+        position: relative;
         width: 80%;
         aspect-ratio: 1;
         margin: 0 auto;

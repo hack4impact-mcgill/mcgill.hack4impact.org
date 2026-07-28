@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Row, Col } from "reactstrap";
 import { Spring, config } from "react-spring";
 
@@ -42,10 +43,14 @@ class FeatureSlider extends React.Component {
                     to={{ opacity: 100, transform: "translate3d(0,0px,0)" }}
                   >
                     {props => (
-                      <div style={props}>
-                        <img
-                          className="img-fluid shadow"
+                      <div style={props} className="img-frame">
+                        <Image
+                          className="shadow"
                           src={feature.imgPath}
+                          alt={feature.title}
+                          fill
+                          style={{ objectFit: "contain" }}
+                          sizes={`(max-width: 767px) 100vw, ${(featureImgSize / 12) * 100}vw`}
                         />
                       </div>
                     )}
@@ -82,6 +87,11 @@ class FeatureSlider extends React.Component {
             margin-top: ${featureImgSize <= 5
               ? "25px"
               : "60px"}; // pushes img down a little bit
+          }
+          .img-frame {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 4 / 3;
           }
           .feature-slider-btn {
             border: none;

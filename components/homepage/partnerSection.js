@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Section from "../section";
 import { Container, Row, Col, Button } from "reactstrap";
 import ActionLink from "../actionLink";
@@ -11,10 +12,12 @@ export default () => (
         </h1>
       </Row>
       <div className="sponsor-row center" style={{ marginBottom: "50px" }}>
-        <a href="https://www.coveo.com" alt="Deloitte">
-          <img
-            height="170"
+        <a href="https://www.coveo.com">
+          <Image
+            width="1001"
+            height="426"
             src="/static/images/sponsors/Coveo.jpg"
+            alt="Coveo"
           />
         </a>
       </div>
@@ -25,16 +28,18 @@ export default () => (
       </Row>
       <Row>
         <div className="sponsor-row center">
-          <a href="https://deloitte.com/" alt="Deloitte">
+          <a href="https://deloitte.com/">
             <img
               height="25"
               src="/static/images/sponsors/deloitte.svg"
+              alt="Deloitte"
             />
           </a>
-          <a href="https://www.morganstanley.com/" alt="Morgan Stanley">
+          <a href="https://www.morganstanley.com/">
             <img
               height="30"
               src="/static/images/sponsors/morgan_stanley.svg"
+              alt="Morgan Stanley"
             />
           </a>
         </div>
