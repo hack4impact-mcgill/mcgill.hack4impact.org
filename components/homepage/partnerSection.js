@@ -14,10 +14,12 @@ export default () => (
       <div className="sponsor-row center" style={{ marginBottom: "50px" }}>
         <a href="https://www.coveo.com">
           <Image
+            className="coveo-logo"
             width="1001"
             height="426"
             src="/static/images/sponsors/Coveo.jpg"
             alt="Coveo"
+            style={{ height: "auto", width: "auto", maxWidth: "100%" }}
           />
         </a>
       </div>
@@ -103,6 +105,10 @@ export default () => (
         }
         .sponsor-row img {
           max-height: 120px;
+        }
+        :global(.coveo-logo) {
+          max-height: 120px !important;
+          width: auto !important;
         }
       }
     `}</style>
