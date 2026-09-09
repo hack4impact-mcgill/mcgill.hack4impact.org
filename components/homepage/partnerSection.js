@@ -7,12 +7,23 @@ export default () => (
   <Section className="partners-section">
     <Container>
       <Row>
+        {/*
         <h1 className="section-title center" style={{ marginBottom: "50px" }}>
           Our Sponsors
         </h1>
       </Row>
       <div className="sponsor-row center" style={{ marginBottom: "50px" }}>
-        <a href="https://www.coveo.com">
+        
+      </div>
+      <Row>
+      */}
+        <h3 className="center" style={{ marginBottom: "50px" }}>
+          Our Past Sponsors
+        </h3>
+      </Row>
+      <Row>
+        <div className="sponsor-row center">
+          <a href="https://www.coveo.com">
           <Image
             className="coveo-logo"
             width="1001"
@@ -22,14 +33,6 @@ export default () => (
             style={{ height: "auto", width: "auto", maxWidth: "100%" }}
           />
         </a>
-      </div>
-      <Row>
-        <h3 className="center" style={{ marginBottom: "50px" }}>
-          Our Past Sponsors
-        </h3>
-      </Row>
-      <Row>
-        <div className="sponsor-row center">
           <a href="https://deloitte.com/">
             <img
               height="25"
