@@ -17,6 +17,8 @@ const Students = () => (
       subHeadline={data.subHeadline}
       buttonText="Apply! Open until Sept 20th"
       buttonLink={data.applicationLink}
+      minorButtonText="Fill out the Developer Interest Form now!"
+      minorButtonLink={data.interestFormLink}
     />
     <ApplicationProcess
       closedText={data.closedText}

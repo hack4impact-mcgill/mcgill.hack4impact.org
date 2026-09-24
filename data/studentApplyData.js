@@ -92,6 +92,7 @@ const faq = [
 
 const applicationDetail = '';
 const applicationLink = 'https://h4imcgill.notion.site/c10c68f43d024afabf6da415cfbd83db';
+const interestFormLink = 'https://app.notion.com/p/h4imcgill/995ef4fc0b7f4cfd8363b5eef7eba7d4?v=c16d82aba0d544f19c4e671b5d04c8fa';
 
 const studentProcess = [
   {
@@ -159,4 +160,5 @@ export default {
   studentProcess,
   closedText,
   applicationDetail,
+  interestFormLink
 };
