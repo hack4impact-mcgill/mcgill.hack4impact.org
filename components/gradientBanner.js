@@ -68,6 +68,7 @@ const GradientBanner = ({
                     <ActionButton
                       text={minorButtonText}
                       link={minorButtonLink}
+                      white
                     />
                   </div>
                 )}
